@@ -336,11 +336,11 @@ export const cars: Car[] = [
     year: 2017,
     category: 'Pick Up',
     price: 399000,
-    image: '/cars/Volkswagen Amarok TDI 20171.jpg',
+    image: '/cars/Volkswagen Amarok TDI 20171.webp',
     images: [
       '/cars/Volkswagen Amarok TDI 20171.jpg',
       '/cars/Volkswagen Amarok TDI 20172.jpg',
-      '/cars/Volkswagen Amarok TDI 20173.jpg',
+      '/cars/Volkswagen Amarok TDI 20173.webp',
       '/cars/Volkswagen Amarok TDI 20174.jpg',
       '/cars/Volkswagen Amarok TDI 20175.jpg',
       '/cars/Volkswagen Amarok TDI 20176.jpg',
