@@ -12,7 +12,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { Check, Phone, Instagram, Facebook } from 'lucide-react';
+import { Check, Phone, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import { Button } from './ui/button';
 
 interface CarDetailModalProps {
@@ -27,6 +27,16 @@ const CarDetailModal = ({ car, open, onOpenChange }: CarDetailModalProps) => {
   const formatPrice = (price: number) => {
     return `$${price.toLocaleString('es-MX')} NEGOCIABLE!`;
   };
+
+  // Función para generar enlace de WhatsApp
+  const getWhatsAppLink = (message: string) => {
+    const phoneNumber = '5214144474'; // Reemplaza con tu número de WhatsApp
+    const encodedMessage = encodeURIComponent(message);
+    return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  };
+
+  // Mensaje predeterminado para WhatsApp
+  const whatsappMessage = `Hola, estoy interesado en el ${car.name} ${car.year} que vi en su sitio web. ¿Podrían darme más información?`;
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -107,7 +117,7 @@ const CarDetailModal = ({ car, open, onOpenChange }: CarDetailModalProps) => {
                 <span className="font-semibold">614-414-44-74</span>
               </a>
 
-              <div className="flex gap-4 pt-2">
+              <div className="flex gap-3 pt-2">
                 <Button 
                   variant="secondary"
                   size="lg"
@@ -139,6 +149,25 @@ const CarDetailModal = ({ car, open, onOpenChange }: CarDetailModalProps) => {
                   >
                     <Facebook className="h-5 w-5" />
                     Facebook
+                  </a>
+                </Button>
+              </div>
+
+              <div className="flex gap-3 pt-2">
+                <Button 
+                  variant="secondary"
+                  size="lg"
+                  className="flex-1"
+                  asChild
+                >
+                  <a 
+                    href={getWhatsAppLink(whatsappMessage)}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2"
+                  >
+                    <MessageCircle className="h-5 w-5" />
+                    WhatsApp
                   </a>
                 </Button>
               </div>
