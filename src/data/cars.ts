@@ -262,7 +262,6 @@ export const cars: Car[] = [
       '/cars/Chevrolet Cheyenne LT 20237.webp',
       '/cars/Chevrolet Cheyenne LT 20238.webp',
       '/cars/Chevrolet Cheyenne LT 20239.webp',
-      '/cars/Chevrolet Cheyenne LT 202310.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -304,7 +303,6 @@ export const cars: Car[] = [
       '/cars/Ford Lobo Platinum 20227.webp',
       '/cars/Ford Lobo Platinum 20228.webp',
       '/cars/Ford Lobo Platinum 20229.webp',
-      '/cars/Ford Lobo Platinum 202210.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -345,7 +343,6 @@ export const cars: Car[] = [
       '/cars/Volkswagen Amarok TDI 20177.webp',
       '/cars/Volkswagen Amarok TDI 20178.webp',
       '/cars/Volkswagen Amarok TDI 20179.webp',
-      '/cars/Volkswagen Amarok TDI 201710.webp'
     ],
     details: {
       condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
@@ -383,7 +380,6 @@ export const cars: Car[] = [
       '/cars/Cupra Formentor VZ 20237.webp',
       '/cars/Cupra Formentor VZ 20238.webp',
       '/cars/Cupra Formentor VZ 20239.webp',
-      '/cars/Cupra Formentor VZ 202310.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -508,7 +504,6 @@ export const cars: Car[] = [
       '/cars/Land Rover Sport SVR 20177.webp',
       '/cars/Land Rover Sport SVR 20178.webp',
       '/cars/Land Rover Sport SVR 20179.webp',
-      '/cars/Land Rover Sport SVR 201710.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -629,7 +624,6 @@ export const cars: Car[] = [
       '/cars/Volkswagen Jetta R Line 20197.webp',
       '/cars/Volkswagen Jetta R Line 20198.webp',
       '/cars/Volkswagen Jetta R Line 20199.webp',
-      '/cars/Volkswagen Jetta R Line 201910.webp'
     ],
     details: {
       condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
@@ -708,7 +702,6 @@ export const cars: Car[] = [
       '/cars/Mazda 3 Sport HB 20207.webp',
       '/cars/Mazda 3 Sport HB 20208.webp',
       '/cars/Mazda 3 Sport HB 20209.webp',
-      '/cars/Mazda 3 Sport HB 202010.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
