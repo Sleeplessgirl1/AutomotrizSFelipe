@@ -15,7 +15,6 @@ export const cars: Car[] = [
       '/cars/BMW X6 XDRIVE40i 20224.webp',
       '/cars/BMW X6 XDRIVE40i 20225.webp',
       '/cars/BMW X6 XDRIVE40i 20226.webp',
-      '/cars/9BMW X6 XDRIVE40i 20223.webp',
       '/cars/BMW X6 XDRIVE40i 20227.webp',
       '/cars/BMW X6 XDRIVE40i 20228.webp',
       '/cars/BMW X6 XDRIVE40i 20229.webp'
