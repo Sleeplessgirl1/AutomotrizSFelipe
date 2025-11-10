@@ -1021,8 +1021,7 @@ export const cars: Car[] = [
       '/cars/Chevrolet Colorado ZR2 20246.webp',
       '/cars/Chevrolet Colorado ZR2 20247.webp',
       '/cars/Chevrolet Colorado ZR2 20248.webp',
-      '/cars/Chevrolet Colorado ZR2 20249.webp',
-      '/cars/Chevrolet Colorado ZR2 202410.webp'
+  
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1177,7 +1176,7 @@ export const cars: Car[] = [
     year: 2017,
     category: 'Sedan',
     price: 165000,
-    image: '/cars/Volkswagen Vento Starline 20171.webp',
+    image: '/cars/Volkswagen Vento Starline 20170.webp',
     images: [
       '/cars/Volkswagen Vento Starline 20171.webp',
       '/cars/Volkswagen Vento Starline 20172.webp',
