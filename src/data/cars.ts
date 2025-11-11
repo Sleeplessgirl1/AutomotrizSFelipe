@@ -13,12 +13,11 @@ export const cars: Car[] = [
       '/cars/FORD SHELBY GT350 20172.webp',
       '/cars/FORD SHELBY GT350 20173.webp',
       '/cars/FORD SHELBY GT350 20174.webp',
-      '/cars/ FORD SHELBY GT350 20175.webp',
+      '/cars/FORD SHELBY GT350 20175.webp',
       '/cars/FORD SHELBY GT350 20176.webp',
       '/cars/FORD SHELBY GT350 20177.webp',
       '/cars/FORD SHELBY GT350 20178.webp',
-      '/cars/FORD SHELBY GT350 20179.webp',
-      '/cars/FORD SHELBY GT350 201710.webp'
+      '/cars/FORD SHELBY GT350 20179.webp'
     ],
     details: {
       condition: 'FACTURA DE FORD PASA CHIHUAHUA',
@@ -50,8 +49,7 @@ export const cars: Car[] = [
       '/cars/GMC SIERRA DENALI 20246.webp',
       '/cars/GMC SIERRA DENALI 20247.webp',
       '/cars/GMC SIERRA DENALI 20248.webp',
-      '/cars/GMC SIERRA DENALI 20249.webp',
-      '/cars/GMC SIERRA DENALI 202410.webp'
+      '/cars/GMC SIERRA DENALI 20249.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -90,8 +88,7 @@ export const cars: Car[] = [
       '/cars/MERCEDES BENZ C200 20156.webp',
       '/cars/MERCEDES BENZ C200 20157.webp',
       '/cars/MERCEDES BENZ C200 20158.webp',
-      '/cars/MERCEDES BENZ C200 20159.webp',
-      '/cars/MERCEDES BENZ C200 201510.webp'
+      '/cars/MERCEDES BENZ C200 20159.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -118,7 +115,7 @@ export const cars: Car[] = [
     name: 'NISSAN KICKS PLATINUM E-POWER',
     year: 2023,
     category: 'SUV',
-    price: 425000,
+    price: 380000, // CORREGIDO: era 425000
     image: '/cars/NISSAN KICKS PLATINUM E-POWER 20231.webp',
     images: [
       '/cars/NISSAN KICKS PLATINUM E-POWER 20231.webp',
@@ -129,8 +126,7 @@ export const cars: Car[] = [
       '/cars/NISSAN KICKS PLATINUM E-POWER 20236.webp',
       '/cars/NISSAN KICKS PLATINUM E-POWER 20237.webp',
       '/cars/NISSAN KICKS PLATINUM E-POWER 20238.webp',
-      '/cars/NISSAN KICKS PLATINUM E-POWER 20239.webp',
-      '/cars/NISSAN KICKS PLATINUM E-POWER 202310.webp'
+      '/cars/NISSAN KICKS PLATINUM E-POWER 20239.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -168,8 +164,7 @@ export const cars: Car[] = [
       '/cars/PORSCHE MACAN GTS 20246.webp',
       '/cars/PORSCHE MACAN GTS 20247.webp',
       '/cars/PORSCHE MACAN GTS 20248.webp',
-      '/cars/PORSCHE MACAN GTS 20249.webp',
-      '/cars/PORSCHE MACAN GTS 202410.webp'
+      '/cars/PORSCHE MACAN GTS 20249.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -209,8 +204,7 @@ export const cars: Car[] = [
       '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20226.webp',
       '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20227.webp',
       '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20228.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20229.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 202210.webp'
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20229.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -249,8 +243,7 @@ export const cars: Car[] = [
       '/cars/VOLKSWAGEN TIGUAN R LINE 20186.webp',
       '/cars/VOLKSWAGEN TIGUAN R LINE 20187.webp',
       '/cars/VOLKSWAGEN TIGUAN R LINE 20188.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20189.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 201810.webp'
+      '/cars/VOLKSWAGEN TIGUAN R LINE 20189.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -330,8 +323,7 @@ export const cars: Car[] = [
       '/cars/ACURA RDX TECH 20216.webp',
       '/cars/ACURA RDX TECH 20217.webp',
       '/cars/ACURA RDX TECH 20218.webp',
-      '/cars/ACURA RDX TECH 20219.webp',
-      '/cars/ACURA RDX TECH 202110.webp'
+      '/cars/ACURA RDX TECH 20219.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -371,8 +363,7 @@ export const cars: Car[] = [
       '/cars/Volkswagen Teramont Trendline 20256.webp',
       '/cars/Volkswagen Teramont Trendline 20257.webp',
       '/cars/Volkswagen Teramont Trendline 20258.webp',
-      '/cars/Volkswagen Teramont Trendline 20259.webp',
-      '/cars/Volkswagen Teramont Trendline 202510.webp'
+      '/cars/Volkswagen Teramont Trendline 20259.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -411,8 +402,7 @@ export const cars: Car[] = [
       '/cars/Ford Lobo Platinum 20196.webp',
       '/cars/Ford Lobo Platinum 20197.webp',
       '/cars/Ford Lobo Platinum 20198.webp',
-      '/cars/Ford Lobo Platinum 20199.webp',
-      '/cars/Ford Lobo Platinum 201910.webp'
+      '/cars/Ford Lobo Platinum 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA',
@@ -452,8 +442,7 @@ export const cars: Car[] = [
       '/cars/HONDA PILOT TOURING 20216.webp',
       '/cars/HONDA PILOT TOURING 20217.webp',
       '/cars/HONDA PILOT TOURING 20218.webp',
-      '/cars/HONDA PILOT TOURING 20219.webp',
-      '/cars/HONDA PILOT TOURING 202110.webp'
+      '/cars/HONDA PILOT TOURING 20219.webp'
     ],
     details: {
       condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
@@ -493,8 +482,7 @@ export const cars: Car[] = [
       '/cars/Mercedes Benz CLA250 20176.webp',
       '/cars/Mercedes Benz CLA250 20177.webp',
       '/cars/Mercedes Benz CLA250 20178.webp',
-      '/cars/Mercedes Benz CLA250 20179.webp',
-      '/cars/Mercedes Benz CLA250 201710.webp'
+      '/cars/Mercedes Benz CLA250 20179.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -533,7 +521,7 @@ export const cars: Car[] = [
       '/cars/Chevrolet Cheyenne LT 20236.webp',
       '/cars/Chevrolet Cheyenne LT 20237.webp',
       '/cars/Chevrolet Cheyenne LT 20238.webp',
-      '/cars/Chevrolet Cheyenne LT 20239.webp',
+      '/cars/Chevrolet Cheyenne LT 20239.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -574,7 +562,7 @@ export const cars: Car[] = [
       '/cars/Volkswagen Amarok TDI 20176.webp',
       '/cars/Volkswagen Amarok TDI 20177.webp',
       '/cars/Volkswagen Amarok TDI 20178.webp',
-      '/cars/Volkswagen Amarok TDI 20179.webp',
+      '/cars/Volkswagen Amarok TDI 20179.webp'
     ],
     details: {
       condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
@@ -611,7 +599,7 @@ export const cars: Car[] = [
       '/cars/Cupra Formentor VZ 20236.webp',
       '/cars/Cupra Formentor VZ 20237.webp',
       '/cars/Cupra Formentor VZ 20238.webp',
-      '/cars/Cupra Formentor VZ 20239.webp',
+      '/cars/Cupra Formentor VZ 20239.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -652,8 +640,7 @@ export const cars: Car[] = [
       '/cars/Mercedes Benz E250 20196.webp',
       '/cars/Mercedes Benz E250 20197.webp',
       '/cars/Mercedes Benz E250 20198.webp',
-      '/cars/Mercedes Benz E250 20199.webp',
-      '/cars/Mercedes Benz E250 201910.webp'
+      '/cars/Mercedes Benz E250 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -691,8 +678,7 @@ export const cars: Car[] = [
       '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20226.webp',
       '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20227.webp',
       '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20228.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20229.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 202210.webp'
+      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20229.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -735,7 +721,7 @@ export const cars: Car[] = [
       '/cars/Land Rover Sport SVR 20176.webp',
       '/cars/Land Rover Sport SVR 20177.webp',
       '/cars/Land Rover Sport SVR 20178.webp',
-      '/cars/Land Rover Sport SVR 20179.webp',
+      '/cars/Land Rover Sport SVR 20179.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -775,8 +761,7 @@ export const cars: Car[] = [
       '/cars/RAM 1500 Bighorn 20236.webp',
       '/cars/RAM 1500 Bighorn 20237.webp',
       '/cars/RAM 1500 Bighorn 20238.webp',
-      '/cars/RAM 1500 Bighorn 20239.webp',
-      '/cars/RAM 1500 Bighorn 202310.webp'
+      '/cars/RAM 1500 Bighorn 20239.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -814,7 +799,7 @@ export const cars: Car[] = [
       '/cars/Volkswagen Jetta R Line 20196.webp',
       '/cars/Volkswagen Jetta R Line 20197.webp',
       '/cars/Volkswagen Jetta R Line 20198.webp',
-      '/cars/Volkswagen Jetta R Line 20199.webp',
+      '/cars/Volkswagen Jetta R Line 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
@@ -852,8 +837,7 @@ export const cars: Car[] = [
       '/cars/Chevrolet Suburban High Country 20216.webp',
       '/cars/Chevrolet Suburban High Country 20217.webp',
       '/cars/Chevrolet Suburban High Country 20218.webp',
-      '/cars/Chevrolet Suburban High Country 20219.webp',
-      '/cars/Chevrolet Suburban High Country 202110.webp'
+      '/cars/Chevrolet Suburban High Country 20219.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -892,8 +876,7 @@ export const cars: Car[] = [
       '/cars/Nissan X-Trail Advance 20206.webp',
       '/cars/Nissan X-Trail Advance 20207.webp',
       '/cars/Nissan X-Trail Advance 20208.webp',
-      '/cars/Nissan X-Trail Advance 20209.webp',
-      '/cars/Nissan X-Trail Advance 202010.webp'
+      '/cars/Nissan X-Trail Advance 20209.webp'
     ],
     details: {
       condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
@@ -927,8 +910,7 @@ export const cars: Car[] = [
       '/cars/Audi S5 Coupe 20186.webp',
       '/cars/Audi S5 Coupe 20187.webp',
       '/cars/Audi S5 Coupe 20188.webp',
-      '/cars/Audi S5 Coupe 20189.webp',
-      '/cars/Audi S5 Coupe 201810.webp'
+      '/cars/Audi S5 Coupe 20189.webp'
     ],
     details: {
       condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
@@ -968,8 +950,7 @@ export const cars: Car[] = [
       '/cars/Volkswagen Jetta GLI 20236.webp',
       '/cars/Volkswagen Jetta GLI 20237.webp',
       '/cars/Volkswagen Jetta GLI 20238.webp',
-      '/cars/Volkswagen Jetta GLI 20239.webp',
-      '/cars/Volkswagen Jetta GLI 202310.webp'
+      '/cars/Volkswagen Jetta GLI 20239.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1005,8 +986,7 @@ export const cars: Car[] = [
       '/cars/Ford Lobo Raptor 20186.webp',
       '/cars/Ford Lobo Raptor 20187.webp',
       '/cars/Ford Lobo Raptor 20188.webp',
-      '/cars/Ford Lobo Raptor 20189.webp',
-      '/cars/Ford Lobo Raptor 201810.webp'
+      '/cars/Ford Lobo Raptor 20189.webp'
     ],
     details: {
       condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
@@ -1049,8 +1029,7 @@ export const cars: Car[] = [
       '/cars/Ford Lobo Limited 20236.webp',
       '/cars/Ford Lobo Limited 20237.webp',
       '/cars/Ford Lobo Limited 20238.webp',
-      '/cars/Ford Lobo Limited 20239.webp',
-      '/cars/Ford Lobo Limited 202310.webp'
+      '/cars/Ford Lobo Limited 20239.webp'
     ],
     details: {
       condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
@@ -1089,8 +1068,7 @@ export const cars: Car[] = [
       '/cars/Porsche Macan T 20256.webp',
       '/cars/Porsche Macan T 20257.webp',
       '/cars/Porsche Macan T 20258.webp',
-      '/cars/Porsche Macan T 20259.webp',
-      '/cars/Porsche Macan T 202510.webp'
+      '/cars/Porsche Macan T 20259.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1130,7 +1108,7 @@ export const cars: Car[] = [
       '/cars/Chevrolet Colorado ZR2 20245.webp',
       '/cars/Chevrolet Colorado ZR2 20246.webp',
       '/cars/Chevrolet Colorado ZR2 20247.webp',
-      '/cars/Chevrolet Colorado ZR2 20248.webp',
+      '/cars/Chevrolet Colorado ZR2 20248.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1158,7 +1136,7 @@ export const cars: Car[] = [
     name: 'GMC Yukon Denali',
     year: 2022,
     category: 'SUV',
-    price: 1430000,
+    price: 1350000, // CORREGIDO: era 1430000
     image: '/cars/GMC Yukon Denali 20221.webp',
     images: [
       '/cars/GMC Yukon Denali 20221.webp',
@@ -1169,8 +1147,7 @@ export const cars: Car[] = [
       '/cars/GMC Yukon Denali 20226.webp',
       '/cars/GMC Yukon Denali 20227.webp',
       '/cars/GMC Yukon Denali 20228.webp',
-      '/cars/GMC Yukon Denali 20229.webp',
-      '/cars/GMC Yukon Denali 202210.webp'
+      '/cars/GMC Yukon Denali 20229.webp'
     ],
     details: {
       condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
@@ -1211,8 +1188,7 @@ export const cars: Car[] = [
       '/cars/Mercedes Benz GLE 53 AMG 20216.webp',
       '/cars/Mercedes Benz GLE 53 AMG 20217.webp',
       '/cars/Mercedes Benz GLE 53 AMG 20218.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20219.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 202110.webp'
+      '/cars/Mercedes Benz GLE 53 AMG 20219.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1254,8 +1230,7 @@ export const cars: Car[] = [
       '/cars/PEUGEOT 3008 GT HDI 20236.webp',
       '/cars/PEUGEOT 3008 GT HDI 20237.webp',
       '/cars/PEUGEOT 3008 GT HDI 20238.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20239.webp',
-      '/cars/PEUGEOT 3008 GT HDI 202310.webp'
+      '/cars/PEUGEOT 3008 GT HDI 20239.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1293,8 +1268,7 @@ export const cars: Car[] = [
       '/cars/VOLKSWAGEN VENTO 20226.webp',
       '/cars/VOLKSWAGEN VENTO 20227.webp',
       '/cars/VOLKSWAGEN VENTO 20228.webp',
-      '/cars/VOLKSWAGEN VENTO 20229.webp',
-      '/cars/VOLKSWAGEN VENTO 202210.webp'
+      '/cars/VOLKSWAGEN VENTO 20229.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1332,8 +1306,7 @@ export const cars: Car[] = [
       '/cars/MERCEDES BENZ GLE43 AMG 20206.webp',
       '/cars/MERCEDES BENZ GLE43 AMG 20207.webp',
       '/cars/MERCEDES BENZ GLE43 AMG 20208.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20209.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 202010.webp'
+      '/cars/MERCEDES BENZ GLE43 AMG 20209.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1372,8 +1345,7 @@ export const cars: Car[] = [
       '/cars/BMW M2 COUPE 20246.webp',
       '/cars/BMW M2 COUPE 20247.webp',
       '/cars/BMW M2 COUPE 20248.webp',
-      '/cars/BMW M2 COUPE 20249.webp',
-      '/cars/BMW M2 COUPE 202420.webp'
+      '/cars/BMW M2 COUPE 20249.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1412,8 +1384,7 @@ export const cars: Car[] = [
       '/cars/GMC SIERRA SLE 20166.webp',
       '/cars/GMC SIERRA SLE 20167.webp',
       '/cars/GMC SIERRA SLE 20168.webp',
-      '/cars/GMC SIERRA SLE 20169.webp',
-      '/cars/GMC SIERRA SLE 201610.webp'
+      '/cars/GMC SIERRA SLE 20169.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1451,8 +1422,7 @@ export const cars: Car[] = [
       '/cars/BMW X5 XDrive50i M Sport 20206.webp',
       '/cars/BMW X5 XDrive50i M Sport 20207.webp',
       '/cars/BMW X5 XDrive50i M Sport 20208.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20209.webp',
-      '/cars/BMW X5 XDrive50i M Sport 202010.webp'
+      '/cars/BMW X5 XDrive50i M Sport 20209.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1491,8 +1461,7 @@ export const cars: Car[] = [
       '/cars/FORD EDGE ST 20236.webp',
       '/cars/FORD EDGE ST 20237.webp',
       '/cars/FORD EDGE ST 20238.webp',
-      '/cars/FORD EDGE ST 20239.webp',
-      '/cars/FORD EDGE ST 202310.webp'
+      '/cars/FORD EDGE ST 20239.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1530,8 +1499,7 @@ export const cars: Car[] = [
       '/cars/Nissan XTRAIL HÍBRIDA 20196.webp',
       '/cars/Nissan XTRAIL HÍBRIDA 20197.webp',
       '/cars/Nissan XTRAIL HÍBRIDA 20198.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20199.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 201910.webp'
+      '/cars/Nissan XTRAIL HÍBRIDA 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1569,8 +1537,7 @@ export const cars: Car[] = [
       '/cars/Toyota Tacoma trd 20196.webp',
       '/cars/Toyota Tacoma trd 20197.webp',
       '/cars/Toyota Tacoma trd 20198.webp',
-      '/cars/Toyota Tacoma trd 20199.webp',
-      '/cars/Toyota Tacoma trd 201910.webp'
+      '/cars/Toyota Tacoma trd 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1608,8 +1575,7 @@ export const cars: Car[] = [
       '/cars/GMC SIERRA AT4 20226.webp',
       '/cars/GMC SIERRA AT4 20227.webp',
       '/cars/GMC SIERRA AT4 20228.webp',
-      '/cars/GMC SIERRA AT4 20229.webp',
-      '/cars/GMC SIERRA AT4 202210.webp'
+      '/cars/GMC SIERRA AT4 20229.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1647,8 +1613,7 @@ export const cars: Car[] = [
       '/cars/AUDI Q2 20196.webp',
       '/cars/AUDI Q2 20197.webp',
       '/cars/AUDI Q2 20198.webp',
-      '/cars/AUDI Q2 20199.webp',
-      '/cars/AUDI Q2 201910.webp'
+      '/cars/AUDI Q2 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1686,8 +1651,7 @@ export const cars: Car[] = [
       '/cars/CHEVROLET CHEYENNE RST 20196.webp',
       '/cars/CHEVROLET CHEYENNE RST 20197.webp',
       '/cars/CHEVROLET CHEYENNE RST 20198.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20199.webp',
-      '/cars/CHEVROLET CHEYENNE RST 201910.webp'
+      '/cars/CHEVROLET CHEYENNE RST 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1725,8 +1689,7 @@ export const cars: Car[] = [
       '/cars/FORD BRONCO SPORT OUTERBANKS 20216.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 20217.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 202178.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20219.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 202110.webp'
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20219.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1764,8 +1727,7 @@ export const cars: Car[] = [
       '/cars/FORD EXPEDITION PLATINUM 20196.webp',
       '/cars/FORD EXPEDITION PLATINUM 20197.webp',
       '/cars/FORD EXPEDITION PLATINUM 20198.webp',
-      '/cars/FORD EXPEDITION PLATINUM 20199.webp',
-      '/cars/FORD EXPEDITION PLATINUM 201910.webp'
+      '/cars/FORD EXPEDITION PLATINUM 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1803,8 +1765,7 @@ export const cars: Car[] = [
       '/cars/Chevrolet Colorado 20166.webp',
       '/cars/Chevrolet Colorado 20167.webp',
       '/cars/Chevrolet Colorado 20168.webp',
-      '/cars/Chevrolet Colorado 20169.webp',
-      '/cars/Chevrolet Colorado 201610.webp'
+      '/cars/Chevrolet Colorado 20169.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1842,8 +1803,7 @@ export const cars: Car[] = [
       '/cars/POLARIS SLINGHOT 20156.webp',
       '/cars/POLARIS SLINGHOT 20157.webp',
       '/cars/POLARIS SLINGHOT 20158.webp',
-      '/cars/POLARIS SLINGHOT 20159.webp',
-      '/cars/POLARIS SLINGHOT 201510.webp'
+      '/cars/POLARIS SLINGHOT 20159.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1880,7 +1840,7 @@ export const cars: Car[] = [
       '/cars/KIA SORENTO EX GDI 20196.webp',
       '/cars/KIA SORENTO EX GDI 20197.webp',
       '/cars/KIA SORENTO EX GDI 20198.webp',
-      '/cars/KIA SORENTO EX GDI 20199.webp',
+      '/cars/KIA SORENTO EX GDI 20199.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1918,8 +1878,7 @@ export const cars: Car[] = [
       '/cars/DODGE JOURNEY 20166.webp',
       '/cars/DODGE JOURNEY 20167.webp',
       '/cars/DODGE JOURNEY 20168.webp',
-      '/cars/DODGE JOURNEY 20169.webp',
-      '/cars/DODGE JOURNEY 201610.webp'
+      '/cars/DODGE JOURNEY 20169.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1957,8 +1916,7 @@ export const cars: Car[] = [
       '/cars/VOLKSWAGEN GOLF HIGHLINE 20176.webp',
       '/cars/VOLKSWAGEN GOLF HIGHLINE 20177.webp',
       '/cars/VOLKSWAGEN GOLF HIGHLINE 20178.webp',
-      '/cars/VOLKSWAGEN GOLF HIGHLINE 20179.webp',
-      '/cars/VOLKSWAGEN GOLF HIGHLINE 201710.webp'
+      '/cars/VOLKSWAGEN GOLF HIGHLINE 20179.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -1996,8 +1954,7 @@ export const cars: Car[] = [
       '/cars/JEEP GRAND CHEROKEE 20156.webp',
       '/cars/JEEP GRAND CHEROKEE 20157.webp',
       '/cars/JEEP GRAND CHEROKEE 20158.webp',
-      '/cars/JEEP GRAND CHEROKEE 20159.webp',
-      '/cars/JEEP GRAND CHEROKEE 201510.webp'
+      '/cars/JEEP GRAND CHEROKEE 20159.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -2035,8 +1992,7 @@ export const cars: Car[] = [
       '/cars/JETTA TRENDLINE 20186.webp',
       '/cars/JETTA TRENDLINE 20187.webp',
       '/cars/JETTA TRENDLINE 20188.webp',
-      '/cars/JETTA TRENDLINE 20189.webp',
-      '/cars/JETTA TRENDLINE 201810.webp'
+      '/cars/JETTA TRENDLINE 20189.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -2074,8 +2030,7 @@ export const cars: Car[] = [
       '/cars/FORD EDGE SEL PLUS 20176.webp',
       '/cars/FORD EDGE SEL PLUS 20177.webp',
       '/cars/FORD EDGE SEL PLUS 20178.webp',
-      '/cars/FORD EDGE SEL PLUS 20179.webp',
-      '/cars/FORD EDGE SEL PLUS 201710.webp'
+      '/cars/FORD EDGE SEL PLUS 20179.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -2113,8 +2068,7 @@ export const cars: Car[] = [
       '/cars/TRAVERSE LT 20176.webp',
       '/cars/TRAVERSE LT 20177.webp',
       '/cars/TRAVERSE LT 20178.webp',
-      '/cars/TRAVERSE LT 20179.webp',
-      '/cars/TRAVERSE LT 201710.webp'
+      '/cars/TRAVERSE LT 20179.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -2152,8 +2106,7 @@ export const cars: Car[] = [
       '/cars/Jeep Sahara 4x4 20176.webp',
       '/cars/Jeep Sahara 4x4 20177.webp',
       '/cars/Jeep Sahara 4x4 20178.webp',
-      '/cars/Jeep Sahara 4x4 20179.webp',
-      '/cars/Jeep Sahara 4x4 201710.webp'
+      '/cars/Jeep Sahara 4x4 20179.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
@@ -2191,8 +2144,7 @@ export const cars: Car[] = [
       '/cars/Ford Escape 20206.webp',
       '/cars/Ford Escape 20207.webp',
       '/cars/Ford Escape 20208.webp',
-      '/cars/Ford Escape 20209.webp',
-      '/cars/Ford Escape 202010.webp'
+      '/cars/Ford Escape 20209.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
