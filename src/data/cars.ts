@@ -1724,7 +1724,7 @@ export const cars: Car[] = [
       '/cars/FORD BRONCO SPORT OUTERBANKS 20215.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 20216.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 20217.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20218.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 202178.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 20219.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 202110.webp'
     ],
