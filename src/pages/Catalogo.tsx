@@ -13,7 +13,7 @@ const Catalogo = () => {
   const [selectedCar, setSelectedCar] = useState<CarType | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
 
-  const categories: (CarCategory | 'Todos')[] = ['Todos', 'Sedan', 'Deportivo', 'Pick Up', 'Minivan', 'SUV', 'RZR'];
+  const categories: (CarCategory | 'Todos')[] = ['Todos', 'Sedan', 'Deportivo', 'Pick Up', 'SUV', ];
 
   useEffect(() => {
     const categoria = searchParams.get('categoria');
