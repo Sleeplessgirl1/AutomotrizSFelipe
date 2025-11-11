@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clever Media Marketing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #e7f6ee;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #00804b;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-weight: 300;
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    section {
+      padding: 4rem 8%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #00804b;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    h3 {
+      color: #222;
+      margin-top: 1.5rem;
+    }
+
+    .reasons, .testimonios, .servicios, .contacto {
+      margin-top: 2rem;
+    }
+
+    .reasons li, .servicios li {
+      margin: 0.8rem 0;
+      list-style: none;
+      padding-left: 1.2rem;
+      position: relative;
+    }
+
+    .reasons li::before, .servicios li::before {
+      content: "💚";
+      position: absolute;
+      left: 0;
+    }
+
+    .testimonio {
+      background-color: #f0f7f3;
+      border-left: 5px solid #00804b;
+      padding: 1rem 1.5rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      font-style: italic;
+    }
+
+    .servicio {
+      background-color: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      transition: transform 0.3s ease;
+    }
+
+    .servicio:hover {
+      transform: scale(1.02);
+    }
+
+    .about {
+      background-color: #e7f6ee;
+      border-radius: 15px;
+      padding: 3rem 2rem;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 2rem auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      width: 100%;
+    }
+
+    button {
+      background-color: #00804b;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 1rem;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #005c36;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f0f7f3;
+      padding: 2rem;
+      color: #555;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      section {
+        padding: 2rem 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- INICIO -->
+  <header>
+    <h1>¡Ponte Clever!!</h1>
+    <p>Estrategias creativas y funcionales que hacen crecer tu negocio.</p>
+  </header>
+
+  <section id="inicio">
+    <h2>Sobre Clever Media</h2>
+    <p>Con 7 años en el mercado, Clever Media ha ayudado a muchos emprendedores y empresas a aumentar sus ventas y exposición a nivel local, estatal y nacional, ofreciendo servicios como branding, manejo de redes sociales, fotografía, creación de sitios web, videos UGC y nuestro nuevo servicio: asesorías 1:1.</p>
+
+    <div class="reasons">
+      <h3>💚 Razones por las cuales somos una Green Flag:</h3>
+      <ul>
+        <li>Nos organizamos de tal manera que solo te preocupas por atender al cliente.</li>
+        <li>Nos metemos hasta la cocina de tu negocio para asesorarte y darte las recomendaciones que necesitas.</li>
+        <li>Analizamos a tu cliente para determinar lo que le funciona.</li>
+        <li>Amamos lo que hacemos y se nota!!</li>
+      </ul>
+    </div>
+
+    <div class="testimonios">
+      <h3>💬 Testimonios</h3>
+      <div class="testimonio"><strong>XGOAT:</strong> “La verdad hemos estado trabajando bien a gusto todos y sí nos ha gustado mucho el crecimiento de la publicidad contigo…”</div>
+      <div class="testimonio"><strong>Hoteles Santa Cruz:</strong> “Gracias Caro por todo el apoyo, has sido de muchísima ayuda en verdad.”</div>
+      <div class="testimonio"><strong>The Happy Doctor:</strong> “Yo ya confío plenamente en ti, ya vi cómo trabajas y que no haces todo al ahí se va…”</div>
+      <div class="testimonio"><strong>Clínica Contorno:</strong> “Solo quería compartirte que este mes ha sido el mejor mes en ventas desde que abrimos la clínica.”</div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios">
+    <h2>Servicios</h2>
+
+    <div class="servicio">
+      <h3>📱 Manejo de redes sociales</h3>
+      <p>Llevar tus redes sociales es mucho más que solo subir posts. Es hacer una estrategia completa con un mensaje dirigido a un público objetivo...</p>
+    </div>
+
+    <div class="servicio">
+      <h3>🎨 Branding</h3>
+      <p>Construye la identidad de tu negocio. Creamos logo e imagen corporativa para un negocio nuevo o para todo aquel que quiera refrescarse.</p>
+    </div>
+
+    <div class="servicio">
+      <h3>🎥 Creación de contenido UGC</h3>
+      <p>Hacemos contenido de video en crudo o editado para cualquier marca que necesite una imagen para comunicar un mensaje...</p>
+    </div>
+
+    <div class="servicio">
+      <h3>💬 Asesorías 1:1</h3>
+      <p>¿Tienes un negocio y sientes que no sabes qué publicar o te sientes estancado(a)? Este servicio es completamente personalizado...</p>
+    </div>
+
+    <div class="servicio">
+      <h3>📸 Sesiones fotográficas</h3>
+      <p>Servicio de fotografía de alimentos, producto o retrato para tu marca personal.</p>
+    </div>
+
+    <div class="servicio">
+      <h3>💻 Sitios web</h3>
+      <p>Creación de sitios web responsivos de carácter informativo o tienda en línea según las necesidades del negocio.</p>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section id="sobre-nosotros">
+    <h2>Clever WHO??????</h2>
+    <div class="about">
+      <p>Hola!! Soy <strong>Caro Mejía</strong>, mercadóloga fundadora de Clever Media Marketing. Somos una agencia creativa y organizada enfocada en facilitarte la vida para que tu preocupación sea solo atender a tu cliente y vender.</p>
+      <p>Egresada en 2015 por el Tecnológico de Monterrey de la carrera de mercadotecnia y comunicación, laboré 3 años en el mundo corporativo en diversas empresas del medio...</p>
+      <p>Me apasionan las redes sociales y las tendencias, por lo que inicié como freelancer en 2018 para poder iniciar formalmente mi negocio en 2020. Ahora somos un equipo de 5 personas.</p>
+      <p>Amo ver que los negocios que manejamos crecen con la correcta estrategia e inversión en publicidad. Su éxito es el nuestro.</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="text" placeholder="Apellido" required>
+      <input type="tel" placeholder="Número de WhatsApp" required>
+      <input type="text" placeholder="Instagram o Facebook del negocio">
+      <input type="email" placeholder="Correo electrónico" required>
+      <textarea rows="5" placeholder="Escribe aquí tu duda o mensaje"></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Clever Media Marketing - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
