@@ -38,7 +38,7 @@ export const cars: Car[] = [
     name: 'GMC SIERRA DENALI',
     year: 2024,
     category: 'Pick Up',
-    price: 1350000,
+    price: 1450000,
     image: '/cars/GMC SIERRA DENALI 20241.webp',
     images: [
       '/cars/GMC SIERRA DENALI 20241.webp',
@@ -77,7 +77,7 @@ export const cars: Car[] = [
     name: 'MERCEDES BENZ C200',
     year: 2015,
     category: 'Sedan',
-    price: 285000,
+    price: 300000,
     image: '/cars/MERCEDES BENZ C200 20151.webp',
     images: [
       '/cars/MERCEDES BENZ C200 20151.webp',
