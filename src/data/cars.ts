@@ -1881,7 +1881,6 @@ export const cars: Car[] = [
       '/cars/KIA SORENTO EX GDI 20197.webp',
       '/cars/KIA SORENTO EX GDI 20198.webp',
       '/cars/KIA SORENTO EX GDI 20199.webp',
-      '/cars/KIA SORENTO EX GDI 201910.webp'
     ],
     details: {
       condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
