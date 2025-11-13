@@ -1,8 +1,7 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-
-{
+  {
     id: '50',
     name: 'KIA RIO L',
     year: 2021,
@@ -32,40 +31,7 @@ export const cars: Car[] = [
         'Transmisión manual'
       ]
     }
-},
-  {
-    id: '37',
-    name: 'FORD SHELBY GT350',
-    year: 2017,
-    category: 'Deportivo',
-    price: 1100000,
-    image: '/cars/FORD SHELBY GT350 20171.webp',
-    images: [  
-      '/cars/FORD SHELBY GT350 20171.webp',
-      '/cars/FORD SHELBY GT350 20172.webp',
-      '/cars/FORD SHELBY GT350 20173.webp',
-      '/cars/FORD SHELBY GT350 20174.webp',
-      '/cars/FORD SHELBY GT350 20175.webp',
-      '/cars/FORD SHELBY GT350 20176.webp',
-      '/cars/FORD SHELBY GT350 20177.webp',
-      '/cars/FORD SHELBY GT350 20178.webp',
-      '/cars/FORD SHELBY GT350 20179.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE FORD PASA CHIHUAHUA',
-      keys: '2 LLAVES',
-      kilometers: '12,189 KMS ORIGINALES',
-      engine: 'V8 DE 5.2 L 526 HP',
-      features: [
-        'IMPECABLES CONDICIONES',
-        'TRANSMISION MANUAL DE 6 VELOCIDADES',
-        'ASIENTOS RECARGO EN GAMUZA',
-        'FINANCIAMIENTO DISPONIBLE',
-        'PRECIO NEGOCIABLE'
-      ]
-    }
   },
- 
   {
     id: '37',
     name: 'FORD SHELBY GT350',
@@ -180,7 +146,7 @@ export const cars: Car[] = [
     name: 'NISSAN KICKS PLATINUM E-POWER',
     year: 2023,
     category: 'SUV',
-    price: 380000, // CORREGIDO: era 425000
+    price: 380000,
     image: '/cars/NISSAN KICKS PLATINUM E-POWER 20231.webp',
     images: [
       '/cars/NISSAN KICKS PLATINUM E-POWER 20231.webp',
@@ -653,7 +619,7 @@ export const cars: Car[] = [
     name: 'Cupra Formentor VZ',
     year: 2023,
     category: 'Deportivo',
-    price: 720000,
+    price: 695000,
     image: '/cars/Cupra Formentor VZ 20231.webp',
     images: [
       '/cars/Cupra Formentor VZ 20231.webp',
@@ -891,7 +857,7 @@ export const cars: Car[] = [
     name: 'Chevrolet Suburban High Country',
     year: 2021,
     category: 'SUV',
-    price: 1190000,
+    price: 1170000,
     image: '/cars/Chevrolet Suburban High Country 20211.webp',
     images: [
       '/cars/Chevrolet Suburban High Country 20211.webp',
@@ -1040,7 +1006,7 @@ export const cars: Car[] = [
     name: 'Ford Lobo Raptor',
     year: 2018,
     category: 'Pick Up',
-    price: 820000,
+    price: 800000,
     image: '/cars/Ford Lobo Raptor 20181.webp',
     images: [
       '/cars/Ford Lobo Raptor 20181.webp',
@@ -1083,7 +1049,7 @@ export const cars: Car[] = [
     name: 'Ford Lobo Limited',
     year: 2023,
     category: 'Pick Up',
-    price: 1250000,
+    price: 1215000,
     image: '/cars/Ford Lobo Limited 20231.webp',
     images: [
       '/cars/Ford Lobo Limited 20231.webp',
@@ -1163,7 +1129,7 @@ export const cars: Car[] = [
     name: 'Chevrolet Colorado ZR2',
     year: 2024,
     category: 'Pick Up',
-    price: 980000,
+    price: 965000,
     image: '/cars/Chevrolet Colorado ZR2 20241.webp',
     images: [
       '/cars/Chevrolet Colorado ZR2 20241.webp',
@@ -1201,7 +1167,7 @@ export const cars: Car[] = [
     name: 'GMC Yukon Denali',
     year: 2022,
     category: 'SUV',
-    price: 1350000, // CORREGIDO: era 1430000
+    price: 1300000,
     image: '/cars/GMC Yukon Denali 20221.webp',
     images: [
       '/cars/GMC Yukon Denali 20221.webp',
@@ -1284,7 +1250,7 @@ export const cars: Car[] = [
     name: 'PEUGEOT 3008 GT HDI',
     year: 2023,
     category: 'SUV',
-    price: 520000,
+    price: 480000,
     image: '/cars/PEUGEOT 3008 GT HDI 20231.webp',
     images: [
       '/cars/PEUGEOT 3008 GT HDI 20231.webp',
@@ -1322,7 +1288,7 @@ export const cars: Car[] = [
     name: 'VOLKSWAGEN VENTO',
     year: 2022,
     category: 'Sedan',
-    price: 240000,
+    price: 230000,
     image: '/cars/VOLKSWAGEN VENTO 20221.webp',
     images: [
       '/cars/VOLKSWAGEN VENTO 20221.webp',
@@ -1360,7 +1326,7 @@ export const cars: Car[] = [
     name: 'MERCEDES BENZ GLE43 AMG',
     year: 2020,
     category: 'SUV',
-    price: 890000,
+    price: 850000,
     image: '/cars/MERCEDES BENZ GLE43 AMG 20201.webp',
     images: [
       '/cars/MERCEDES BENZ GLE43 AMG 20201.webp',
@@ -1438,7 +1404,7 @@ export const cars: Car[] = [
     name: 'GMC SIERRA SLE',
     year: 2016,
     category: 'Pick Up',
-    price: 460000,
+    price: 440000,
     image: '/cars/GMC SIERRA SLE 20161.webp',
     images: [
       '/cars/GMC SIERRA SLE 20161.webp',
@@ -1476,7 +1442,7 @@ export const cars: Car[] = [
     name: 'BMW X5 XDrive50i M Sport',
     year: 2020,
     category: 'SUV',
-    price: 975000,
+    price: 875000,
     image: '/cars/BMW X5 XDrive50i M Sport 20201.webp',
     images: [
       '/cars/BMW X5 XDrive50i M Sport 20201.webp',
@@ -1553,7 +1519,7 @@ export const cars: Car[] = [
     name: 'Nissan XTRAIL HÍBRIDA',
     year: 2019,
     category: 'SUV',
-    price: 389000,
+    price: 375000,
     image: '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
     images: [
       '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
@@ -1591,7 +1557,7 @@ export const cars: Car[] = [
     name: 'Toyota Tacoma trd',
     year: 2019,
     category: 'Pick Up',
-    price: 590000,
+    price: 550000,
     image: '/cars/Toyota Tacoma trd 20191.webp',
     images: [
       '/cars/Toyota Tacoma trd 20191.webp',
@@ -1629,7 +1595,7 @@ export const cars: Car[] = [
     name: 'GMC SIERRA AT4',
     year: 2022,
     category: 'Pick Up',
-    price: 1000000,
+    price: 980000,
     image: '/cars/GMC SIERRA AT4 20221.webp',
     images: [
       '/cars/GMC SIERRA AT4 20221.webp',
@@ -1667,7 +1633,7 @@ export const cars: Car[] = [
     name: 'AUDI Q2',
     year: 2019,
     category: 'SUV',
-    price: 350000,
+    price: 330000,
     image: '/cars/AUDI Q2 20191.webp',
     images: [
       '/cars/AUDI Q2 20191.webp',
@@ -1743,7 +1709,7 @@ export const cars: Car[] = [
     name: 'FORD BRONCO SPORT OUTERBANKS',
     year: 2021,
     category: 'SUV',
-    price: 520000,
+    price: 495000,
     image: '/cars/FORD BRONCO SPORT OUTERBANKS 20211.webp',
     images: [
       '/cars/FORD BRONCO SPORT OUTERBANKS 20211.webp',
@@ -1781,7 +1747,7 @@ export const cars: Car[] = [
     name: 'FORD EXPEDITION PLATINUM',
     year: 2019,
     category: 'SUV',
-    price: 870000,
+    price: 790000,
     image: '/cars/FORD EXPEDITION PLATINUM 20191.webp',
     images: [
       '/cars/FORD EXPEDITION PLATINUM 20191.webp',
@@ -1819,7 +1785,7 @@ export const cars: Car[] = [
     name: 'Chevrolet Colorado',
     year: 2016,
     category: 'Pick Up',
-    price: 320000,
+    price: 280000,
     image: '/cars/Chevrolet Colorado 20161.webp',
     images: [
       '/cars/Chevrolet Colorado 20161.webp',
@@ -1857,7 +1823,7 @@ export const cars: Car[] = [
     name: 'POLARIS SLINGHOT',
     year: 2015,
     category: 'Deportivo',
-    price: 0,
+    price: 250000,
     image: '/cars/POLARIS SLINGHOT 20151.webp',
     images: [
       '/cars/POLARIS SLINGHOT 20151.webp',
@@ -1894,7 +1860,7 @@ export const cars: Car[] = [
     name: 'KIA SORENTO EX GDI',
     year: 2019,
     category: 'SUV',
-    price: 0,
+    price: 350000,
     image: '/cars/KIA SORENTO EX GDI 20191.webp',
     images: [
       '/cars/KIA SORENTO EX GDI 20191.webp',
@@ -1932,7 +1898,7 @@ export const cars: Car[] = [
     name: 'DODGE JOURNEY',
     year: 2016,
     category: 'SUV',
-    price: 0,
+    price: 260000,
     image: '/cars/DODGE JOURNEY 20161.webp',
     images: [
       '/cars/DODGE JOURNEY 20161.webp',
@@ -1970,7 +1936,7 @@ export const cars: Car[] = [
     name: 'VOLKSWAGEN GOLF HIGHLINE',
     year: 2017,
     category: 'Sedan',
-    price: 0,
+    price: 270000,
     image: '/cars/VOLKSWAGEN GOLF HIGHLINE 20171.webp',
     images: [
       '/cars/VOLKSWAGEN GOLF HIGHLINE 20171.webp',
@@ -2008,7 +1974,7 @@ export const cars: Car[] = [
     name: 'JEEP GRAND CHEROKEE',
     year: 2015,
     category: 'SUV',
-    price: 0,
+    price: 285000,
     image: '/cars/JEEP GRAND CHEROKEE 20151.webp',
     images: [
       '/cars/JEEP GRAND CHEROKEE 20151.webp',
@@ -2046,7 +2012,7 @@ export const cars: Car[] = [
     name: 'JETTA TRENDLINE',
     year: 2018,
     category: 'Sedan',
-    price: 0,
+    price: 230000,
     image: '/cars/JETTA TRENDLINE 20181.webp',
     images: [
       '/cars/JETTA TRENDLINE 20181.webp',
@@ -2080,49 +2046,11 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '46',
-    name: 'FORD EDGE SEL PLUS',
-    year: 2017,
-    category: 'SUV',
-    price: 0,
-    image: '/cars/FORD EDGE SEL PLUS 20171.webp',
-    images: [
-      '/cars/FORD EDGE SEL PLUS 20171.webp',
-      '/cars/FORD EDGE SEL PLUS 20172.webp',
-      '/cars/FORD EDGE SEL PLUS 20173.webp',
-      '/cars/FORD EDGE SEL PLUS 20174.webp',
-      '/cars/FORD EDGE SEL PLUS 20175.webp',
-      '/cars/FORD EDGE SEL PLUS 20176.webp',
-      '/cars/FORD EDGE SEL PLUS 20177.webp',
-      '/cars/FORD EDGE SEL PLUS 20178.webp',
-      '/cars/FORD EDGE SEL PLUS 20179.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '105,000 KMS',
-      engine: 'MOTOR 2.0L ECOBOOST',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '245 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'ASIENTOS DE PIEL'
-      ]
-    }
-  },
-  {
     id: '47',
     name: 'TRAVERSE LT',
     year: 2017,
     category: 'SUV',
-    price: 0,
+    price: 290000,
     image: '/cars/TRAVERSE LT 20171.webp',
     images: [
       '/cars/TRAVERSE LT 20171.webp',
@@ -2160,7 +2088,7 @@ export const cars: Car[] = [
     name: 'Jeep Sahara 4x4',
     year: 2017,
     category: 'SUV',
-    price: 0,
+    price: 560000,
     image: '/cars/Jeep Sahara 4x4 20171.webp',
     images: [
       '/cars/Jeep Sahara 4x4 20171.webp',
@@ -2198,7 +2126,7 @@ export const cars: Car[] = [
     name: 'Ford Escape',
     year: 2020,
     category: 'SUV',
-    price: 0,
+    price: 385000,
     image: '/cars/Ford Escape 20201.webp',
     images: [
       '/cars/Ford Escape 20201.webp',
