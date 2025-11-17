@@ -1,6 +1,38 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+    {
+    id: '51',
+    name: 'JEEP GRAND CHEROKEE LIMITED',
+    year: 2023,
+    category: 'SUV',
+    price: 920000,
+    image: '/cars/JEEP GRAND CHEROKEE LIMITED 20231.webp',
+    images: [
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20231.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20232.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20233.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20234.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20235.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20236.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20237.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20238.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 20239.webp',
+      '/cars/JEEP GRAND CHEROKEE LIMITED 202310.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '42,266 Kms',
+      engine: 'V6 de 3.6 L',
+      features: [
+        'Sonido Alpine',
+        'Garantía en agencia',
+        'Financiamiento Disponible',
+        'Precio Negociable'
+      ]
+    }
+  },
   {
     id: '50',
     name: 'KIA RIO L',
