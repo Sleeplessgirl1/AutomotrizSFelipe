@@ -64,38 +64,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '37',
-    name: 'FORD SHELBY GT350',
-    year: 2017,
-    category: 'Deportivo',
-    price: 1100000,
-    image: '/cars/FORD SHELBY GT350 20171.webp',
-    images: [  
-      '/cars/FORD SHELBY GT350 20171.webp',
-      '/cars/FORD SHELBY GT350 20172.webp',
-      '/cars/FORD SHELBY GT350 20173.webp',
-      '/cars/FORD SHELBY GT350 20174.webp',
-      '/cars/FORD SHELBY GT350 20175.webp',
-      '/cars/FORD SHELBY GT350 20176.webp',
-      '/cars/FORD SHELBY GT350 20177.webp',
-      '/cars/FORD SHELBY GT350 20178.webp',
-      '/cars/FORD SHELBY GT350 20179.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE FORD PASA CHIHUAHUA',
-      keys: '2 LLAVES',
-      kilometers: '12,189 KMS ORIGINALES',
-      engine: 'V8 DE 5.2 L 526 HP',
-      features: [
-        'IMPECABLES CONDICIONES',
-        'TRANSMISION MANUAL DE 6 VELOCIDADES',
-        'ASIENTOS RECARGO EN GAMUZA',
-        'FINANCIAMIENTO DISPONIBLE',
-        'PRECIO NEGOCIABLE'
-      ]
-    }
-  },
+
   {
     id: '31',
     name: 'GMC SIERRA DENALI',
