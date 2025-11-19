@@ -30,7 +30,7 @@ const CarDetailModal = ({ car, open, onOpenChange }: CarDetailModalProps) => {
 
   // Función para generar enlace de WhatsApp
   const getWhatsAppLink = (message: string) => {
-    const phoneNumber = '5214144474'; // Reemplaza con tu número de WhatsApp
+    const phoneNumber = '526144637800'; // Reemplaza con tu número de WhatsApp
     const encodedMessage = encodeURIComponent(message);
     return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
   };
