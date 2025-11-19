@@ -1,6 +1,71 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+  
+  {
+    id: '53',
+    name: 'FORD LOBO LIMITED HEV',
+    year: 2022,
+    category: 'Pick Up',
+    price: 1130000,
+    image: '/cars/FORD LOBO LIMITED HEV 20221.webp',
+    images: [
+      '/cars/FORD LOBO LIMITED HEV 20221.webp',
+      '/cars/FORD LOBO LIMITED HEV 20222.webp',
+      '/cars/FORD LOBO LIMITED HEV 20223.webp',
+      '/cars/FORD LOBO LIMITED HEV 20224.webp',
+      '/cars/FORD LOBO LIMITED HEV 20225.webp',
+      '/cars/FORD LOBO LIMITED HEV 20226.webp',
+      '/cars/FORD LOBO LIMITED HEV 20227.webp',
+      '/cars/FORD LOBO LIMITED HEV 20228.webp',
+      '/cars/FORD LOBO LIMITED HEV 20229.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (2 dueños)',
+      keys: '2 llaves',
+      kilometers: '48,090 Kms',
+      engine: 'V6 de 3.5L Híbrida',
+      features: [
+        'Financiamiento Disponible',
+        'Automática de 10 velocidades',
+        '4x4',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '52',
+    name: 'MINI Cooper S Multitone Edition',
+    year: 2023,
+    category: 'Deportivo',
+    price: 510000,
+    image: '/cars/MINI Cooper S Multitone Edition 20231.webp',
+    images: [
+      '/cars/MINI Cooper S Multitone Edition 20231.webp',
+      '/cars/MINI Cooper S Multitone Edition 20232.webp',
+      '/cars/MINI Cooper S Multitone Edition 20233.webp',
+      '/cars/MINI Cooper S Multitone Edition 20234.webp',
+      '/cars/MINI Cooper S Multitone Edition 20235.webp',
+      '/cars/MINI Cooper S Multitone Edition 20236.webp',
+      '/cars/MINI Cooper S Multitone Edition 20237.webp',
+      '/cars/MINI Cooper S Multitone Edition 20238.webp',
+      '/cars/MINI Cooper S Multitone Edition 20239.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '30,211 Kms',
+      engine: '4 cilindros Turbo',
+      features: [
+        'Financiamiento Disponible',
+        'Garantía hasta 2027',
+        'Edición especial (multitone)',
+        '2 juegos de molduras',
+        'Precio Negociable'
+      ]
+    }
+  } , 
+  
     {
     id: '51',
     name: 'JEEP GRAND CHEROKEE LIMITED',
