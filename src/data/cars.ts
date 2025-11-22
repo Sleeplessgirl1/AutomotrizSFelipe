@@ -2,6 +2,69 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
   
+
+   {
+    id: '51',
+    name: 'MERCEDES BENZ G63 AMG',
+    year: 2022,
+    category: 'SUV',
+    price: 3500000,
+    image: '/cars/MERCEDES BENZ G63 AMG 2022.webp',
+    images: [
+      '/cars/MERCEDES BENZ G63 AMG 2022.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20221.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20222.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20223.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20224.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20225.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20226.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20227.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20228.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '19,956 Kms',
+      engine: 'V8 5.5 L Biturbo',
+      features: [
+        'Financiamiento Disponible',
+        'Garantía en agencia',
+        'Impecables condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '50',
+    name: 'Dodge Challenger Blackline',
+    year: 2015,
+    category: 'Deportivo',
+    price: 300000,
+    image: '/cars/Dodge Challenger Blackline 2015.webp',
+    images: [
+      '/cars/Dodge Challenger Blackline 2015.webp',
+      '/cars/Dodge Challenger Blackline 20151.webp',
+      '/cars/Dodge Challenger Blackline 20152.webp',
+      '/cars/Dodge Challenger Blackline 20153.webp',
+      '/cars/Dodge Challenger Blackline 20154.webp',
+      '/cars/Dodge Challenger Blackline 20155.webp',
+      '/cars/Dodge Challenger Blackline 20156.webp',
+      '/cars/Dodge Challenger Blackline 20157.webp',
+      '/cars/Dodge Challenger Blackline 20158.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (2 dueños)',
+      keys: '2 llaves',
+      kilometers: '161,181 Kms',
+      engine: 'V6 de 3.6 Litros',
+      features: [
+        'Financiamiento Disponible',
+        'Servicios de agencia',
+        'Automático de 8 velocidades',
+        'Precio Negociable'
+      ]
+    }
+  },
   {
     id: '53',
     name: 'FORD LOBO LIMITED HEV',
