@@ -324,45 +324,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '36',
-    name: 'VOLKSWAGEN TIGUAN R LINE',
-    year: 2018,
-    category: 'SUV',
-    price: 450000,
-    image: '/cars/VOLKSWAGEN TIGUAN R LINE 20181.webp',
-    images: [
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20181.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20182.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20183.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20184.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20185.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20186.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20187.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20188.webp',
-      '/cars/VOLKSWAGEN TIGUAN R LINE 20189.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '75,000 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.0 TURBO',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '184 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD',
-        'LUCES DIURNAS LED',
-        'SISTEMA DE NAVEGACION',
-        'PANEL DE INSTRUMENTOS DIGITAL',
-        'FRENO DE MANO ELECTRICO',
-        'CLIMATIZADOR BIZONA',
-        'ASIENTOS E INTERIORES DE PIEL',
-        'SENSORES DE PROXIMIDAD',
-        'SISTEMA AUTO START-STOP'
-      ]
-    }
-  },
+  ,
   {
     id: '1',
     name: 'BMW X6 XDRIVE40i',
