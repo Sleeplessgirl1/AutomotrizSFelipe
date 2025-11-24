@@ -19,7 +19,7 @@ const Index = () => {
     setModalOpen(true);
   };
 
-  const categories: CarCategory[] = ['Sedan', 'Deportivo', 'Pick Up', 'Minivan', 'SUV'];
+  const categories: CarCategory[] = ['Sedan', 'Deportivo', 'Pick Up', 'SUV'];
   
   const featuredCars = cars.slice(0, 6);
 

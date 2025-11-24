@@ -9,9 +9,9 @@ export const cars: Car[] = [
     year: 2022,
     category: 'SUV',
     price: 3500000,
-    image: '/cars/MERCEDES BENZ G63 AMG 2022.webp',
+    image: '/cars/MERCEDES BENZ G63 AMG 20221.webp',
     images: [
-      '/cars/MERCEDES BENZ G63 AMG 2022.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20221.webp',
       '/cars/MERCEDES BENZ G63 AMG 20221.webp',
       '/cars/MERCEDES BENZ G63 AMG 20222.webp',
       '/cars/MERCEDES BENZ G63 AMG 20223.webp',
@@ -40,9 +40,9 @@ export const cars: Car[] = [
     year: 2015,
     category: 'Deportivo',
     price: 300000,
-    image: '/cars/Dodge Challenger Blackline 2015.webp',
+    image: '/cars/Dodge Challenger Blackline 20151.webp',
     images: [
-      '/cars/Dodge Challenger Blackline 2015.webp',
+      '/cars/Dodge Challenger Blackline 20151.webp',
       '/cars/Dodge Challenger Blackline 20151.webp',
       '/cars/Dodge Challenger Blackline 20152.webp',
       '/cars/Dodge Challenger Blackline 20153.webp',
