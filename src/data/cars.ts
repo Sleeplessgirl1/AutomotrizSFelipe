@@ -1,70 +1,35 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-  
-     {
-    id: '52',
-    name: 'MERCEDES BENZ G63 AMG',
-    year: 2022,
-    category: 'SUV',
-    price: 3500000,
-    image: '/cars/MERCEDES BENZ G63 AMG 20221.webp',
-    images: [
-      '/cars/MERCEDES BENZ G63 AMG 20221.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20221.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20222.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20223.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20224.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20225.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20226.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20227.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20228.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '19,956 Kms',
-      engine: 'V8 5.5 L Biturbo',
-      features: [
-        'Financiamiento Disponible',
-        'Garantía en agencia',
-        'Impecables condiciones',
-        'Precio Negociable'
-      ]
-    }
-  },
-   {
-    id: '51',
-    name: 'MERCEDES BENZ G63 AMG',
-    year: 2022,
-    category: 'SUV',
-    price: 3500000,
-    image: '/cars/MERCEDES BENZ G63 AMG 20221.webp',
-    images: [
-      '/cars/MERCEDES BENZ G63 AMG 20221.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20221.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20222.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20223.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20224.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20225.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20226.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20227.webp',
-      '/cars/MERCEDES BENZ G63 AMG 20228.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '19,956 Kms',
-      engine: 'V8 5.5 L Biturbo',
-      features: [
-        'Financiamiento Disponible',
-        'Garantía en agencia',
-        'Impecables condiciones',
-        'Precio Negociable'
-      ]
-    }
-  },
   {
+  id: '52',
+    name: 'NISSAN KICKS EXCLUSIVE',
+    year: 2018,
+    category: 'SUV',
+    price: 230000,
+    image: '/cars/NISSAN KICKS EXCLUSIVE 20181.webp',
+    images: [
+      '/cars/NISSAN KICKS EXCLUSIVE 20181.webp',
+      '/cars/NISSAN KICKS EXCLUSIVE 20182.webp',
+      '/cars/NISSAN KICKS EXCLUSIVE 20183.webp',
+      '/cars/NISSAN KICKS EXCLUSIVE 20184.webp',
+      '/cars/NISSAN KICKS EXCLUSIVE 20185.webp',
+      '/cars/NISSAN KICKS EXCLUSIVE 20186.webp',
+      '/cars/NISSAN KICKS EXCLUSIVE 20187.webp',
+      '/cars/NISSAN KICKS EXCLUSIVE 20188.webp',
+      '/cars/NISSAN KICKS EXCLUSIVE 20189.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '48,947 Kms',
+      engine: '4 cilindros',
+      features: [
+        'Financiamiento Disponible',
+        'Automática'
+      ]
+    }},
+     {
     id: '50',
     name: 'Dodge Challenger Blackline',
     year: 2015,
