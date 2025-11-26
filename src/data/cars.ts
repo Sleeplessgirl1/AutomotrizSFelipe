@@ -2,7 +2,37 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
   
-
+     {
+    id: '52',
+    name: 'MERCEDES BENZ G63 AMG',
+    year: 2022,
+    category: 'SUV',
+    price: 3500000,
+    image: '/cars/MERCEDES BENZ G63 AMG 20221.webp',
+    images: [
+      '/cars/MERCEDES BENZ G63 AMG 20221.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20221.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20222.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20223.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20224.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20225.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20226.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20227.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20228.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '19,956 Kms',
+      engine: 'V8 5.5 L Biturbo',
+      features: [
+        'Financiamiento Disponible',
+        'Garantía en agencia',
+        'Impecables condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
    {
     id: '51',
     name: 'MERCEDES BENZ G63 AMG',
@@ -508,86 +538,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '4',
-    name: 'Ford Lobo Platinum',
-    year: 2019,
-    category: 'Pick Up',
-    price: 690000,
-    image: '/cars/Ford Lobo Platinum 20191.webp',
-    images: [
-      '/cars/Ford Lobo Platinum 20191.webp',
-      '/cars/Ford Lobo Platinum 20192.webp',
-      '/cars/Ford Lobo Platinum 20193.webp',
-      '/cars/Ford Lobo Platinum 20194.webp',
-      '/cars/Ford Lobo Platinum 20195.webp',
-      '/cars/Ford Lobo Platinum 20196.webp',
-      '/cars/Ford Lobo Platinum 20197.webp',
-      '/cars/Ford Lobo Platinum 20198.webp',
-      '/cars/Ford Lobo Platinum 20199.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '111,100 KMS',
-      engine: 'MOTOR V6 DE 3.5 L ECOBOOST 4X4',
-      features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'FAROS DE NIEBLA',
-        'LUCES DIURNAS LED',
-        'GANCHOS DE SUJECION',
-        'FRENO DE MANO ELECTRONICO',
-        'BOTON DE ENCENDIDO',
-        'PANTALLA LCD',
-        'CLIMATIZADOR DUAL',
-        'ASIENTOS DE PIEL',
-        'TECHO PANORAMICO',
-        'SENSOR DE PROXIMIDAD',
-        'CAMARA DE VISION'
-      ]
-    }
-  },
-  {
-    id: '5',
-    name: 'HONDA PILOT TOURING',
-    year: 2021,
-    category: 'SUV',
-    price: 585000,
-    image: '/cars/HONDA PILOT TOURING 20211.webp',
-    images: [
-      '/cars/HONDA PILOT TOURING 20211.webp',
-      '/cars/HONDA PILOT TOURING 20212.webp',
-      '/cars/HONDA PILOT TOURING 20213.webp',
-      '/cars/HONDA PILOT TOURING 20214.webp',
-      '/cars/HONDA PILOT TOURING 20215.webp',
-      '/cars/HONDA PILOT TOURING 20216.webp',
-      '/cars/HONDA PILOT TOURING 20217.webp',
-      '/cars/HONDA PILOT TOURING 20218.webp',
-      '/cars/HONDA PILOT TOURING 20219.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '59,679 KMS',
-      engine: 'MOTOR V6 DE 3.5L',
-      features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'BOTON DE ENCENDIDO',
-        'PANTALLA LCD',
-        '3 FILAS DE ASIENTOS',
-        'FAROS DE NIEBLA',
-        'LUCES DIURNAS LED',
-        'RIELES EN TECHO',
-        'ASIENTOS DE PIEL',
-        'ANTENA TIPO ALETA DE TIBURON',
-        'PUERTOS USB',
-        'SISTEMA DE NAVEGACION',
-        'SISTEMA DE SONIDO CON CONECTIVIDAD BLUETOOTH'
-      ]
-    }
-  },
+
   {
     id: '6',
     name: 'Mercedes Benz CLA250',
