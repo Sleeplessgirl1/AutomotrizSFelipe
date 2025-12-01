@@ -1,6 +1,39 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+ 
+ {
+    "id": '53',
+    "name": 'MERCEDES BENZ G500',
+    "year": 2016,
+    "category": 'SUV',
+    "price": 1420000,
+    "image": '/cars/MERCEDES BENZ G500 2016 1.webp',
+    "images": [
+      '/cars/MERCEDES BENZ G500 2016 1.webp',
+      '/cars/MERCEDES BENZ G500 2016 2.webp',
+      '/cars/MERCEDES BENZ G500 2016 3.webp',
+      '/cars/MERCEDES BENZ G500 2016 4.webp',
+      '/cars/MERCEDES BENZ G500 2016 5.webp',
+      '/cars/MERCEDES BENZ G500 2016 6.webp',
+      '/cars/MERCEDES BENZ G500 2016 7.webp',
+      '/cars/MERCEDES BENZ G500 2016 8.webp',
+      '/cars/MERCEDES BENZ G500 2016 9.webp',
+      '/cars/MERCEDES BENZ G500 2016 10.webp'
+    ],
+    "details": {
+      "condition": 'Factura de seminuevos con su consecutivo de agencia',
+      "keys": '2 llaves',
+      "kilometers": '52,035 Kms',
+      "engine": 'V8 5.5 L Biturbo 422 HP',
+      "features": [
+        'Impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
+      ]
+    }
+  },
+ 
   {
   id: '52',
     name: 'NISSAN KICKS EXCLUSIVE',
