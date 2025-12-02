@@ -1,9 +1,37 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
- 
  {
-    "id": '53',
+    "id": '59',
+    "name": 'KIA NIRO EX',
+    "year": 2020,
+    "category": 'SUV',
+    "price": 320000,
+    "image": '/cars/KIA NIRO EX 2020 1.webp',
+    "images": [
+      '/cars/KIA NIRO EX 2020 1.webp',
+      '/cars/KIA NIRO EX 2020 2.webp',
+      '/cars/KIA NIRO EX 2020 3.webp',
+      '/cars/KIA NIRO EX 2020 4.webp',
+      '/cars/KIA NIRO EX 2020 5.webp',
+      '/cars/KIA NIRO EX 2020 6.webp',
+      '/cars/KIA NIRO EX 2020 7.webp',
+      '/cars/KIA NIRO EX 2020 8.webp',
+    
+    ],
+    "details": {
+      "condition": 'Factura de agencia (única dueña)',
+      "keys": '2 llaves',
+      "kilometers": '41,994 Kms',
+      "engine": '4 cilindros 1.6 L híbrido',
+      "features": [
+        'Financiamiento Disponible',
+        'rendimiento de 27.4 km/L'
+      ]
+    }
+  },
+ {
+    "id": '58',
     "name": 'MERCEDES BENZ G500',
     "year": 2016,
     "category": 'SUV',
@@ -34,7 +62,7 @@ export const cars: Car[] = [
   },
  
   {
-  id: '52',
+  id: '57',
     name: 'NISSAN KICKS EXCLUSIVE',
     year: 2018,
     category: 'SUV',
@@ -62,7 +90,7 @@ export const cars: Car[] = [
       ]
     }},
      {
-    id: '50',
+    id: '56',
     name: 'Dodge Challenger Blackline',
     year: 2015,
     category: 'Deportivo',
@@ -93,7 +121,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '53',
+    id: '55',
     name: 'FORD LOBO LIMITED HEV',
     year: 2022,
     category: 'Pick Up',
@@ -124,7 +152,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '52',
+    id: '54',
     name: 'MINI Cooper S Multitone Edition',
     year: 2023,
     category: 'Deportivo',
@@ -157,7 +185,7 @@ export const cars: Car[] = [
   } , 
   
     {
-    id: '51',
+    id: '53',
     name: 'JEEP GRAND CHEROKEE LIMITED',
     year: 2023,
     category: 'SUV',
@@ -189,7 +217,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '50',
+    id: '52',
     name: 'KIA RIO L',
     year: 2021,
     category: 'Sedan',
@@ -221,7 +249,7 @@ export const cars: Car[] = [
   },
 
   {
-    id: '31',
+    id: '51',
     name: 'GMC SIERRA DENALI',
     year: 2024,
     category: 'Pick Up',
@@ -260,7 +288,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '32',
+    id: '50',
     name: 'MERCEDES BENZ C200',
     year: 2015,
     category: 'Sedan',
@@ -298,7 +326,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '33',
+    id: '49',
     name: 'NISSAN KICKS PLATINUM E-POWER',
     year: 2023,
     category: 'SUV',
@@ -336,7 +364,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '34',
+    id: '48',
     name: 'PORSCHE MACAN GTS',
     year: 2024,
     category: 'SUV',
@@ -376,7 +404,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '35',
+    id: '47',
     name: 'VOLKSWAGEN TERAMONT CROSSPORT',
     year: 2022,
     category: 'SUV',
@@ -416,7 +444,7 @@ export const cars: Car[] = [
   },
   ,
   {
-    id: '1',
+    id: '46',
     name: 'BMW X6 XDRIVE40i',
     year: 2022,
     category: 'SUV',
@@ -457,7 +485,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '2',
+    id: '   45',
     name: 'ACURA RDX TECH',
     year: 2021,
     category: 'SUV',
@@ -497,7 +525,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '3',
+    id: '44',
     name: 'Volkswagen Teramont Trendline',
     year: 2025,
     category: 'SUV',
@@ -537,7 +565,7 @@ export const cars: Car[] = [
   },
 
   {
-    id: '6',
+    id: '43',
     name: 'Mercedes Benz CLA250',
     year: 2017,
     category: 'Sedan',
@@ -576,7 +604,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '7',
+    id: '42',
     name: 'Chevrolet Cheyenne LT',
     year: 2023,
     category: 'Pick Up',
@@ -617,7 +645,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '8',
+    id: '41',
     name: 'Volkswagen Amarok TDI',
     year: 2017,
     category: 'Pick Up',
@@ -654,7 +682,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '9',
+    id: '40',
     name: 'Cupra Formentor VZ',
     year: 2023,
     category: 'Deportivo',
@@ -695,7 +723,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '10',
+    id: '39',
     name: 'Mercedes Benz E250',
     year: 2019,
     category: 'Sedan',
@@ -733,7 +761,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '11',
+    id: '38',
     name: 'Dodge Ram Limited 1500 Mild-Hybrid',
     year: 2022,
     category: 'Pick Up',
@@ -776,7 +804,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '12',
+    id: '37',
     name: 'Land Rover Sport SVR',
     year: 2017,
     category: 'SUV',
@@ -816,7 +844,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '13',
+    id: '36',
     name: 'RAM 1500 Bighorn',
     year: 2023,
     category: 'Pick Up',
@@ -854,7 +882,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '14',
+    id: '35',
     name: 'Volkswagen Jetta R Line',
     year: 2019,
     category: 'Sedan',
@@ -892,7 +920,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '15',
+    id: '34',
     name: 'Chevrolet Suburban High Country',
     year: 2021,
     category: 'SUV',
@@ -931,7 +959,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '16',
+    id: '33',
     name: 'Nissan X-Trail Advance',
     year: 2020,
     category: 'SUV',
@@ -965,7 +993,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '17',
+    id: '32',
     name: 'Audi S5 Coupe',
     year: 2018,
     category: 'Deportivo',
@@ -1005,7 +1033,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '18',
+    id: '31',
     name: 'Volkswagen Jetta GLI',
     year: 2023,
     category: 'Deportivo',
@@ -1041,7 +1069,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '19',
+    id: '30',
     name: 'Ford Lobo Raptor',
     year: 2018,
     category: 'Pick Up',
@@ -1084,7 +1112,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '20',
+    id: '29',
     name: 'Ford Lobo Limited',
     year: 2023,
     category: 'Pick Up',
@@ -1123,7 +1151,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '21',
+    id: '28',
     name: 'Porsche Macan T',
     year: 2025,
     category: 'SUV',
@@ -1164,7 +1192,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '22',
+    id: '27',
     name: 'Chevrolet Colorado ZR2',
     year: 2024,
     category: 'Pick Up',
@@ -1202,7 +1230,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '23',
+    id: '26',
     name: 'GMC Yukon Denali',
     year: 2022,
     category: 'SUV',
@@ -1243,7 +1271,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '24',
+    id: '25',
     name: 'Mercedes Benz GLE 53 AMG',
     year: 2021,
     category: 'SUV',
@@ -1285,7 +1313,7 @@ export const cars: Car[] = [
   },
   // New cars added at the end
   {
-    id: '25',
+    id: '24',
     name: 'PEUGEOT 3008 GT HDI',
     year: 2023,
     category: 'SUV',
@@ -1323,7 +1351,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '26',
+    id: '23',
     name: 'VOLKSWAGEN VENTO',
     year: 2022,
     category: 'Sedan',
@@ -1361,7 +1389,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '27',
+    id: '22',
     name: 'MERCEDES BENZ GLE43 AMG',
     year: 2020,
     category: 'SUV',
@@ -1400,7 +1428,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '28',
+    id: '21',
     name: 'BMW M2 COUPE',
     year: 2024,
     category: 'Deportivo',
@@ -1439,7 +1467,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '29',
+    id: '20',
     name: 'GMC SIERRA SLE',
     year: 2016,
     category: 'Pick Up',
@@ -1477,7 +1505,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '30',
+    id: '19',
     name: 'BMW X5 XDrive50i M Sport',
     year: 2020,
     category: 'SUV',
@@ -1516,7 +1544,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '31',
+    id: '18',
     name: 'FORD EDGE ST',
     year: 2023,
     category: 'SUV',
@@ -1554,7 +1582,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '32',
+    id: '17',
     name: 'Nissan XTRAIL HÍBRIDA',
     year: 2019,
     category: 'SUV',
@@ -1592,7 +1620,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '33',
+    id: '16',
     name: 'Toyota Tacoma trd',
     year: 2019,
     category: 'Pick Up',
@@ -1630,7 +1658,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '34',
+    id: '15',
     name: 'GMC SIERRA AT4',
     year: 2022,
     category: 'Pick Up',
@@ -1668,7 +1696,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '35',
+    id: '14',
     name: 'AUDI Q2',
     year: 2019,
     category: 'SUV',
@@ -1706,7 +1734,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '36',
+    id: '13',
     name: 'CHEVROLET CHEYENNE RST',
     year: 2019,
     category: 'Pick Up',
@@ -1744,7 +1772,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '37',
+    id: '12',
     name: 'FORD BRONCO SPORT OUTERBANKS',
     year: 2021,
     category: 'SUV',
@@ -1782,7 +1810,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '38',
+    id: '11',
     name: 'FORD EXPEDITION PLATINUM',
     year: 2019,
     category: 'SUV',
@@ -1820,7 +1848,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '39',
+    id: '10',
     name: 'Chevrolet Colorado',
     year: 2016,
     category: 'Pick Up',
@@ -1858,7 +1886,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '40',
+    id: '9',
     name: 'POLARIS SLINGHOT',
     year: 2015,
     category: 'Deportivo',
@@ -1895,7 +1923,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '41',
+    id: '8',
     name: 'KIA SORENTO EX GDI',
     year: 2019,
     category: 'SUV',
@@ -1933,7 +1961,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '42',
+    id: '7',
     name: 'DODGE JOURNEY',
     year: 2016,
     category: 'SUV',
@@ -1971,7 +1999,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '43',
+    id: '6',
     name: 'VOLKSWAGEN GOLF HIGHLINE',
     year: 2017,
     category: 'Sedan',
@@ -2009,7 +2037,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '44',
+    id: '5',
     name: 'JEEP GRAND CHEROKEE',
     year: 2015,
     category: 'SUV',
@@ -2047,7 +2075,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '45',
+    id: '4',
     name: 'JETTA TRENDLINE',
     year: 2018,
     category: 'Sedan',
@@ -2085,7 +2113,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '47',
+    id: '3',
     name: 'TRAVERSE LT',
     year: 2017,
     category: 'SUV',
@@ -2123,7 +2151,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '48',
+    id: '2',
     name: 'Jeep Sahara 4x4',
     year: 2017,
     category: 'SUV',
@@ -2161,7 +2189,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '49',
+    id: '1',
     name: 'Ford Escape',
     year: 2020,
     category: 'SUV',
