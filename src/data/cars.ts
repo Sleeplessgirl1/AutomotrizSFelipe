@@ -1,14 +1,14 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
- {
-    "id": '59',
-    "name": 'KIA NIRO EX',
-    "year": 2020,
-    "category": 'SUV',
-    "price": 320000,
-    "image": '/cars/KIA NIRO EX 20201.webp',
-    "images": [
+  {
+    id: '59',
+    name: 'KIA NIRO EX',
+    year: 2020,
+    category: 'SUV',
+    price: 320000,
+    image: '/cars/KIA NIRO EX 20201.webp',
+    images: [
       '/cars/KIA NIRO EX 20201.webp',
       '/cars/KIA NIRO EX 20202.webp',
       '/cars/KIA NIRO EX 20203.webp',
@@ -17,27 +17,26 @@ export const cars: Car[] = [
       '/cars/KIA NIRO EX 20206.webp',
       '/cars/KIA NIRO EX 20207.webp',
       '/cars/KIA NIRO EX 20208.webp',
-    
     ],
-    "details": {
-      "condition": 'Factura de agencia (única dueña)',
-      "keys": '2 llaves',
-      "kilometers": '41,994 Kms',
-      "engine": '4 cilindros 1.6 L híbrido',
-      "features": [
+    details: {
+      condition: 'Factura de agencia (única dueña)',
+      keys: '2 llaves',
+      kilometers: '41,994 Kms',
+      engine: '4 cilindros 1.6 L híbrido',
+      features: [
         'Financiamiento Disponible',
-        'rendimiento de 27.4 km/L'
+        'Rendimiento de 27.4 km/L'
       ]
     }
   },
- {
-    "id": '58',
-    "name": 'MERCEDES BENZ G500',
-    "year": 2016,
-    "category": 'SUV',
-    "price": 1420000,
-    "image": '/cars/MERCEDES BENZ G500 20161.webp',
-    "images": [
+  {
+    id: '58',
+    name: 'MERCEDES BENZ G500',
+    year: 2016,
+    category: 'SUV',
+    price: 1420000,
+    image: '/cars/MERCEDES BENZ G500 20161.webp',
+    images: [
       '/cars/MERCEDES BENZ G500 20161.webp',
       '/cars/MERCEDES BENZ G500 20162.webp',
       '/cars/MERCEDES BENZ G500 20163.webp',
@@ -48,21 +47,20 @@ export const cars: Car[] = [
       '/cars/MERCEDES BENZ G500 20168.webp',
       '/cars/MERCEDES BENZ G500 20169.webp',
     ],
-    "details": {
-      "condition": 'Factura de seminuevos con su consecutivo de agencia',
-      "keys": '2 llaves',
-      "kilometers": '52,035 Kms',
-      "engine": 'V8 5.5 L Biturbo 422 HP',
-      "features": [
+    details: {
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '52,035 Kms',
+      engine: 'V8 5.5 L Biturbo 422 HP',
+      features: [
         'Impecables condiciones',
         'Financiamiento Disponible',
         'Precio Negociable'
       ]
     }
   },
- 
   {
-  id: '57',
+    id: '57',
     name: 'NISSAN KICKS EXCLUSIVE',
     year: 2018,
     category: 'SUV',
@@ -84,12 +82,13 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '48,947 Kms',
       engine: '4 cilindros',
+      transmission: 'Automática',
       features: [
-        'Financiamiento Disponible',
-        'Automática'
+        'Financiamiento Disponible'
       ]
-    }},
-     {
+    }
+  },
+  {
     id: '56',
     name: 'Dodge Challenger Blackline',
     year: 2015,
@@ -97,7 +96,6 @@ export const cars: Car[] = [
     price: 300000,
     image: '/cars/Dodge Challenger Blackline 20151.webp',
     images: [
-      '/cars/Dodge Challenger Blackline 20151.webp',
       '/cars/Dodge Challenger Blackline 20151.webp',
       '/cars/Dodge Challenger Blackline 20152.webp',
       '/cars/Dodge Challenger Blackline 20153.webp',
@@ -110,49 +108,18 @@ export const cars: Car[] = [
     details: {
       condition: 'Factura de agencia (2 dueños)',
       keys: '2 llaves',
-      kilometers: '161,181 Kms',
+      kilometers: '161,181 kms',
       engine: 'V6 de 3.6 Litros',
+      transmission: 'Automático de 8 velocidades',
       features: [
         'Financiamiento Disponible',
         'Servicios de agencia',
-        'Automático de 8 velocidades',
         'Precio Negociable'
       ]
     }
   },
   {
     id: '55',
-    name: 'FORD LOBO LIMITED HEV',
-    year: 2022,
-    category: 'Pick Up',
-    price: 1130000,
-    image: '/cars/FORD LOBO LIMITED HEV 2022.webp',
-    images: [
-      '/cars/FORD LOBO LIMITED HEV 2022.webp',
-      '/cars/FORD LOBO LIMITED HEV 20222.webp',
-      '/cars/FORD LOBO LIMITED HEV 20223.webp',
-      '/cars/FORD LOBO LIMITED HEV 20224.webp',
-      '/cars/FORD LOBO LIMITED HEV 20225.webp',
-      '/cars/FORD LOBO LIMITED HEV 20226.webp',
-      '/cars/FORD LOBO LIMITED HEV 20227.webp',
-      '/cars/FORD LOBO LIMITED HEV 20228.webp',
-      '/cars/FORD LOBO LIMITED HEV 20229.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (2 dueños)',
-      keys: '2 llaves',
-      kilometers: '48,090 Kms',
-      engine: 'V6 de 3.5L Híbrida',
-      features: [
-        'Financiamiento Disponible',
-        'Automática de 10 velocidades',
-        '4x4',
-        'Precio Negociable'
-      ]
-    }
-  },
-  {
-    id: '54',
     name: 'MINI Cooper S Multitone Edition',
     year: 2023,
     category: 'Deportivo',
@@ -182,10 +149,9 @@ export const cars: Car[] = [
         'Precio Negociable'
       ]
     }
-  } , 
-  
-    {
-    id: '53',
+  },
+  {
+    id: '54',
     name: 'JEEP GRAND CHEROKEE LIMITED',
     year: 2023,
     category: 'SUV',
@@ -217,13 +183,13 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '52',
+    id: '53',
     name: 'KIA RIO L',
     year: 2021,
     category: 'Sedan',
     price: 230000,
     image: '/cars/KIA RIO L 20211.webp',
-    images: [  
+    images: [
       '/cars/KIA RIO L 20211.webp',
       '/cars/KIA RIO L 20212.webp',
       '/cars/KIA RIO L 20213.webp',
@@ -239,17 +205,16 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '59,706 Kms',
       engine: '4 cilindros',
+      transmission: 'Manual',
       features: [
         'Impecables condiciones',
         'Financiamiento Disponible',
-        'Precio Negociable',
-        'Transmisión manual'
+        'Precio Negociable'
       ]
     }
   },
-
   {
-    id: '51',
+    id: '52',
     name: 'GMC SIERRA DENALI',
     year: 2024,
     category: 'Pick Up',
@@ -267,28 +232,21 @@ export const cars: Car[] = [
       '/cars/GMC SIERRA DENALI 20249.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '15,000 KMS',
-      engine: 'MOTOR V8 DE 6.2 L',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '19,607 Kms',
+      engine: 'V8 de 6.2 L',
+      horsepower: '425 HP',
+      traction: '4x4',
       features: [
-        'EXCELENTES CONDICIONES',
-        '420 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'SISTEMA DE SONIDO',
-        'CLIMATIZADOR BIZONA',
-        'ASIENTOS DE PIEL',
-        'FAROS DE NIEBLA Y FAROS LED',
-        'SENSORES DE PROXIMIDAD DELANTEROS Y TRASEROS',
-        'CAMARA DE VISIBILIDAD',
-        'CUATRO ESCAPES CROMADOS',
-        'ANTENA DE TIBURON'
+        'Condiciones de nueva',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '50',
+    id: '51',
     name: 'MERCEDES BENZ C200',
     year: 2015,
     category: 'Sedan',
@@ -306,22 +264,47 @@ export const cars: Car[] = [
       '/cars/MERCEDES BENZ C200 20159.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '95,000 KMS',
-      engine: 'MOTOR 4 CILINDROS TURBO',
+      condition: 'Factura de agencia (2 dueños)',
+      keys: '2 llaves',
+      kilometers: '69,711 Kms',
+      engine: '4 cilindros',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD',
-        'LUCES DIURNAS LED',
-        'SISTEMA DE NAVEGACION',
-        'PANEL DE INSTRUMENTOS DIGITAL',
-        'FRENO DE MANO ELECTRICO',
-        'CLIMATIZADOR BIZONA',
-        'ASIENTOS E INTERIORES DE PIEL',
-        'SENSORES DE PROXIMIDAD',
-        'SISTEMA AUTO START-STOP'
+        'Impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '50',
+    name: 'PORSCHE MACAN GTS',
+    year: 2024,
+    category: 'SUV',
+    price: 1695000,
+    image: '/cars/PORSCHE MACAN GTS 20241.webp',
+    images: [
+      '/cars/PORSCHE MACAN GTS 20241.webp',
+      '/cars/PORSCHE MACAN GTS 20242.webp',
+      '/cars/PORSCHE MACAN GTS 20243.webp',
+      '/cars/PORSCHE MACAN GTS 20244.webp',
+      '/cars/PORSCHE MACAN GTS 20245.webp',
+      '/cars/PORSCHE MACAN GTS 20246.webp',
+      '/cars/PORSCHE MACAN GTS 20247.webp',
+      '/cars/PORSCHE MACAN GTS 20248.webp',
+      '/cars/PORSCHE MACAN GTS 20249.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (2 dueños)',
+      keys: '2 llaves',
+      kilometers: '32,061 Kms',
+      engine: 'V6 Biturbo 2.9 L',
+      horsepower: '440HP',
+      features: [
+        'Versión GTS',
+        'Garantía',
+        'Impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
@@ -344,67 +327,19 @@ export const cars: Car[] = [
       '/cars/NISSAN KICKS PLATINUM E-POWER 20239.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '25,000 KMS',
-      engine: 'MOTOR HIBRIDO E-POWER',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '74,756 Kms',
+      engine: '3 cilindros 1.2 L Híbrido',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD',
-        'LUCES DIURNAS LED',
-        'SISTEMA DE NAVEGACION',
-        'PANEL DE INSTRUMENTOS DIGITAL',
-        'FRENO DE MANO ELECTRICO',
-        'CLIMATIZADOR BIZONA',
-        'ASIENTOS E INTERIORES DE PIEL',
-        'SENSORES DE PROXIMIDAD',
-        'SISTEMA AUTO START-STOP'
+        'Excelentes condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
     id: '48',
-    name: 'PORSCHE MACAN GTS',
-    year: 2024,
-    category: 'SUV',
-    price: 1750000,
-    image: '/cars/PORSCHE MACAN GTS 20241.webp',
-    images: [
-      '/cars/PORSCHE MACAN GTS 20241.webp',
-      '/cars/PORSCHE MACAN GTS 20242.webp',
-      '/cars/PORSCHE MACAN GTS 20243.webp',
-      '/cars/PORSCHE MACAN GTS 20244.webp',
-      '/cars/PORSCHE MACAN GTS 20245.webp',
-      '/cars/PORSCHE MACAN GTS 20246.webp',
-      '/cars/PORSCHE MACAN GTS 20247.webp',
-      '/cars/PORSCHE MACAN GTS 20248.webp',
-      '/cars/PORSCHE MACAN GTS 20249.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '10,000 KMS',
-      engine: 'MOTOR V6 2.9 TURBO',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '434 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA HD',
-        'RINES 21" RS SPYDER DESIGN',
-        'LUCES DIURNAS LED',
-        'PALETAS DE CAMBIOS',
-        'CLIMATIZADOR BIZONA',
-        'FRENO DE MANO ELECTRONICO',
-        'TECHO PANORAMICO',
-        'SENSORES DE PROXIMIDAD',
-        'SISTEMA DE NAVEGACION',
-        'CAMARA DE VISION'
-      ]
-    }
-  },
-  {
-    id: '47',
     name: 'VOLKSWAGEN TERAMONT CROSSPORT',
     year: 2022,
     category: 'SUV',
@@ -422,29 +357,19 @@ export const cars: Car[] = [
       '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20229.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '35,000 KMS',
-      engine: 'MOTOR V6 3.6 L',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '59,509 Kms',
+      engine: 'V6',
       features: [
-        'EXCELENTES CONDICIONES',
-        '280 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD',
-        'LUCES DIURNAS LED',
-        'SISTEMA DE NAVEGACION',
-        'PANEL DE INSTRUMENTOS DIGITAL',
-        'FRENO DE MANO ELECTRICO',
-        'CLIMATIZADOR BIZONA',
-        'ASIENTOS E INTERIORES DE PIEL',
-        'SENSORES DE PROXIMIDAD',
-        'SISTEMA AUTO START-STOP'
+        'Excelentes condiciones',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
-  ,
   {
-    id: '46',
+    id: '47',
     name: 'BMW X6 XDRIVE40i',
     year: 2022,
     category: 'SUV',
@@ -462,30 +387,21 @@ export const cars: Car[] = [
       '/cars/BMW X6 XDRIVE40i 20229.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (DOS DUEÑOS)',
-      keys: '2 LLAVES',
-      kilometers: '84,790 KMS',
-      engine: 'MOTOR 6 CILINDROS TWIN POWER TURBO',
+      condition: 'Factura de agencia (2 dueños)',
+      keys: '2 llaves',
+      kilometers: '84,790 Kms',
+      engine: '6 cilindros TwinPower Turbo',
+      traction: 'AWD (xDrive)',
       features: [
-        'IMPECABLES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'BOTON DE ENCENDIDO',
-        'PANTALLA LCD',
-        'CLIMATIZADOR BIZONA',
-        'LUCES DIURNAS LED',
-        'FAROS DE NIEBLA',
-        'SENSORES DE PROXIMIDAD DELANTEROS Y TRASEROS',
-        'PALETAS DE CAMBIOS',
-        'SISTEMA DE NAVEGACION',
-        'ASIENTOS DE PIEL',
-        'DOBLE ESCAPE CROMADO',
-        'ANTENA TIPO ALETA DE TIBURON',
-        'PAQUETE M SPORT'
+        'Paquete M Sport',
+        'Impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '   45',
+    id: '46',
     name: 'ACURA RDX TECH',
     year: 2021,
     category: 'SUV',
@@ -503,29 +419,19 @@ export const cars: Car[] = [
       '/cars/ACURA RDX TECH 20219.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '45,349 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.0 T',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '45,349 Kms',
+      engine: '4 cilindros 2.0 T',
       features: [
-        'IMPECABLES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'TECHO PANORAMICO',
-        'BOTON DE ENCENDIDO',
-        'PANTALLA LCD A COLOR',
-        'FRENO DE MANO ELECTRONICO',
-        'SISTEMA START-STOP',
-        'PALETAS DE CAMBIOS',
-        'SISTEMA DE NAVEGACION',
-        'ASIENTOS DE PIEL',
-        'ANTENA TIPO ALETA DE TIBURON',
-        'SENSORES DE PROXIMIDAD',
-        'CAMARA DE VISION'
+        'Impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '44',
+    id: '45',
     name: 'Volkswagen Teramont Trendline',
     year: 2025,
     category: 'SUV',
@@ -543,29 +449,19 @@ export const cars: Car[] = [
       '/cars/Volkswagen Teramont Trendline 20259.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '8,209 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.0 T',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '8,209 Kms',
+      engine: '4 cilindros 2.0 T',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'LUCES DIURNAS LED',
-        'RIELES EN TECHO',
-        'PANTALLA LCD',
-        'PANTALLA DE INSTRUMENTOS DIGITAL',
-        'DOBLE ESCAPE CROMADO',
-        'ANTENA TIPO ALETA DE TIBURON',
-        'PUERTOS USB/C',
-        'SISTEMA DE NAVEGACION',
-        'SISTEMA DE AUDIO CON CONECTIVIDAD BLUETOOTH',
-        '3 FILAS DE ASIENTOS'
+        '3 filas de asientos',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
-
   {
-    id: '43',
+    id: '44',
     name: 'Mercedes Benz CLA250',
     year: 2017,
     category: 'Sedan',
@@ -583,28 +479,18 @@ export const cars: Car[] = [
       '/cars/Mercedes Benz CLA250 20179.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '53,000 KMS',
-      engine: 'MOTOR 4 CILINDROS',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '53,000 kms',
+      engine: '4 cilindros',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'BOTON DE ENCENDIDO',
-        'PANTALLA LCD',
-        'CLIMATIZADOR BIZONA',
-        'SISTEMA DE NAVEGACION',
-        'LUCES DIURNAS LED',
-        'SENSORES DE PROXIMIDAD DELANTEROS Y TRASEROS',
-        'ANTENA TIPO TIBURON',
-        'DOBLE ESCAPE CROMADO',
-        'FRENO DE MANO ELECTRONICO',
-        'SISTEMA DE AUDIO CON CONECTIVIDAD BLUETOOTH'
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '42',
+    id: '43',
     name: 'Chevrolet Cheyenne LT',
     year: 2023,
     category: 'Pick Up',
@@ -622,30 +508,20 @@ export const cars: Car[] = [
       '/cars/Chevrolet Cheyenne LT 20239.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '9,088 KMS',
-      engine: 'MOTOR V8 DE 5.3 L',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '9,088 Kms',
+      engine: 'V8 de 5.3 L',
+      horsepower: '355 HP',
       features: [
-        'COMO NUEVA IMPECABLES CONDICIONES',
-        '355 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD TOUCH',
-        'CLIMATIZADOR BIZONA',
-        'FRENO DE MANO ELECTRICO',
-        'LUCES DIURNAS LED',
-        'ANTENA TIPO TIBURON',
-        'GANCHOS DE ARRASTRE',
-        'ESTRIBOS',
-        'BOTON DE ENCENDIDO',
-        'SENSORES DE PROXIMIDAD',
-        'AUTO START-STOP',
-        'SISTEMA DE NAVEGACION'
+        'Como nueva, impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '41',
+    id: '42',
     name: 'Volkswagen Amarok TDI',
     year: 2017,
     category: 'Pick Up',
@@ -663,30 +539,23 @@ export const cars: Car[] = [
       '/cars/Volkswagen Amarok TDI 20179.webp'
     ],
     details: {
-      condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '149,110 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.0 TDI 4X4',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '149,110 Kms',
+      engine: '4 cilindros 2.0 TDI',
+      traction: '4x4',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD',
-        'ASIENTOS DE PIEL',
-        'SISTEMA DE SONIDO CON CONEXION BLUETOOTH',
-        'SISTEMA DE NAVEGACION',
-        'COMPUTADORA DE VIAJE DIGITAL',
-        'PUERTOS USB',
-        'FAROS DE NIEBLA',
-        'ESTRIBOS'
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '40',
+    id: '41',
     name: 'Cupra Formentor VZ',
     year: 2023,
     category: 'Deportivo',
-    price: 695000,
+    price: 720000,
     image: '/cars/Cupra Formentor VZ 20231.webp',
     images: [
       '/cars/Cupra Formentor VZ 20231.webp',
@@ -700,30 +569,21 @@ export const cars: Car[] = [
       '/cars/Cupra Formentor VZ 20239.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '45,870 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.0 TURBO',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '45,870 Kms',
+      engine: '4 cilindros 2.0 Turbo',
       features: [
-        'IMPECABLES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'BOTON DE ENCENDIDO',
-        'PANTALLA LCD A COLOR',
-        'SENSORES DE PROXIMIDAD',
-        'LUCES DIURNAS LED',
-        'RIELES EN TECHO',
-        'TECHO PANORAMICO',
-        'PALETAS DE CAMBIOS',
-        'ANTENA TIPO TIBURON',
-        'FAROS DE NIEBLA',
-        'SISTEMA DE SONIDO BEATS AUDIO',
-        'ILUMINACION AMBIENTAL',
-        'RENDIMIENTO DE 12.9 KM/L'
+        'Rendimiento de 12.9 Km/L',
+        'Sistema de sonido BeatsAudio',
+        'Iluminación ambiental',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '39',
+    id: '40',
     name: 'Mercedes Benz E250',
     year: 2019,
     category: 'Sedan',
@@ -741,27 +601,19 @@ export const cars: Car[] = [
       '/cars/Mercedes Benz E250 20199.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '135,493 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.0 TURBO',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '135,493 Kms',
+      engine: '4 cilindros 2.0 Turbo',
       features: [
-        'IMPECABLES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD',
-        'LUCES DIURNAS LED',
-        'SISTEMA DE NAVEGACION',
-        'PANEL DE INSTRUMENTOS DIGITAL',
-        'FRENO DE MANO ELECTRICO',
-        'CLIMATIZADOR BIZONA',
-        'ASIENTOS E INTERIORES DE PIEL',
-        'SENSORES DE PROXIMIDAD',
-        'SISTEMA AUTO START-STOP'
+        'Impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '38',
+    id: '39',
     name: 'Dodge Ram Limited 1500 Mild-Hybrid',
     year: 2022,
     category: 'Pick Up',
@@ -779,32 +631,20 @@ export const cars: Car[] = [
       '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20229.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '64,418 KMS',
-      engine: 'MOTOR V8 DE 5.7 L MILD - HYBRID 4X4',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '64,418 Kms',
+      engine: 'V8 de 5.7 L Mild-Hybrid',
+      transmission: 'Transmisión automática de 8 velocidades',
+      traction: '4X4',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD A COLOR',
-        'FRENO DE MANO ELECTRONICO',
-        'BOTON DE ENCENDIDO',
-        'CLIMATIZADOR BIZONA',
-        'SISTEMA DE NAVEGACION',
-        'PUERTOS USB / C',
-        'ASIENTOS DE PIEL',
-        'ANTENA TIPO TIBURON',
-        'DOBLE ESCAPE CROMADO',
-        'SENSORES DE PROXIMIDAD',
-        'CAMARA DE VISION',
-        'TRANSMISION AUTOMATICA DE 8 VELOCIDADES',
-        'FAROS DE NIEBLA',
-        'GANCHOS DE SUJECION'
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '37',
+    id: '38',
     name: 'Land Rover Sport SVR',
     year: 2017,
     category: 'SUV',
@@ -822,30 +662,20 @@ export const cars: Car[] = [
       '/cars/Land Rover Sport SVR 20179.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '73,978 KMS',
-      engine: 'MOTOR V8 5.0 SUPERCHARGED',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '73,978 Kms',
+      engine: 'V8 5.0 supercharged',
+      traction: 'AWD',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA LCD',
-        'TECHO PANORAMICO',
-        'LUCES DIURNAS LED',
-        'ASIENTOS DE PIEL',
-        'PALETAS DE CAMBIOS',
-        'COMPUTADORA DE VIAJE DIGITAL',
-        'SENSORES DE PROXIMIDAD',
-        'CAMARA DE VISION',
-        'ANTENA ALETA TIBURON',
-        'SISTEMA DE SONIDO PREMIUM',
-        'SISTEMA DE NAVEGACION Y CONECTIVIDAD BLUETOOTH'
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '36',
-    name: 'RAM 1500 Bighorn',
+    id: '37',
+    name: 'RAM 1500 BIGHORN',
     year: 2023,
     category: 'Pick Up',
     price: 740000,
@@ -862,27 +692,19 @@ export const cars: Car[] = [
       '/cars/RAM 1500 Bighorn 20239.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '45,093 KMS',
-      engine: 'MOTOR V6 PENTASTAR 4X4',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '45,093 Kms',
+      engine: 'Motor V6 pentastar',
+      traction: '4x4',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'BOTON DE ENCENDIDO',
-        'PANTALLA LCD',
-        'FAROS DE NIEBLA',
-        'GANCHOS DE SUJECION',
-        'CONECTIVIDAD BLUETOOTH',
-        'SISTEMA DE NAVEGACION',
-        'ESTRIBOS',
-        'SISTEMA AUTO START-STOP',
-        'FRENO DE MANO ELECTRONICO'
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '35',
+    id: '36',
     name: 'Volkswagen Jetta R Line',
     year: 2019,
     category: 'Sedan',
@@ -900,31 +722,22 @@ export const cars: Car[] = [
       '/cars/Volkswagen Jetta R Line 20199.webp'
     ],
     details: {
-      condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '131,395 KMS',
-      engine: 'MOTOR 4 CILINDROS 1.4 L TURBO',
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '131,395 kms',
+      engine: '4 cilindros 1.4 L Turbo',
+      transmission: 'Automático',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'BOTON DE ENCENDIDO',
-        'QUEMACOCOS',
-        'PANTALLA TACTIL',
-        'FAROS DE NIEBLA',
-        'CONECTIVIDAD BLUETOOTH',
-        'ASIENTOS DE PIEL',
-        'PUERTO USB',
-        'CLIMATIZADOR BIZONA',
-        'PANTALLA DE INSTRUMENTOS DIGITAL'
+        'Financiamiento Disponible'
       ]
     }
   },
   {
-    id: '34',
+    id: '35',
     name: 'Chevrolet Suburban High Country',
     year: 2021,
     category: 'SUV',
-    price: 1170000,
+    price: 1190000,
     image: '/cars/Chevrolet Suburban High Country 20211.webp',
     images: [
       '/cars/Chevrolet Suburban High Country 20211.webp',
@@ -938,28 +751,23 @@ export const cars: Car[] = [
       '/cars/Chevrolet Suburban High Country 20219.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '75,000 KMS',
-      engine: 'MOTOR V8 6.2 L ECO TEC 4X4',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: 'No especificado',
+      engine: 'V8 6.2 L EcoTec',
+      horsepower: '420 HP',
+      transmission: 'Transmisión automática de 10 velocidades',
+      traction: '4X4',
       features: [
-        'EXCELENTES CONDICIONES',
-        '420 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'SISTEMA DE SONIDO MARCA BOSE',
-        'ESTRIBOS LATERALES RETRACTILES',
-        'ASIENTOS DE PIEL',
-        'TERCERA FILA',
-        'LUCES DIURNAS',
-        'SENSORES DE PROXIMIDAD',
-        'CAMARA DE VISION',
-        'SISTEMA DE NAVEGACION'
+        'Sistema de sonido marca Bose',
+        'Estribos laterales retráctiles',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '33',
+    id: '34',
     name: 'Nissan X-Trail Advance',
     year: 2020,
     category: 'SUV',
@@ -977,23 +785,18 @@ export const cars: Car[] = [
       '/cars/Nissan X-Trail Advance 20209.webp'
     ],
     details: {
-      condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '79,801 KMS',
-      engine: 'MOTOR 4 CILINDROS',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '79,801 Kms',
+      engine: '4 cilindros',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'SISTEMA DE SONIDO CON CONECTIVIDAD BLUETOOTH',
-        'PANTALLA LCD',
-        'COMPUTADORA DE VIAJE DIGITAL',
-        'ANTENA TIPO TIBURON',
-        'LUCES DIURNAS LED'
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '32',
+    id: '33',
     name: 'Audi S5 Coupe',
     year: 2018,
     category: 'Deportivo',
@@ -1011,29 +814,19 @@ export const cars: Car[] = [
       '/cars/Audi S5 Coupe 20189.webp'
     ],
     details: {
-      condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '91,049 KMS',
-      engine: 'MOTOR V6 3.0 TURBO',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '91,049 Kms',
+      engine: 'V6 3.0 Turbo',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'ASIENTOS DEPORTIVOS S',
-        'LUCES DIURNAS LED',
-        'ASIENTOS DE PIEL',
-        'CAMARA DE REVERSA',
-        'SENSORES DE PROXIMIDAD',
-        'ANTENA TIPO TIBURON',
-        'FRENO DE MANO ELECTRICO',
-        'CLIMATIZADOR BIZONA',
-        'SISTEMA DE NAVEGACION',
-        'SISTEMA DE CONECTIVIDAD BLUETOOTH'
+        'Asientos deportivos S',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '31',
+    id: '32',
     name: 'Volkswagen Jetta GLI',
     year: 2023,
     category: 'Deportivo',
@@ -1051,29 +844,24 @@ export const cars: Car[] = [
       '/cars/Volkswagen Jetta GLI 20239.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '83,789 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.0 TURBO',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '83,789 Kms',
+      engine: '4 cilindros 2.0 Turbo',
+      transmission: 'Transmisión automática de 7 velocidades',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL DE 10"',
-        'TRANSMISION AUTOMATICA DE 7 VELOCIDADES',
-        'LUCES DIURNAS LED',
-        'SENSORES DE PROXIMIDAD',
-        'CLIMATIZADOR DUAL',
-        'ASIENTOS DE PIEL',
-        'DOBLE ESCAPE CROMADO'
+        'Pantalla táctil de 10”',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '30',
+    id: '31',
     name: 'Ford Lobo Raptor',
     year: 2018,
     category: 'Pick Up',
-    price: 800000,
+    price: 820000,
     image: '/cars/Ford Lobo Raptor 20181.webp',
     images: [
       '/cars/Ford Lobo Raptor 20181.webp',
@@ -1087,36 +875,25 @@ export const cars: Car[] = [
       '/cars/Ford Lobo Raptor 20189.webp'
     ],
     details: {
-      condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '95,000 KMS',
-      engine: 'MOTOR V6 DE 3.5 L TURBO 4X4',
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: 'No especificado',
+      engine: 'V6 de 3.5 L Turbo',
+      horsepower: '450 HP',
+      traction: '4X4',
       features: [
-        'IMPECABLES CONDICIONES',
-        '450 HP',
-        'MANDOS AL VOLANTE',
-        'TECHO PANORAMICO',
-        'ASIENTOS DE PIEL',
-        'PANTALLA LCD A COLOR',
-        'PALETAS DE CAMBIOS',
-        'CAMARA DE REVERSA',
-        'SISTEMA DE AUDIO COMPATIBLE CON APPLE CARPLAY Y ANDROID AUTO',
-        'SISTEMA DE NAVEGACION',
-        'LUCES DIRUNAS LED',
-        'FAROS LED',
-        'GANCHOS DE SUJECION DELANTEROS Y TRASEROS',
-        'CLIMATIZADOR DUAL',
-        'SENSORES DE PROXIMIDAD',
-        'TRANSMISION DE 10 VELOCIDADES'
+        'Impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '29',
+    id: '30',
     name: 'Ford Lobo Limited',
     year: 2023,
     category: 'Pick Up',
-    price: 1215000,
+    price: 1250000,
     image: '/cars/Ford Lobo Limited 20231.webp',
     images: [
       '/cars/Ford Lobo Limited 20231.webp',
@@ -1130,28 +907,19 @@ export const cars: Car[] = [
       '/cars/Ford Lobo Limited 20239.webp'
     ],
     details: {
-      condition: 'FACTURA DE EMPRESA CON SU CONSECUTIVO DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '35,000 KMS',
-      engine: 'MOTOR V6 DE 3.5 POWERBOOST HEV 4X4',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: 'No especificado',
+      engine: 'V6 de 3.5 PowerBoost HEV',
+      traction: '4x4',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'BOTON DE ENCENDIDO',
-        'PANTALLA LCD A COLOR',
-        'CLIMATIZADOR DUAL',
-        'LUCES DIURNAS LED',
-        'FAROS DE NIEBLA',
-        'ASIENTOS DE PIEL',
-        'SENSORES DE PROXIMIDAD DELANTEROS Y TRASEROS',
-        'CAMARA DE VISION',
-        'SISTEMA DE NAVEGACION',
-        'BLUETOOTH'
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '28',
+    id: '29',
     name: 'Porsche Macan T',
     year: 2025,
     category: 'SUV',
@@ -1169,34 +937,25 @@ export const cars: Car[] = [
       '/cars/Porsche Macan T 20259.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '15,462 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.0 TURBO',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '15,462 Kms',
+      engine: '4 cilindros 2.0 Turbo',
+      horsepower: '265 HP',
       features: [
-        'EXCELENTES CONDICIONES',
-        '265 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA HD',
-        'RINES 21" RS SPYDER DESIGN',
-        'COLOR CRAYON',
-        'LUCES DIURNAS LED',
-        'PALETAS DE CAMBIOS',
-        'CLIMATIZADOR BIZONA',
-        'FRENO DE MANO ELECTRONICO',
-        'TECHO PANORAMICO',
-        'SENSORES DE PROXIMIDAD',
-        'SISTEMA DE NAVEGACION',
-        'CAMARA DE VISION'
+        'Rines 21” RS Spyder Design',
+        'Color: Crayón',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '27',
+    id: '28',
     name: 'Chevrolet Colorado ZR2',
     year: 2024,
     category: 'Pick Up',
-    price: 965000,
+    price: 980000,
     image: '/cars/Chevrolet Colorado ZR2 20241.webp',
     images: [
       '/cars/Chevrolet Colorado ZR2 20241.webp',
@@ -1209,28 +968,23 @@ export const cars: Car[] = [
       '/cars/Chevrolet Colorado ZR2 20248.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '58,307 KMS',
-      engine: 'MOTOR 4 CILINDROS 2.7 L TURBO PLUS',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '58,307 Kms',
+      engine: '4 cilindros 2.7 L Turbo Plus',
+      horsepower: '310 HP',
+      transmission: 'Transmisión automática de 8 velocidades',
       features: [
-        'EXCELENTES CONDICIONES',
-        'GARANTIA DE AGENCIA',
-        '310 HP',
-        '4 MODOS DE MANEJO',
-        'TRANSMISION AUTOMATICA DE 8 VELOCIDADES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA HD DE 11.3"',
-        'LUCES DIURNAS LED',
-        'BOTON DE ENCENDIDO',
-        'CLIMATIZADOR BIZONA',
-        'SENSORES DE PROXIMIDAD',
-        'CAMARA DE VISION'
+        'Pantalla HD de 11.3”',
+        'Garantía en agencia',
+        '4 modos de manejo',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '26',
+    id: '27',
     name: 'GMC Yukon Denali',
     year: 2022,
     category: 'SUV',
@@ -1248,31 +1002,21 @@ export const cars: Car[] = [
       '/cars/GMC Yukon Denali 20229.webp'
     ],
     details: {
-      condition: 'FACTURA DE SEMINUEVOS CON SU CONSECUTIVO DE AGENCIA',
-      keys: '2 LLAVES',
-      kilometers: '76,824 KMS',
-      engine: 'MOTOR V8 DE 6.2 CILINDROS',
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '76,824 Kms',
+      engine: 'V8 de 6.2 Litros',
       features: [
-        'IMPECABLES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        '2 PANTALLAS TRASERAS TOUCHSCREEN DE 12.6"',
-        'FAROS DE NIEBLA',
-        'LUCES DIURNAS LED',
-        'RIELES EN TECHO',
-        'ANTENA TIPO TIBURON',
-        'TECHO PANORAMICO',
-        'TRES FILAS DE ASIENTOS',
-        'PANTALLA LCD',
-        'COMPUTADORA DE VIAJE DIGITAL',
-        'CLIMATIZADOR BIZONA',
-        'SENSORES DE PROXIMIDAD',
-        'CAMARA DE VISION'
+        '2 pantallas traseras touchscreen de 12.6”',
+        'Impecables condiciones',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '25',
-    name: 'Mercedes Benz GLE 53 AMG',
+    id: '26',
+    name: 'Mercedes Benz GLE53 AMG',
     year: 2021,
     category: 'SUV',
     price: 1320000,
@@ -1289,35 +1033,25 @@ export const cars: Car[] = [
       '/cars/Mercedes Benz GLE 53 AMG 20219.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '52,424 KMS',
-      engine: 'MOTOR V6 DE 3.0 TURBO MILDHYBRID',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '52,424 Kms',
+      engine: 'V6 de 3.0 Turbo MildHybrid',
+      traction: 'Tracción integral AMG 4matic',
       features: [
-        'IMPECABLES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'SISTEMA DE ILUMINACION AMBIENTAL',
-        'TRACCION INTEGRAL AMG 4MATIC',
-        'LUCES DIURNAS LED',
-        'PANTALLA LCD A COLOR',
-        'ASIENTOS DE PIEL',
-        'SISTEMA DE NAVEGACION',
-        'SENSORES DE PROXIMIDAD',
-        'TECHO PANORAMICO',
-        'CLIMATIZADOR BIZONA',
-        'FRENO DE MANO ELECTRONICO',
-        'BOTON DE ENCENDIDO',
-        'PALETAS DE CAMBIOS'
+        'Sistema de iluminación ambiental',
+        'Impecables condiciones',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
-  // New cars added at the end
   {
-    id: '24',
+    id: '25',
     name: 'PEUGEOT 3008 GT HDI',
     year: 2023,
     category: 'SUV',
-    price: 480000,
+    price: 520000,
     image: '/cars/PEUGEOT 3008 GT HDI 20231.webp',
     images: [
       '/cars/PEUGEOT 3008 GT HDI 20231.webp',
@@ -1331,31 +1065,25 @@ export const cars: Car[] = [
       '/cars/PEUGEOT 3008 GT HDI 20239.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '25,000 KMS',
-      engine: 'MOTOR HDI',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '49,417 kms',
+      engine: '4 cilindros 2.0 turbo diesel',
+      transmission: 'Automática de 8 velocidades',
       features: [
-        'EXCELENTES CONDICIONES',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'SISTEMA DE NAVEGACION',
-        'ASIENTOS DE PIEL',
-        'TECHO PANORAMICO',
-        'SENSORES DE ESTACIONAMIENTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR AUTOMATICO',
-        'BLUETOOTH',
-        'USB'
+        'Versión más equipada',
+        'Asientos piel/alcantar',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '23',
+    id: '24',
     name: 'VOLKSWAGEN VENTO',
     year: 2022,
     category: 'Sedan',
-    price: 230000,
+    price: 240000,
     image: '/cars/VOLKSWAGEN VENTO 20221.webp',
     images: [
       '/cars/VOLKSWAGEN VENTO 20221.webp',
@@ -1369,31 +1097,23 @@ export const cars: Car[] = [
       '/cars/VOLKSWAGEN VENTO 20229.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '35,000 KMS',
-      engine: 'MOTOR 1.5 TSI',
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '83,553 Kms',
+      engine: '4 cilindros 1.6 litros',
+      transmission: 'Automático',
       features: [
-        'EXCELENTES CONDICIONES',
-        '150 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'SENSORES DE ESTACIONAMIENTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB'
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '22',
+    id: '23',
     name: 'MERCEDES BENZ GLE43 AMG',
     year: 2020,
     category: 'SUV',
-    price: 850000,
+    price: 890000,
     image: '/cars/MERCEDES BENZ GLE43 AMG 20201.webp',
     images: [
       '/cars/MERCEDES BENZ GLE43 AMG 20201.webp',
@@ -1407,28 +1127,19 @@ export const cars: Car[] = [
       '/cars/MERCEDES BENZ GLE43 AMG 20209.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '60,000 KMS',
-      engine: 'MOTOR V6 BITURBO 3.0L',
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '94,011 Kms',
+      engine: 'V6 Biturbo de 3.0 Litros',
       features: [
-        'EXCELENTES CONDICIONES',
-        '385 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'SISTEMA DE NAVEGACION',
-        'ASIENTOS DE PIEL',
-        'TECHO PANORAMICO',
-        'SENSORES DE ESTACIONAMIENTO',
-        'CAMARA DE 360°',
-        'CLIMATIZADOR BIZONA',
-        'BLUETOOTH',
-        'USB'
+        'Garantía mecánica por 2 años o 40,000 kms',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
-    id: '21',
+    id: '22',
     name: 'BMW M2 COUPE',
     year: 2024,
     category: 'Deportivo',
@@ -1446,23 +1157,49 @@ export const cars: Car[] = [
       '/cars/BMW M2 COUPE 20249.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '5,000 KMS',
-      engine: 'MOTOR 6 CILINDROS EN LINEA TWINPOWER TURBO',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '15,830 Kms',
+      engine: '6 cilindros TwinPower Turbo',
+      horsepower: '460 HP',
       features: [
-        'IMPECABLES CONDICIONES',
-        '453 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA CURVA',
-        'SISTEMA DE NAVEGACION',
-        'ASIENTOS DEPORTIVOS M',
-        'TECHO PANORAMICO',
-        'SENSORES DE ESTACIONAMIENTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR BIZONA',
-        'BLUETOOTH',
-        'USB'
+        'Techo en fibra de carbono',
+        'Faros LED',
+        'Acabados interiores M iluminados',
+        'Sistema Harman Kardon con 14 altavoces',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '21',
+    name: 'VOLKSWAGEN AMAROK TDI',
+    year: 2020,
+    category: 'Pick Up',
+    price: 575000,
+    image: '/cars/VOLKSWAGEN AMAROK TDI 20201.webp',
+    images: [
+      '/cars/VOLKSWAGEN AMAROK TDI 20201.webp',
+      '/cars/VOLKSWAGEN AMAROK TDI 20202.webp',
+      '/cars/VOLKSWAGEN AMAROK TDI 20203.webp',
+      '/cars/VOLKSWAGEN AMAROK TDI 20204.webp',
+      '/cars/VOLKSWAGEN AMAROK TDI 20205.webp',
+      '/cars/VOLKSWAGEN AMAROK TDI 20206.webp',
+      '/cars/VOLKSWAGEN AMAROK TDI 20207.webp',
+      '/cars/VOLKSWAGEN AMAROK TDI 20208.webp',
+      '/cars/VOLKSWAGEN AMAROK TDI 20209.webp'
+    ],
+    details: {
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '95,024 Kms',
+      engine: '4 cilindros 2.0 Turbo diesél',
+      traction: '4X4',
+      features: [
+        'Excelentes condiciones',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
@@ -1471,7 +1208,7 @@ export const cars: Car[] = [
     name: 'GMC SIERRA SLE',
     year: 2016,
     category: 'Pick Up',
-    price: 440000,
+    price: 460000,
     image: '/cars/GMC SIERRA SLE 20161.webp',
     images: [
       '/cars/GMC SIERRA SLE 20161.webp',
@@ -1485,22 +1222,13 @@ export const cars: Car[] = [
       '/cars/GMC SIERRA SLE 20169.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '120,000 KMS',
-      engine: 'MOTOR V8 5.3L',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '105,689 kms',
+      engine: '5.3L V8',
       features: [
-        'EXCELENTES CONDICIONES',
-        '355 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'GANCHOS DE ARRASTRE'
+        'Muy buenas condiciones generales',
+        'Precio Negociable'
       ]
     }
   },
@@ -1509,7 +1237,7 @@ export const cars: Car[] = [
     name: 'BMW X5 XDrive50i M Sport',
     year: 2020,
     category: 'SUV',
-    price: 875000,
+    price: 975000,
     image: '/cars/BMW X5 XDrive50i M Sport 20201.webp',
     images: [
       '/cars/BMW X5 XDrive50i M Sport 20201.webp',
@@ -1523,23 +1251,15 @@ export const cars: Car[] = [
       '/cars/BMW X5 XDrive50i M Sport 20209.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '45,000 KMS',
-      engine: 'MOTOR 6 CILINDROS 3.0L TWINPOWER TURBO',
+      condition: 'Factura de agencia (2 dueños)',
+      keys: '2 llaves',
+      kilometers: '107,753 Kms',
+      engine: 'V8 4.4 L TwinTurbo 456 HP',
+      traction: 'AWD (xDrive)',
       features: [
-        'EXCELENTES CONDICIONES',
-        '340 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'SISTEMA DE NAVEGACION',
-        'ASIENTOS DE PIEL',
-        'TECHO PANORAMICO',
-        'SENSORES DE ESTACIONAMIENTO',
-        'CAMARA DE 360°',
-        'CLIMATIZADOR BIZONA',
-        'BLUETOOTH',
-        'USB'
+        'Impecables condiciones',
+        'Financiamiento Disponible',
+        'Precio Negociable'
       ]
     }
   },
@@ -1548,7 +1268,7 @@ export const cars: Car[] = [
     name: 'FORD EDGE ST',
     year: 2023,
     category: 'SUV',
-    price: 850000,
+    price: 870000,
     image: '/cars/FORD EDGE ST 2023.webp',
     images: [
       '/cars/FORD EDGE ST 2023.webp',
@@ -1562,31 +1282,23 @@ export const cars: Car[] = [
       '/cars/FORD EDGE ST 20239.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '20,000 KMS',
-      engine: 'MOTOR 2.0L ECOBOOST',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '16,045 Kms',
+      engine: 'V6 EcoBoost',
       features: [
-        'EXCELENTES CONDICIONES',
-        '250 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR BIZONA',
-        'BLUETOOTH',
-        'USB',
-        'MODO SPORT'
+        'Impecables condiciones',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
     id: '17',
-    name: 'Nissan XTRAIL HÍBRIDA',
+    name: 'NISSAN X-TRAIL HIBRIDA',
     year: 2019,
     category: 'SUV',
-    price: 375000,
+    price: 389000,
     image: '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
     images: [
       '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
@@ -1600,31 +1312,23 @@ export const cars: Car[] = [
       '/cars/Nissan XTRAIL HÍBRIDA 20199.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '80,000 KMS',
-      engine: 'MOTOR HIBRIDO 2.0L',
+      condition: 'Factura de agencia',
+      keys: '2 llaves',
+      kilometers: '66,886 Kms',
+      engine: '4 cilindros 2.0 lts',
       features: [
-        'EXCELENTES CONDICIONES',
-        '142 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR AUTOMATICO',
-        'BLUETOOTH',
-        'USB',
-        'MODO ECO'
+        'Muy buenas condiciones generales',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
   {
     id: '16',
-    name: 'Toyota Tacoma trd',
+    name: 'TOYOTA TACOMA TRD SPORT',
     year: 2019,
     category: 'Pick Up',
-    price: 550000,
+    price: 590000,
     image: '/cars/Toyota Tacoma trd 20191.webp',
     images: [
       '/cars/Toyota Tacoma trd 20191.webp',
@@ -1638,22 +1342,15 @@ export const cars: Car[] = [
       '/cars/Toyota Tacoma trd 20199.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '75,000 KMS',
-      engine: 'MOTOR 2.7L 4X4',
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '111,986 Kms',
+      engine: 'V6',
+      traction: '4x4',
       features: [
-        'EXCELENTES CONDICIONES',
-        '159 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'PAQUETE TRD OFF-ROAD'
+        'Muy buenas condiciones generales',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
@@ -1662,7 +1359,7 @@ export const cars: Car[] = [
     name: 'GMC SIERRA AT4',
     year: 2022,
     category: 'Pick Up',
-    price: 980000,
+    price: 1020000,
     image: '/cars/GMC SIERRA AT4 20221.webp',
     images: [
       '/cars/GMC SIERRA AT4 20221.webp',
@@ -1676,22 +1373,15 @@ export const cars: Car[] = [
       '/cars/GMC SIERRA AT4 20229.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '30,000 KMS',
-      engine: 'MOTOR V8 6.2L',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '86,825 Kms',
+      engine: '8 cilindros',
+      traction: '4X4',
       features: [
-        'EXCELENTES CONDICIONES',
-        '420 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR BIZONA',
-        'BLUETOOTH',
-        'USB',
-        'TRACCION 4X4'
+        'Muy buenas condiciones generales',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
@@ -1700,7 +1390,7 @@ export const cars: Car[] = [
     name: 'AUDI Q2',
     year: 2019,
     category: 'SUV',
-    price: 330000,
+    price: 350000,
     image: '/cars/AUDI Q2 20191.webp',
     images: [
       '/cars/AUDI Q2 20191.webp',
@@ -1714,22 +1404,14 @@ export const cars: Car[] = [
       '/cars/AUDI Q2 20199.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '65,000 KMS',
-      engine: 'MOTOR 1.4 TFSI',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '62,916 Kms',
+      engine: '4 cilindros 1.4 litros',
       features: [
-        'EXCELENTES CONDICIONES',
-        '190 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA VIRTUAL COCKPIT',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR AUTOMATICO',
-        'BLUETOOTH',
-        'USB',
-        'MODO DRIVE SELECT'
+        'Muy buenas condiciones generales',
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
@@ -1738,7 +1420,7 @@ export const cars: Car[] = [
     name: 'CHEVROLET CHEYENNE RST',
     year: 2019,
     category: 'Pick Up',
-    price: 690000,
+    price: 730000,
     image: '/cars/CHEVROLET CHEYENNE RST 20191.webp',
     images: [
       '/cars/CHEVROLET CHEYENNE RST 20191.webp',
@@ -1752,22 +1434,14 @@ export const cars: Car[] = [
       '/cars/CHEVROLET CHEYENNE RST 20199.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '85,000 KMS',
-      engine: 'MOTOR V8 5.3L',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '95,102 Kms',
+      engine: 'V8 de 5.3 L',
+      traction: '4X4',
       features: [
-        'EXCELENTES CONDICIONES',
-        '355 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR BIZONA',
-        'BLUETOOTH',
-        'USB',
-        'PAQUETE RST'
+        'Financiamiento Bancario Disponible',
+        'Precio Negociable'
       ]
     }
   },
@@ -1776,7 +1450,7 @@ export const cars: Car[] = [
     name: 'FORD BRONCO SPORT OUTERBANKS',
     year: 2021,
     category: 'SUV',
-    price: 495000,
+    price: 580000,
     image: '/cars/FORD BRONCO SPORT OUTERBANKS 20211.webp',
     images: [
       '/cars/FORD BRONCO SPORT OUTERBANKS 20211.webp',
@@ -1786,26 +1460,19 @@ export const cars: Car[] = [
       '/cars/FORD BRONCO SPORT OUTERBANKS 20215.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 20216.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 20217.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 202178.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20218.webp',
       '/cars/FORD BRONCO SPORT OUTERBANKS 20219.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '45,000 KMS',
-      engine: 'MOTOR 2.0L ECOBOOST',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '66,239 Kms',
+      engine: '3 cilindros 1.5 L Turbo',
       features: [
-        'EXCELENTES CONDICIONES',
-        '250 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'TRACTION 4X4'
+        'Rendimiento en ciudad de 14.94 Km/L',
+        'CarPlay y AndroidAuto incluidos',
+        'Financiamiento Disponible',
+        'Precio Negociable de contado'
       ]
     }
   },
@@ -1814,7 +1481,7 @@ export const cars: Car[] = [
     name: 'FORD EXPEDITION PLATINUM',
     year: 2019,
     category: 'SUV',
-    price: 790000,
+    price: 870000,
     image: '/cars/FORD EXPEDITION PLATINUM 20191.webp',
     images: [
       '/cars/FORD EXPEDITION PLATINUM 20191.webp',
@@ -1828,31 +1495,54 @@ export const cars: Car[] = [
       '/cars/FORD EXPEDITION PLATINUM 20199.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '90,000 KMS',
-      engine: 'MOTOR V6 3.5L ECOBOOST',
+      condition: 'Factura de empresa con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '103,960 Kms',
+      engine: 'V6 de 3.5 L',
       features: [
-        'EXCELENTES CONDICIONES',
-        '380 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE 360°',
-        'CLIMATIZADOR TRIZONA',
-        'BLUETOOTH',
-        'USB',
-        'ASIENTOS DE PIEL'
+        '3 filas',
+        'Excelentes condiciones generales',
+        'Financiamiento disponible',
+        'Precio Negociable de contado'
       ]
     }
   },
   {
     id: '10',
+    name: 'BMW X4 Xdrive28i',
+    year: 2018,
+    category: 'SUV',
+    price: 495000,
+    image: '/cars/BMW X4 Xdrive28i 20181.webp',
+    images: [
+      '/cars/BMW X4 Xdrive28i 20181.webp',
+      '/cars/BMW X4 Xdrive28i 20182.webp',
+      '/cars/BMW X4 Xdrive28i 20183.webp',
+      '/cars/BMW X4 Xdrive28i 20184.webp',
+      '/cars/BMW X4 Xdrive28i 20185.webp',
+      '/cars/BMW X4 Xdrive28i 20186.webp',
+      '/cars/BMW X4 Xdrive28i 20187.webp',
+      '/cars/BMW X4 Xdrive28i 20188.webp',
+      '/cars/BMW X4 Xdrive28i 20189.webp'
+    ],
+    details: {
+      condition: 'Factura de semi nuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '104,836 Kms',
+      engine: '4 cilindros 2.0 Turbo',
+      traction: 'AWD (xDrive)',
+      features: [
+        'Financiamiento Disponible',
+        'Precio Negociable de contado'
+      ]
+    }
+  },
+  {
+    id: '9',
     name: 'Chevrolet Colorado',
     year: 2016,
     category: 'Pick Up',
-    price: 280000,
+    price: 345000,
     image: '/cars/Chevrolet Colorado 20161.webp',
     images: [
       '/cars/Chevrolet Colorado 20161.webp',
@@ -1866,31 +1556,52 @@ export const cars: Car[] = [
       '/cars/Chevrolet Colorado 20169.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '140,000 KMS',
-      engine: 'MOTOR 2.5L',
+      condition: 'Factura de empresa con su consecutivo de agencia 100% mexicana',
+      keys: '2 llaves',
+      kilometers: '216,083 kms',
+      engine: '4 cil 2.5 L',
+      transmission: 'Automática',
       features: [
-        'EXCELENTES CONDICIONES',
-        '200 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'AIRE ACONDICIONADO'
+        'Lista para el trabajo',
+        'Precio Negociable de contado'
       ]
     }
   },
   {
-    id: '9',
-    name: 'POLARIS SLINGHOT',
+    id: '8',
+    name: 'NISSAN X-TRAIL HIBRIDA',
+    year: 2019,
+    category: 'SUV',
+    price: 430000,
+    image: '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
+    images: [
+      '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
+      '/cars/Nissan XTRAIL HÍBRIDA 20192.webp',
+      '/cars/Nissan XTRAIL HÍBRIDA 20193.webp',
+      '/cars/Nissan XTRAIL HÍBRIDA 20194.webp',
+      '/cars/Nissan XTRAIL HÍBRIDA 20195.webp',
+      '/cars/Nissan XTRAIL HÍBRIDA 20196.webp',
+      '/cars/Nissan XTRAIL HÍBRIDA 20197.webp',
+      '/cars/Nissan XTRAIL HÍBRIDA 20198.webp',
+      '/cars/Nissan XTRAIL HÍBRIDA 20199.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '58,274 Kms',
+      engine: 'Motor 2.5 Litros',
+      features: [
+        'Crédito Disponible',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '7',
+    name: 'Polaris Slingshot',
     year: 2015,
-    category: 'Deportivo',
-    price: 250000,
+    category: 'Vehículo Recreativo',
+    price: 0, // No se especificó precio
     image: '/cars/POLARIS SLINGHOT 20151.webp',
     images: [
       '/cars/POLARIS SLINGHOT 20151.webp',
@@ -1904,24 +1615,16 @@ export const cars: Car[] = [
       '/cars/POLARIS SLINGHOT 20159.webp'
     ],
     details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '15,000 KMS',
-      engine: 'MOTOR 2.0L',
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '6,743 Kms (4,190 millas)',
+      engine: '4 cil 2.4 L',
       features: [
-        'EXCELENTES CONDICIONES',
-        '173 HP',
-        'TRANSMISION MANUAL DE 5 VELOCIDADES',
-        'PANTALLA DIGITAL',
-        'BLUETOOTH',
-        'USB',
-        'SISTEMA DE AUDIO',
-        'RUEDAS DE ALUMINIO',
-        'ASIENTOS DEPORTIVOS',
-        'CINTURONES DE SEGURIDAD'
+        'Pantalla LCD de 4,3 pulgadas'
       ]
     }
-  },
+  }
+,
   {
     id: '8',
     name: 'KIA SORENTO EX GDI',
