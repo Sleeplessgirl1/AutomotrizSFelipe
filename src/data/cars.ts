@@ -59,35 +59,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '57',
-    name: 'NISSAN KICKS EXCLUSIVE',
-    year: 2018,
-    category: 'SUV',
-    price: 230000,
-    image: '/cars/NISSAN KICKS EXCLUSIVE 20181.webp',
-    images: [
-      '/cars/NISSAN KICKS EXCLUSIVE 20181.webp',
-      '/cars/NISSAN KICKS EXCLUSIVE 20182.webp',
-      '/cars/NISSAN KICKS EXCLUSIVE 20183.webp',
-      '/cars/NISSAN KICKS EXCLUSIVE 20184.webp',
-      '/cars/NISSAN KICKS EXCLUSIVE 20185.webp',
-      '/cars/NISSAN KICKS EXCLUSIVE 20186.webp',
-      '/cars/NISSAN KICKS EXCLUSIVE 20187.webp',
-      '/cars/NISSAN KICKS EXCLUSIVE 20188.webp',
-      '/cars/NISSAN KICKS EXCLUSIVE 20189.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '48,947 Kms',
-      engine: '4 cilindros',
-      transmission: 'Automática',
-      features: [
-        'Financiamiento Disponible'
-      ]
-    }
-  },
+ 
   {
     id: '56',
     name: 'Dodge Challenger Blackline',
@@ -753,7 +725,7 @@ export const cars: Car[] = [
     details: {
       condition: 'Factura de agencia (único dueño)',
       keys: '2 llaves',
-      kilometers: 'No especificado',
+      kilometers: '93,890 Kms',
       engine: 'V8 6.2 L EcoTec',
       horsepower: '420 HP',
       transmission: 'Transmisión automática de 10 velocidades',
@@ -877,7 +849,7 @@ export const cars: Car[] = [
     details: {
       condition: 'Factura de seminuevos con su consecutivo de agencia',
       keys: '2 llaves',
-      kilometers: 'No especificado',
+      kilometers: '100,575 Kms',
       engine: 'V6 de 3.5 L Turbo',
       horsepower: '450 HP',
       traction: '4X4',
