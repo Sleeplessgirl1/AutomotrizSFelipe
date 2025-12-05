@@ -1,7 +1,39 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+  
   {
+    id: '60',
+    name: 'PORSCHE CAYENNE GTS',
+    year: 2022,
+    category: 'Deportivo',
+    price: 1950000,
+    image: '/cars/PORSCHE CAYENNE GTS 20221.webp',
+    images: [
+      '/cars/PORSCHE CAYENNE GTS 20221.webp',
+      '/cars/PORSCHE CAYENNE GTS 20222.webp',
+      '/cars/PORSCHE CAYENNE GTS 20223.webp',
+      '/cars/PORSCHE CAYENNE GTS 20224.webp',
+      '/cars/PORSCHE CAYENNE GTS 20225.webp',
+      '/cars/PORSCHE CAYENNE GTS 20226.webp',
+      '/cars/PORSCHE CAYENNE GTS 20227.webp',
+      '/cars/PORSCHE CAYENNE GTS 20228.webp',
+      '/cars/PORSCHE CAYENNE GTS 20229.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '61,598 Kms',
+      engine: 'V8 4.0 L Biturbo',
+      features: [
+        'Financiamiento Disponible',
+        'XPEL en toda la carrocería',
+        'Garantía hasta 2030',
+        'Excelentes condiciones',
+        'Precio Negociable'
+      ]
+    }
+},{
     id: '59',
     name: 'KIA NIRO EX',
     year: 2020,
@@ -1512,7 +1544,7 @@ export const cars: Car[] = [
     id: '7',
     name: 'Polaris Slingshot',
     year: 2015,
-    category: 'Vehículo Recreativo',
+    category: 'Deportivo',
     price: 250,000, // No se especificó precio
     image: '/cars/POLARIS SLINGHOT 20151.webp',
     images: [
