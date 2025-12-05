@@ -527,7 +527,7 @@ export const cars: Car[] = [
     name: 'Cupra Formentor VZ',
     year: 2023,
     category: 'Deportivo',
-    price: 720000,
+    price: 695000,
     image: '/cars/Cupra Formentor VZ 20231.webp',
     images: [
       '/cars/Cupra Formentor VZ 20231.webp',
@@ -709,7 +709,7 @@ export const cars: Car[] = [
     name: 'Chevrolet Suburban High Country',
     year: 2021,
     category: 'SUV',
-    price: 1190000,
+    price: 1170000,
     image: '/cars/Chevrolet Suburban High Country 20211.webp',
     images: [
       '/cars/Chevrolet Suburban High Country 20211.webp',
@@ -833,7 +833,7 @@ export const cars: Car[] = [
     name: 'Ford Lobo Raptor',
     year: 2018,
     category: 'Pick Up',
-    price: 820000,
+    price: 800000,
     image: '/cars/Ford Lobo Raptor 20181.webp',
     images: [
       '/cars/Ford Lobo Raptor 20181.webp',
@@ -865,7 +865,7 @@ export const cars: Car[] = [
     name: 'Ford Lobo Limited',
     year: 2023,
     category: 'Pick Up',
-    price: 1250000,
+    price: 1215000,
     image: '/cars/Ford Lobo Limited 20231.webp',
     images: [
       '/cars/Ford Lobo Limited 20231.webp',
@@ -927,7 +927,7 @@ export const cars: Car[] = [
     name: 'Chevrolet Colorado ZR2',
     year: 2024,
     category: 'Pick Up',
-    price: 980000,
+    price: 965000,
     image: '/cars/Chevrolet Colorado ZR2 20241.webp',
     images: [
       '/cars/Chevrolet Colorado ZR2 20241.webp',
@@ -1023,7 +1023,7 @@ export const cars: Car[] = [
     name: 'PEUGEOT 3008 GT HDI',
     year: 2023,
     category: 'SUV',
-    price: 520000,
+    price: 480000,
     image: '/cars/PEUGEOT 3008 GT HDI 20231.webp',
     images: [
       '/cars/PEUGEOT 3008 GT HDI 20231.webp',
@@ -1055,7 +1055,7 @@ export const cars: Car[] = [
     name: 'VOLKSWAGEN VENTO',
     year: 2022,
     category: 'Sedan',
-    price: 240000,
+    price: 230000,
     image: '/cars/VOLKSWAGEN VENTO 20221.webp',
     images: [
       '/cars/VOLKSWAGEN VENTO 20221.webp',
@@ -1085,7 +1085,7 @@ export const cars: Car[] = [
     name: 'MERCEDES BENZ GLE43 AMG',
     year: 2020,
     category: 'SUV',
-    price: 890000,
+    price: 850000,
     image: '/cars/MERCEDES BENZ GLE43 AMG 20201.webp',
     images: [
       '/cars/MERCEDES BENZ GLE43 AMG 20201.webp',
@@ -1145,42 +1145,11 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '21',
-    name: 'VOLKSWAGEN AMAROK TDI',
-    year: 2020,
-    category: 'Pick Up',
-    price: 575000,
-    image: '/cars/VOLKSWAGEN AMAROK TDI 20201.webp',
-    images: [
-      '/cars/VOLKSWAGEN AMAROK TDI 20201.webp',
-      '/cars/VOLKSWAGEN AMAROK TDI 20202.webp',
-      '/cars/VOLKSWAGEN AMAROK TDI 20203.webp',
-      '/cars/VOLKSWAGEN AMAROK TDI 20204.webp',
-      '/cars/VOLKSWAGEN AMAROK TDI 20205.webp',
-      '/cars/VOLKSWAGEN AMAROK TDI 20206.webp',
-      '/cars/VOLKSWAGEN AMAROK TDI 20207.webp',
-      '/cars/VOLKSWAGEN AMAROK TDI 20208.webp',
-      '/cars/VOLKSWAGEN AMAROK TDI 20209.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '95,024 Kms',
-      engine: '4 cilindros 2.0 Turbo diesél',
-      traction: '4X4',
-      features: [
-        'Excelentes condiciones',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
-  {
     id: '20',
     name: 'GMC SIERRA SLE',
     year: 2016,
     category: 'Pick Up',
-    price: 460000,
+    price: 440000,
     image: '/cars/GMC SIERRA SLE 20161.webp',
     images: [
       '/cars/GMC SIERRA SLE 20161.webp',
@@ -1209,7 +1178,7 @@ export const cars: Car[] = [
     name: 'BMW X5 XDrive50i M Sport',
     year: 2020,
     category: 'SUV',
-    price: 975000,
+    price: 875000,
     image: '/cars/BMW X5 XDrive50i M Sport 20201.webp',
     images: [
       '/cars/BMW X5 XDrive50i M Sport 20201.webp',
@@ -1240,7 +1209,7 @@ export const cars: Car[] = [
     name: 'FORD EDGE ST',
     year: 2023,
     category: 'SUV',
-    price: 870000,
+    price: 850000,
     image: '/cars/FORD EDGE ST 2023.webp',
     images: [
       '/cars/FORD EDGE ST 2023.webp',
@@ -1270,7 +1239,7 @@ export const cars: Car[] = [
     name: 'NISSAN X-TRAIL HIBRIDA',
     year: 2019,
     category: 'SUV',
-    price: 389000,
+    price: 375000,
     image: '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
     images: [
       '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
@@ -1300,7 +1269,7 @@ export const cars: Car[] = [
     name: 'TOYOTA TACOMA TRD SPORT',
     year: 2019,
     category: 'Pick Up',
-    price: 590000,
+    price: 550000,
     image: '/cars/Toyota Tacoma trd 20191.webp',
     images: [
       '/cars/Toyota Tacoma trd 20191.webp',
@@ -1331,7 +1300,7 @@ export const cars: Car[] = [
     name: 'GMC SIERRA AT4',
     year: 2022,
     category: 'Pick Up',
-    price: 1020000,
+    price: 9800000,
     image: '/cars/GMC SIERRA AT4 20221.webp',
     images: [
       '/cars/GMC SIERRA AT4 20221.webp',
@@ -1362,7 +1331,7 @@ export const cars: Car[] = [
     name: 'AUDI Q2',
     year: 2019,
     category: 'SUV',
-    price: 350000,
+    price: 330000,
     image: '/cars/AUDI Q2 20191.webp',
     images: [
       '/cars/AUDI Q2 20191.webp',
@@ -1422,7 +1391,7 @@ export const cars: Car[] = [
     name: 'FORD BRONCO SPORT OUTERBANKS',
     year: 2021,
     category: 'SUV',
-    price: 580000,
+    price: 495000,
     image: '/cars/FORD BRONCO SPORT OUTERBANKS 20211.webp',
     images: [
       '/cars/FORD BRONCO SPORT OUTERBANKS 20211.webp',
@@ -1453,7 +1422,7 @@ export const cars: Car[] = [
     name: 'FORD EXPEDITION PLATINUM',
     year: 2019,
     category: 'SUV',
-    price: 870000,
+    price: 790000,
     image: '/cars/FORD EXPEDITION PLATINUM 20191.webp',
     images: [
       '/cars/FORD EXPEDITION PLATINUM 20191.webp',
@@ -1478,43 +1447,14 @@ export const cars: Car[] = [
         'Precio Negociable de contado'
       ]
     }
-  },
-  {
-    id: '10',
-    name: 'BMW X4 Xdrive28i',
-    year: 2018,
-    category: 'SUV',
-    price: 495000,
-    image: '/cars/BMW X4 Xdrive28i 20181.webp',
-    images: [
-      '/cars/BMW X4 Xdrive28i 20181.webp',
-      '/cars/BMW X4 Xdrive28i 20182.webp',
-      '/cars/BMW X4 Xdrive28i 20183.webp',
-      '/cars/BMW X4 Xdrive28i 20184.webp',
-      '/cars/BMW X4 Xdrive28i 20185.webp',
-      '/cars/BMW X4 Xdrive28i 20186.webp',
-      '/cars/BMW X4 Xdrive28i 20187.webp',
-      '/cars/BMW X4 Xdrive28i 20188.webp',
-      '/cars/BMW X4 Xdrive28i 20189.webp'
-    ],
-    details: {
-      condition: 'Factura de semi nuevos con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '104,836 Kms',
-      engine: '4 cilindros 2.0 Turbo',
-      traction: 'AWD (xDrive)',
-      features: [
-        'Financiamiento Disponible',
-        'Precio Negociable de contado'
-      ]
-    }
+  
   },
   {
     id: '9',
     name: 'Chevrolet Colorado',
     year: 2016,
     category: 'Pick Up',
-    price: 345000,
+    price: 280000,
     image: '/cars/Chevrolet Colorado 20161.webp',
     images: [
       '/cars/Chevrolet Colorado 20161.webp',
@@ -1573,7 +1513,7 @@ export const cars: Car[] = [
     name: 'Polaris Slingshot',
     year: 2015,
     category: 'Vehículo Recreativo',
-    price: 0, // No se especificó precio
+    price: 250,000, // No se especificó precio
     image: '/cars/POLARIS SLINGHOT 20151.webp',
     images: [
       '/cars/POLARIS SLINGHOT 20151.webp',
