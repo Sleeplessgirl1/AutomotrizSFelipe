@@ -31,35 +31,26 @@ const Footer = () => {
           </div>
 
           <div>
-  <h3 className="text-xl font-bold mb-4">Contacto</h3>
-  <div className="space-y-3">
-    <a href="tel:6141390069" className="flex items-center gap-2 hover:text-accent transition-colors">
-      <Phone className="h-5 w-5" />
-      <span>614-139-00-69</span>
-    </a>
-
-    <a href="tel:6144144474" className="flex items-center gap-2 hover:text-accent transition-colors">
-      <Phone className="h-5 w-5" />
-      <span>614-414-44-74</span>
-    </a>
-
-    {/* WhatsApp */}
-    <a
-      href="https://wa.me/5216144637800"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center gap-2 hover:text-accent transition-colors"
-    >
-      <MessageCircle className="h-5 w-5" />
-      <span>614-463-78-00 (WhatsApp)</span>
-    </a>
-
-    <div className="flex items-start gap-2">
-      <MapPin className="h-5 w-5 mt-1 flex-shrink-0" />
-      <span>Av División del Nte 107, San Felipe I Etapa, 31203 Chihuahua, Chih.</span>
-    </div>
-  </div>
-</div>
+            <h3 className="text-xl font-bold mb-4">Contacto</h3>
+            <div className="space-y-3">
+              <a href="tel:6141390069" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Phone className="h-5 w-5" />
+                <span>614-139-00-69</span>
+              </a>
+              <a href="tel:6144144474" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Phone className="h-5 w-5" />
+                <span>614-414-44-74</span>
+              </a>
+                 <a href="tel:6144144474" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Phone className="h-5 w-5" />
+                <span>614-463-78-00 (Whatsapp)</span>
+              </a>
+              <div className="flex items-start gap-2">
+                <MapPin className="h-5 w-5 mt-1 flex-shrink-0" />
+                <span>Av División del Nte 107, San Felipe I Etapa, 31203 Chihuahua, Chih.</span>
+              </div>
+            </div>
+          </div>
 
           <div>
             <h3 className="text-xl font-bold mb-4">Horario</h3>
