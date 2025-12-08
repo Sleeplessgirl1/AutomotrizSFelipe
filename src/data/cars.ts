@@ -1545,7 +1545,7 @@ export const cars: Car[] = [
     name: 'Polaris Slingshot',
     year: 2015,
     category: 'Deportivo',
-    price: 250,000, // No se especificó precio
+    price: 250000, // No se especificó precio
     image: '/cars/POLARIS SLINGHOT 20151.webp',
     images: [
       '/cars/POLARIS SLINGHOT 20151.webp',
