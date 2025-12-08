@@ -1,7 +1,36 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-  
+  {
+  id: '61',
+  name: 'AUDI Q7 ELITE MHEV',
+  year: 2022,
+  category: 'SUV',
+  price: 970000,
+  image: '/cars/AUDI Q7 ELITE MHEV 2022.webp',
+  images: [
+    '/cars/AUDI Q7 ELITE MHEV 2022.webp',
+    '/cars/AUDI Q7 ELITE MHEV 20221.webp',
+    '/cars/AUDI Q7 ELITE MHEV 20222.webp',
+    '/cars/AUDI Q7 ELITE MHEV 20223.webp',
+    '/cars/AUDI Q7 ELITE MHEV 20224.webp',
+    '/cars/AUDI Q7 ELITE MHEV 20225.webp',
+    '/cars/AUDI Q7 ELITE MHEV 20226.webp',
+    '/cars/AUDI Q7 ELITE MHEV 20227.webp',
+    '/cars/AUDI Q7 ELITE MHEV 20228.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '51,629 Kms',
+    engine: 'V6 3.0 L Mild Hybrid',
+    features: [
+      'Financiamiento Disponible',
+      '3 filas de asientos',
+      'Precio Negociable'
+    ]
+  }
+},
   {
     id: '60',
     name: 'PORSCHE CAYENNE GTS',
