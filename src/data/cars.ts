@@ -1,6 +1,67 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+ 
+  {
+  id: '62',
+  name: 'PORSCHE CAYENNE PLATINUM',
+  year: 2022,
+  category: 'SUV',
+  price: 1470000,
+  image: '/cars/PORSCHE CAYENNE PLATINUM 2022.webp',
+  images: [
+    '/cars/PORSCHE CAYENNE PLATINUM 2022.webp',
+    '/cars/PORSCHE CAYENNE PLATINUM 20221.webp',
+    '/cars/PORSCHE CAYENNE PLATINUM 20222.webp',
+    '/cars/PORSCHE CAYENNE PLATINUM 20223.webp',
+    '/cars/PORSCHE CAYENNE PLATINUM 20224.webp',
+    '/cars/PORSCHE CAYENNE PLATINUM 20225.webp',
+    '/cars/PORSCHE CAYENNE PLATINUM 20226.webp',
+    '/cars/PORSCHE CAYENNE PLATINUM 20227.webp',
+    '/cars/PORSCHE CAYENNE PLATINUM 20228.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '55,824 Kms',
+    engine: 'V6 de 3.0 L',
+    features: [
+      'Financiamiento Disponible',
+      'Servicios de agencia',
+      'Precio Negociable'
+    ]
+  }
+}, 
+{
+  id: '46',
+  name: 'MERCEDES BENZ GLC300',
+  year: 2019,
+  category: 'SUV',
+  price: 640000,
+  image: '/cars/MERCEDES BENZ GLC300 2019.webp',
+  images: [
+    '/cars/MERCEDES BENZ GLC300 2019.webp',
+    '/cars/MERCEDES BENZ GLC300 20191.webp',
+    '/cars/MERCEDES BENZ GLC300 20192.webp',
+    '/cars/MERCEDES BENZ GLC300 20193.webp',
+    '/cars/MERCEDES BENZ GLC300 20194.webp',
+    '/cars/MERCEDES BENZ GLC300 20195.webp',
+    '/cars/MERCEDES BENZ GLC300 20196.webp',
+    '/cars/MERCEDES BENZ GLC300 20197.webp',
+    '/cars/MERCEDES BENZ GLC300 20198.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '74,186 Kms',
+    engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'Impecables condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
   {
   id: '61',
   name: 'AUDI Q7 ELITE MHEV',
@@ -30,66 +91,8 @@ export const cars: Car[] = [
       'Precio Negociable'
     ]
   }
+
 },
-  {
-    id: '60',
-    name: 'PORSCHE CAYENNE GTS',
-    year: 2022,
-    category: 'Deportivo',
-    price: 1950000,
-    image: '/cars/PORSCHE CAYENNE GTS 20221.webp',
-    images: [
-      '/cars/PORSCHE CAYENNE GTS 20221.webp',
-      '/cars/PORSCHE CAYENNE GTS 20222.webp',
-      '/cars/PORSCHE CAYENNE GTS 20223.webp',
-      '/cars/PORSCHE CAYENNE GTS 20224.webp',
-      '/cars/PORSCHE CAYENNE GTS 20225.webp',
-      '/cars/PORSCHE CAYENNE GTS 20226.webp',
-      '/cars/PORSCHE CAYENNE GTS 20227.webp',
-      '/cars/PORSCHE CAYENNE GTS 20228.webp',
-      '/cars/PORSCHE CAYENNE GTS 20229.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '61,598 Kms',
-      engine: 'V8 4.0 L Biturbo',
-      features: [
-        'Financiamiento Disponible',
-        'XPEL en toda la carrocería',
-        'Garantía hasta 2030',
-        'Excelentes condiciones',
-        'Precio Negociable'
-      ]
-    }
-},{
-    id: '59',
-    name: 'KIA NIRO EX',
-    year: 2020,
-    category: 'SUV',
-    price: 320000,
-    image: '/cars/KIA NIRO EX 20201.webp',
-    images: [
-      '/cars/KIA NIRO EX 20201.webp',
-      '/cars/KIA NIRO EX 20202.webp',
-      '/cars/KIA NIRO EX 20203.webp',
-      '/cars/KIA NIRO EX 20204.webp',
-      '/cars/KIA NIRO EX 20205.webp',
-      '/cars/KIA NIRO EX 20206.webp',
-      '/cars/KIA NIRO EX 20207.webp',
-      '/cars/KIA NIRO EX 20208.webp',
-    ],
-    details: {
-      condition: 'Factura de agencia (única dueña)',
-      keys: '2 llaves',
-      kilometers: '41,994 Kms',
-      engine: '4 cilindros 1.6 L híbrido',
-      features: [
-        'Financiamiento Disponible',
-        'Rendimiento de 27.4 km/L'
-      ]
-    }
-  },
   {
     id: '58',
     name: 'MERCEDES BENZ G500',
@@ -184,6 +187,37 @@ export const cars: Car[] = [
     }
   },
   {
+  id: '45',
+  name: 'FORD LOBO LIMITED HEV',
+  year: 2022,
+  category: 'Pick Up',
+  price: 1130000,
+  image: '/cars/FORD LOBO LIMITED HEV 2022.webp',
+  images: [
+    '/cars/FORD LOBO LIMITED HEV 2022.webp',
+    '/cars/FORD LOBO LIMITED HEV 20221.webp',
+    '/cars/FORD LOBO LIMITED HEV 20222.webp',
+    '/cars/FORD LOBO LIMITED HEV 20223.webp',
+    '/cars/FORD LOBO LIMITED HEV 20224.webp',
+    '/cars/FORD LOBO LIMITED HEV 20225.webp',
+    '/cars/FORD LOBO LIMITED HEV 20226.webp',
+    '/cars/FORD LOBO LIMITED HEV 20227.webp',
+    '/cars/FORD LOBO LIMITED HEV 20228.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (2 dueños)',
+    keys: '2 llaves',
+    kilometers: '48,090 Kms',
+    engine: 'V6 de 3.5L Híbrida',
+    features: [
+      'Financiamiento Disponible',
+      'Automática de 10 velocidades',
+      '4x4',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
     id: '54',
     name: 'JEEP GRAND CHEROKEE LIMITED',
     year: 2023,
@@ -216,98 +250,37 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '53',
-    name: 'KIA RIO L',
-    year: 2021,
-    category: 'Sedan',
-    price: 230000,
-    image: '/cars/KIA RIO L 20211.webp',
-    images: [
-      '/cars/KIA RIO L 20211.webp',
-      '/cars/KIA RIO L 20212.webp',
-      '/cars/KIA RIO L 20213.webp',
-      '/cars/KIA RIO L 20214.webp',
-      '/cars/KIA RIO L 20215.webp',
-      '/cars/KIA RIO L 20216.webp',
-      '/cars/KIA RIO L 20217.webp',
-      '/cars/KIA RIO L 20218.webp',
-      '/cars/KIA RIO L 20219.webp'
-    ],
-    details: {
-      condition: 'Factura de seminuevos con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '59,706 Kms',
-      engine: '4 cilindros',
-      transmission: 'Manual',
-      features: [
-        'Impecables condiciones',
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
-  {
-    id: '52',
-    name: 'GMC SIERRA DENALI',
-    year: 2024,
-    category: 'Pick Up',
-    price: 1450000,
-    image: '/cars/GMC SIERRA DENALI 20241.webp',
-    images: [
-      '/cars/GMC SIERRA DENALI 20241.webp',
-      '/cars/GMC SIERRA DENALI 20242.webp',
-      '/cars/GMC SIERRA DENALI 20243.webp',
-      '/cars/GMC SIERRA DENALI 20244.webp',
-      '/cars/GMC SIERRA DENALI 20245.webp',
-      '/cars/GMC SIERRA DENALI 20246.webp',
-      '/cars/GMC SIERRA DENALI 20247.webp',
-      '/cars/GMC SIERRA DENALI 20248.webp',
-      '/cars/GMC SIERRA DENALI 20249.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '19,607 Kms',
-      engine: 'V8 de 6.2 L',
-      horsepower: '425 HP',
-      traction: '4x4',
-      features: [
-        'Condiciones de nueva',
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
-  {
-    id: '51',
-    name: 'MERCEDES BENZ C200',
-    year: 2015,
-    category: 'Sedan',
-    price: 300000,
-    image: '/cars/MERCEDES BENZ C200 20151.webp',
-    images: [
-      '/cars/MERCEDES BENZ C200 20151.webp',
-      '/cars/MERCEDES BENZ C200 20152.webp',
-      '/cars/MERCEDES BENZ C200 20153.webp',
-      '/cars/MERCEDES BENZ C200 20154.webp',
-      '/cars/MERCEDES BENZ C200 20155.webp',
-      '/cars/MERCEDES BENZ C200 20156.webp',
-      '/cars/MERCEDES BENZ C200 20157.webp',
-      '/cars/MERCEDES BENZ C200 20158.webp',
-      '/cars/MERCEDES BENZ C200 20159.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (2 dueños)',
-      keys: '2 llaves',
-      kilometers: '69,711 Kms',
-      engine: '4 cilindros',
-      features: [
-        'Impecables condiciones',
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
+  id: '44',
+  name: 'KIA RIO L',
+  year: 2021,
+  category: 'Sedan',
+  price: 230000,
+  image: '/cars/KIA RIO L 2021.webp',
+  images: [
+    '/cars/KIA RIO L 2021.webp',
+    '/cars/KIA RIO L 20211.webp',
+    '/cars/KIA RIO L 20212.webp',
+    '/cars/KIA RIO L 20213.webp',
+    '/cars/KIA RIO L 20214.webp',
+    '/cars/KIA RIO L 20215.webp',
+    '/cars/KIA RIO L 20216.webp',
+    '/cars/KIA RIO L 20217.webp',
+    '/cars/KIA RIO L 20218.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '59,706 Kms',
+    engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'Transmisión manual',
+      'Impecables condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+  
   {
     id: '50',
     name: 'PORSCHE MACAN GTS',
