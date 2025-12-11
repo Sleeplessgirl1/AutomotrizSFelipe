@@ -374,68 +374,8 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '47',
-    name: 'BMW X6 XDRIVE40i',
-    year: 2022,
-    category: 'SUV',
-    price: 1250000,
-    image: '/cars/BMW X6 XDRIVE40i 20221.webp',
-    images: [
-      '/cars/BMW X6 XDRIVE40i 20221.webp',
-      '/cars/BMW X6 XDRIVE40i 20222.webp',
-      '/cars/BMW X6 XDRIVE40i 20223.webp',
-      '/cars/BMW X6 XDRIVE40i 20224.webp',
-      '/cars/BMW X6 XDRIVE40i 20225.webp',
-      '/cars/BMW X6 XDRIVE40i 20226.webp',
-      '/cars/BMW X6 XDRIVE40i 20227.webp',
-      '/cars/BMW X6 XDRIVE40i 20228.webp',
-      '/cars/BMW X6 XDRIVE40i 20229.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (2 dueños)',
-      keys: '2 llaves',
-      kilometers: '84,790 Kms',
-      engine: '6 cilindros TwinPower Turbo',
-      traction: 'AWD (xDrive)',
-      features: [
-        'Paquete M Sport',
-        'Impecables condiciones',
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
-  {
-    id: '46',
-    name: 'ACURA RDX TECH',
-    year: 2021,
-    category: 'SUV',
-    price: 579000,
-    image: '/cars/ACURA RDX TECH 20211.webp',
-    images: [
-      '/cars/ACURA RDX TECH 20211.webp',
-      '/cars/ACURA RDX TECH 20212.webp',
-      '/cars/ACURA RDX TECH 20213.webp',
-      '/cars/ACURA RDX TECH 20214.webp',
-      '/cars/ACURA RDX TECH 20215.webp',
-      '/cars/ACURA RDX TECH 20216.webp',
-      '/cars/ACURA RDX TECH 20217.webp',
-      '/cars/ACURA RDX TECH 20218.webp',
-      '/cars/ACURA RDX TECH 20219.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '45,349 Kms',
-      engine: '4 cilindros 2.0 T',
-      features: [
-        'Impecables condiciones',
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
+
+
   {
     id: '45',
     name: 'Volkswagen Teramont Trendline',
@@ -1268,36 +1208,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '17',
-    name: 'NISSAN X-TRAIL HIBRIDA',
-    year: 2019,
-    category: 'SUV',
-    price: 375000,
-    image: '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
-    images: [
-      '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20192.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20193.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20194.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20195.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20196.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20197.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20198.webp',
-      '/cars/Nissan XTRAIL HÍBRIDA 20199.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia',
-      keys: '2 llaves',
-      kilometers: '66,886 Kms',
-      engine: '4 cilindros 2.0 lts',
-      features: [
-        'Muy buenas condiciones generales',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
+
   {
     id: '16',
     name: 'TOYOTA TACOMA TRD SPORT',
