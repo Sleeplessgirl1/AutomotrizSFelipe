@@ -255,9 +255,8 @@ export const cars: Car[] = [
   year: 2021,
   category: 'Sedan',
   price: 230000,
-  image: '/cars/KIA RIO L 2021.webp',
+  image: '/cars/KIA RIO L 20211.webp',
   images: [
-    '/cars/KIA RIO L 2021.webp',
     '/cars/KIA RIO L 20211.webp',
     '/cars/KIA RIO L 20212.webp',
     '/cars/KIA RIO L 20213.webp',
@@ -265,7 +264,8 @@ export const cars: Car[] = [
     '/cars/KIA RIO L 20215.webp',
     '/cars/KIA RIO L 20216.webp',
     '/cars/KIA RIO L 20217.webp',
-    '/cars/KIA RIO L 20218.webp'
+    '/cars/KIA RIO L 20218.webp',
+    '/cars/KIA RIO L 20219.webp'
   ],
   details: {
     condition: 'Factura de seminuevos con su consecutivo de agencia',
