@@ -1,7 +1,66 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
- 
+ {
+  id: '43',
+  name: 'BMW X6 M50i',
+  year: 2021,
+  category: 'SUV',
+  price: 1230000,
+  image: '/cars/BMW X6 M50i 2021.webp',
+  images: [
+    '/cars/BMW X6 M50i 2021.webp',
+    '/cars/BMW X6 M50i 20211.webp',
+    '/cars/BMW X6 M50i 20212.webp',
+    '/cars/BMW X6 M50i 20213.webp',
+    '/cars/BMW X6 M50i 20214.webp',
+    '/cars/BMW X6 M50i 20215.webp',
+    '/cars/BMW X6 M50i 20216.webp',
+    '/cars/BMW X6 M50i 20217.webp',
+    '/cars/BMW X6 M50i 20218.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '75,399 Kms',
+    engine: 'V8 TwinPower Turbo 4.4 L',
+    features: [
+      'Financiamiento Disponible',
+      '530 HP',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '42',
+  name: 'MERCEDES BENZ GLC300 OFFROAD',
+  year: 2018,
+  category: 'SUV',
+  price: 385000,
+  image: '/cars/MERCEDES BENZ GLC300 OFFROAD 2018.webp',
+  images: [
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 2018.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20181.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20182.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20183.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20184.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20185.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20186.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20187.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20188.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: 'No especificado',
+ engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'Impecables condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
   {
   id: '62',
   name: 'PORSCHE CAYENNE PLATINUM',
@@ -672,7 +731,7 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '131,395 kms',
       engine: '4 cilindros 1.4 L Turbo',
-      transmission: 'Automático',
+      transmission: 'Automatico',
       features: [
         'Financiamiento Disponible'
       ]
