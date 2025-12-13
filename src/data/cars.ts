@@ -7,9 +7,8 @@ export const cars: Car[] = [
   year: 2021,
   category: 'SUV',
   price: 1230000,
-  image: '/cars/BMW X6 M50i 2021.webp',
+  image: '/cars/BMW X6 M50i 20211.webp',
   images: [
-    '/cars/BMW X6 M50i 2021.webp',
     '/cars/BMW X6 M50i 20211.webp',
     '/cars/BMW X6 M50i 20212.webp',
     '/cars/BMW X6 M50i 20213.webp',
@@ -17,7 +16,8 @@ export const cars: Car[] = [
     '/cars/BMW X6 M50i 20215.webp',
     '/cars/BMW X6 M50i 20216.webp',
     '/cars/BMW X6 M50i 20217.webp',
-    '/cars/BMW X6 M50i 20218.webp'
+    '/cars/BMW X6 M50i 20218.webp',
+    '/cars/BMW X6 M50i 20219.webp'
   ],
   details: {
     condition: 'Factura de seminuevos con su consecutivo de agencia',
@@ -39,7 +39,6 @@ export const cars: Car[] = [
   price: 385000,
   image: '/cars/MERCEDES BENZ GLC300 OFFROAD 2018.webp',
   images: [
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 2018.webp',
     '/cars/MERCEDES BENZ GLC300 OFFROAD 20181.webp',
     '/cars/MERCEDES BENZ GLC300 OFFROAD 20182.webp',
     '/cars/MERCEDES BENZ GLC300 OFFROAD 20183.webp',
@@ -47,7 +46,8 @@ export const cars: Car[] = [
     '/cars/MERCEDES BENZ GLC300 OFFROAD 20185.webp',
     '/cars/MERCEDES BENZ GLC300 OFFROAD 20186.webp',
     '/cars/MERCEDES BENZ GLC300 OFFROAD 20187.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20188.webp'
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20188.webp',
+    '/cars/MERCEDES BENZ GLC300 OFFROAD 20189.webp'
   ],
   details: {
     condition: 'Factura de seminuevos con su consecutivo de agencia',
