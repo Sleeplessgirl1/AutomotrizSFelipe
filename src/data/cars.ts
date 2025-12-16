@@ -1,8 +1,41 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+ 
+ 
+ 
  {
-  id: '43',
+  id: '64',
+  name: 'MERCEDES BENZ GLE53 AMG',
+  year: 2022,
+  category: 'SUV',
+  price: 1290000,
+  image: '/cars/MERCEDES BENZ GLE53 AMG 20221.webp',
+  images: [
+    '/cars/MERCEDES BENZ GLE53 AMG 20221.webp',
+    '/cars/MERCEDES BENZ GLE53 AMG 20222.webp',
+    '/cars/MERCEDES BENZ GLE53 AMG 20223.webp',
+    '/cars/MERCEDES BENZ GLE53 AMG 20224.webp',
+    '/cars/MERCEDES BENZ GLE53 AMG 20225.webp',
+    '/cars/MERCEDES BENZ GLE53 AMG 20226.webp',
+    '/cars/MERCEDES BENZ GLE53 AMG 20227.webp',
+    '/cars/MERCEDES BENZ GLE53 AMG 20228.webp',
+    '/cars/MERCEDES BENZ GLE53 AMG 20229.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '49,324 Kms',
+    engine: 'V6 3.0 Turbo con sistema Mild-Hybrid',
+    features: [
+      'Financiamiento Disponible',
+      'Impecables condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
+  id: '63',
   name: 'BMW X6 M50i',
   year: 2021,
   category: 'SUV',
@@ -32,12 +65,12 @@ export const cars: Car[] = [
   }
 },
 {
-  id: '42',
+  id: '62',
   name: 'MERCEDES BENZ GLC300 OFFROAD',
   year: 2018,
   category: 'SUV',
   price: 385000,
-  image: '/cars/MERCEDES BENZ GLC300 OFFROAD 2018.webp',
+  image: '/cars/MERCEDES BENZ GLC300 OFFROAD 20181.webp',
   images: [
     '/cars/MERCEDES BENZ GLC300 OFFROAD 20181.webp',
     '/cars/MERCEDES BENZ GLC300 OFFROAD 20182.webp',
@@ -52,7 +85,7 @@ export const cars: Car[] = [
   details: {
     condition: 'Factura de seminuevos con su consecutivo de agencia',
     keys: '2 llaves',
-    kilometers: 'No especificado',
+    kilometers: '90,446 Kms',
  engine: '4 cilindros',
     features: [
       'Financiamiento Disponible',
@@ -62,7 +95,7 @@ export const cars: Car[] = [
   }
 },
   {
-  id: '62',
+  id: '61',
   name: 'PORSCHE CAYENNE PLATINUM',
   year: 2022,
   category: 'SUV',
@@ -92,7 +125,7 @@ export const cars: Car[] = [
   }
 }, 
 {
-  id: '46',
+  id: '60',
   name: 'MERCEDES BENZ GLC300',
   year: 2019,
   category: 'SUV',
@@ -122,7 +155,7 @@ export const cars: Car[] = [
   }
 },
   {
-  id: '61',
+  id: '59',
   name: 'AUDI Q7 ELITE MHEV',
   year: 2022,
   category: 'SUV',
