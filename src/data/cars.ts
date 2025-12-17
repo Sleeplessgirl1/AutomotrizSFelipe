@@ -105,8 +105,7 @@ export const cars: Car[] = [
     '/cars/MINI COOPER SALT 20205.webp',
     '/cars/MINI COOPER SALT 20206.webp',
     '/cars/MINI COOPER SALT 20207.webp',
-    '/cars/MINI COOPER SALT 20208.webp',
-    '/cars/MINI COOPER SALT 20209.webp'
+   
   ],
   details: {
     condition: 'Factura de agencia',
