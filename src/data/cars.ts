@@ -2,7 +2,123 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
  
- 
+ {
+  id: '40',
+  name: 'NISSAN SENTRA ADVANCE',
+  year: 2024,
+  category: 'Sedan',
+  price: 385000,
+  image: '/cars/NISSAN SENTRA ADVANCE 20241.webp',
+  images: [
+    '/cars/NISSAN SENTRA ADVANCE 20241.webp',
+    '/cars/NISSAN SENTRA ADVANCE 20242.webp',
+    '/cars/NISSAN SENTRA ADVANCE 20243.webp',
+    '/cars/NISSAN SENTRA ADVANCE 20244.webp',
+    '/cars/NISSAN SENTRA ADVANCE 20245.webp',
+    '/cars/NISSAN SENTRA ADVANCE 20246.webp',
+    '/cars/NISSAN SENTRA ADVANCE 20247.webp',
+    '/cars/NISSAN SENTRA ADVANCE 20248.webp',
+    '/cars/NISSAN SENTRA ADVANCE 20249.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '15,929 Kms',
+    engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'automático',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '39',
+  name: 'CHEVROLET SUBURBAN PREMIER',
+  year: 2019,
+  category: 'SUV',
+  price: 730000,
+  image: '/cars/CHEVROLET SUBURBAN PREMIER 20191.webp',
+  images: [
+    '/cars/CHEVROLET SUBURBAN PREMIER 20191.webp',
+    '/cars/CHEVROLET SUBURBAN PREMIER 20192.webp',
+    '/cars/CHEVROLET SUBURBAN PREMIER 20193.webp',
+    '/cars/CHEVROLET SUBURBAN PREMIER 20194.webp',
+    '/cars/CHEVROLET SUBURBAN PREMIER 20195.webp',
+    '/cars/CHEVROLET SUBURBAN PREMIER 20196.webp',
+    '/cars/CHEVROLET SUBURBAN PREMIER 20197.webp',
+    '/cars/CHEVROLET SUBURBAN PREMIER 20198.webp',
+    '/cars/CHEVROLET SUBURBAN PREMIER 20199.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '137,878 Kms',
+    engine: 'V8 de 5.3 L',
+    features: [
+      'Financiamiento Disponible',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '38',
+  name: 'PORSCHE CAYENNE',
+  year: 2016,
+  category: 'SUV',
+  price: 560000,
+  image: '/cars/PORSCHE CAYENNE 20161.webp',
+  images: [
+    '/cars/PORSCHE CAYENNE 20161.webp',
+    '/cars/PORSCHE CAYENNE 20162.webp',
+    '/cars/PORSCHE CAYENNE 20163.webp',
+    '/cars/PORSCHE CAYENNE 20164.webp',
+    '/cars/PORSCHE CAYENNE 20165.webp',
+    '/cars/PORSCHE CAYENNE 20166.webp',
+    '/cars/PORSCHE CAYENNE 20167.webp',
+    '/cars/PORSCHE CAYENNE 20168.webp',
+    '/cars/PORSCHE CAYENNE 20169.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '49,545 Kms',
+    engine: 'V6 3.0L',
+    features: [
+      'Financiamiento Disponible',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '37',
+  name: 'MINI COOPER SALT',
+  year: 2020,
+  category: 'Deportivo',
+  price: 310000,
+  image: '/cars/MINI COOPER SALT 20201.webp',
+  images: [
+    '/cars/MINI COOPER SALT 20201.webp',
+    '/cars/MINI COOPER SALT 20202.webp',
+    '/cars/MINI COOPER SALT 20203.webp',
+    '/cars/MINI COOPER SALT 20204.webp',
+    '/cars/MINI COOPER SALT 20205.webp',
+    '/cars/MINI COOPER SALT 20206.webp',
+    '/cars/MINI COOPER SALT 20207.webp',
+    '/cars/MINI COOPER SALT 20208.webp',
+    '/cars/MINI COOPER SALT 20209.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '58,366 Kms',
+    engine: '3 cilindros 1.5 L',
+    features: [
+      'Financiamiento Disponible',
+      'Precio Negociable'
+    ]
+  }
+},
  
  {
   id: '64',
