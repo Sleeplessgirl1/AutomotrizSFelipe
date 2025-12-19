@@ -2,8 +2,40 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
  
+
+  {
+  id: '69',
+  name: 'PORSCHE CAYENNE',
+  year: 2019,
+  category: 'SUV',
+  price: 1100000,
+  image: '/cars/PORSCHE CAYENNE 20191.webp',
+  images: [
+    '/cars/PORSCHE CAYENNE 20191.webp',
+    '/cars/PORSCHE CAYENNE 20192.webp',
+    '/cars/PORSCHE CAYENNE 20193.webp',
+    '/cars/PORSCHE CAYENNE 20194.webp',
+    '/cars/PORSCHE CAYENNE 20195.webp',
+    '/cars/PORSCHE CAYENNE 20196.webp',
+    '/cars/PORSCHE CAYENNE 20197.webp',
+    '/cars/PORSCHE CAYENNE 20198.webp',
+    '/cars/PORSCHE CAYENNE 20199.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '81,323 Kms',
+    engine: 'V6 3.0 L Turbo',
+    features: [
+      'Financiamiento Disponible',
+      'Transmisión automática de 8 velocidades',
+      'Excelentes condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
  {
-  id: '40',
+  id: '68',
   name: 'NISSAN SENTRA ADVANCE',
   year: 2024,
   category: 'Sedan',
@@ -33,7 +65,7 @@ export const cars: Car[] = [
   }
 },
 {
-  id: '39',
+  id: '67',
   name: 'CHEVROLET SUBURBAN PREMIER',
   year: 2019,
   category: 'SUV',
@@ -62,7 +94,7 @@ export const cars: Car[] = [
   }
 },
 {
-  id: '38',
+  id: '66',
   name: 'PORSCHE CAYENNE',
   year: 2016,
   category: 'SUV',
@@ -91,7 +123,7 @@ export const cars: Car[] = [
   }
 },
 {
-  id: '37',
+  id: '65',
   name: 'MINI COOPER SALT',
   year: 2020,
   category: 'Deportivo',
