@@ -584,6 +584,37 @@ export const cars: Car[] = [
     }
   },
   {
+  id: '35',
+  name: 'BMW X6 XDRIVE40i',
+  year: 2022,
+  category: 'SUV',
+  price: 1250000,
+  image: '/cars/BMW X6 XDRIVE40i 20221.webp',
+  images: [
+    '/cars/BMW X6 XDRIVE40i 20221.webp',
+    '/cars/BMW X6 XDRIVE40i 20222.webp',
+    '/cars/BMW X6 XDRIVE40i 20223.webp',
+    '/cars/BMW X6 XDRIVE40i 20224.webp',
+    '/cars/BMW X6 XDRIVE40i 20225.webp',
+    '/cars/BMW X6 XDRIVE40i 20226.webp',
+    '/cars/BMW X6 XDRIVE40i 20227.webp',
+    '/cars/BMW X6 XDRIVE40i 20228.webp',
+    '/cars/BMW X6 XDRIVE40i 20229.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (2 dueños)',
+    keys: '2 llaves',
+    kilometers: '84,790 Kms',
+    engine: '6 cilindros TwinPower Turbo',
+    features: [
+      'Financiamiento Disponible',
+      'Paquete M Sport',
+      'Impecables condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
     id: '48',
     name: 'VOLKSWAGEN TERAMONT CROSSPORT',
     year: 2022,
