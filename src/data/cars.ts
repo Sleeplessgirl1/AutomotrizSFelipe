@@ -2,7 +2,65 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
  
-
+{
+  id: '71',
+  name: 'DODGE RAM 1500 LIMITED',
+  year: 2021,
+  category: 'Pick Up',
+  price: 800000,
+  image: '/cars/DODGE RAM 1500 LIMITED 20211.webp',
+  images: [
+    '/cars/DODGE RAM 1500 LIMITED 20211.webp',
+    '/cars/DODGE RAM 1500 LIMITED 20212.webp',
+    '/cars/DODGE RAM 1500 LIMITED 20213.webp',
+    '/cars/DODGE RAM 1500 LIMITED 20214.webp',
+    '/cars/DODGE RAM 1500 LIMITED 20215.webp',
+    '/cars/DODGE RAM 1500 LIMITED 20216.webp',
+    '/cars/DODGE RAM 1500 LIMITED 20217.webp',
+    '/cars/DODGE RAM 1500 LIMITED 20218.webp',
+    '/cars/DODGE RAM 1500 LIMITED 20219.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '81,658 Kms',
+    engine: 'V8',
+    features: [
+      'Financiamiento Disponible',
+      '4X4',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '70',
+  name: 'MERCEDES BENZ GLE450',
+  year: 2021,
+  category: 'SUV',
+  price: 1080000,
+  image: '/cars/MERCEDES BENZ GLE450 20211.webp',
+  images: [
+    '/cars/MERCEDES BENZ GLE450 20211.webp',
+    '/cars/MERCEDES BENZ GLE450 20212.webp',
+    '/cars/MERCEDES BENZ GLE450 20213.webp',
+    '/cars/MERCEDES BENZ GLE450 20214.webp',
+    '/cars/MERCEDES BENZ GLE450 20215.webp',
+    '/cars/MERCEDES BENZ GLE450 20216.webp',
+    '/cars/MERCEDES BENZ GLE450 20217.webp',
+    '/cars/MERCEDES BENZ GLE450 20218.webp',
+    '/cars/MERCEDES BENZ GLE450 20219.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    engine: 'V6 3.0 L MildHybrid',
+    features: [
+      'Financiamiento Disponible',
+      'Excelentes condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
   {
   id: '69',
   name: 'PORSCHE CAYENNE',
@@ -614,36 +672,7 @@ export const cars: Car[] = [
     ]
   }
 },
-  {
-    id: '48',
-    name: 'VOLKSWAGEN TERAMONT CROSSPORT',
-    year: 2022,
-    category: 'SUV',
-    price: 780000,
-    image: '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20221.webp',
-    images: [
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20221.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20222.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20223.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20224.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20225.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20226.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20227.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20228.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20229.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '59,509 Kms',
-      engine: 'V6',
-      features: [
-        'Excelentes condiciones',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
+,
 
 
   {
@@ -676,35 +705,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '44',
-    name: 'Mercedes Benz CLA250',
-    year: 2017,
-    category: 'Sedan',
-    price: 350000,
-    image: '/cars/Mercedes Benz CLA250 20171.webp',
-    images: [
-      '/cars/Mercedes Benz CLA250 20171.webp',
-      '/cars/Mercedes Benz CLA250 20172.webp',
-      '/cars/Mercedes Benz CLA250 20173.webp',
-      '/cars/Mercedes Benz CLA250 20174.webp',
-      '/cars/Mercedes Benz CLA250 20175.webp',
-      '/cars/Mercedes Benz CLA250 20176.webp',
-      '/cars/Mercedes Benz CLA250 20177.webp',
-      '/cars/Mercedes Benz CLA250 20178.webp',
-      '/cars/Mercedes Benz CLA250 20179.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '53,000 kms',
-      engine: '4 cilindros',
-      features: [
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
+,
   {
     id: '43',
     name: 'Chevrolet Cheyenne LT',
@@ -1790,44 +1791,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '7',
-    name: 'DODGE JOURNEY',
-    year: 2016,
-    category: 'SUV',
-    price: 260000,
-    image: '/cars/DODGE JOURNEY 20161.webp',
-    images: [
-      '/cars/DODGE JOURNEY 20161.webp',
-      '/cars/DODGE JOURNEY 20162.webp',
-      '/cars/DODGE JOURNEY 20163.webp',
-      '/cars/DODGE JOURNEY 20164.webp',
-      '/cars/DODGE JOURNEY 20165.webp',
-      '/cars/DODGE JOURNEY 20166.webp',
-      '/cars/DODGE JOURNEY 20167.webp',
-      '/cars/DODGE JOURNEY 20168.webp',
-      '/cars/DODGE JOURNEY 20169.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '120,000 KMS',
-      engine: 'MOTOR 2.4L',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '173 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        '7 ASIENTOS'
-      ]
-    }
-  },
+,
   {
     id: '6',
     name: 'VOLKSWAGEN GOLF HIGHLINE',
@@ -1977,44 +1941,6 @@ export const cars: Car[] = [
         'BLUETOOTH',
         'USB',
         '8 ASIENTOS'
-      ]
-    }
-  },
-  {
-    id: '2',
-    name: 'Jeep Sahara 4x4',
-    year: 2017,
-    category: 'SUV',
-    price: 560000,
-    image: '/cars/Jeep Sahara 4x4 20171.webp',
-    images: [
-      '/cars/Jeep Sahara 4x4 20171.webp',
-      '/cars/Jeep Sahara 4x4 20172.webp',
-      '/cars/Jeep Sahara 4x4 20173.webp',
-      '/cars/Jeep Sahara 4x4 20174.webp',
-      '/cars/Jeep Sahara 4x4 20175.webp',
-      '/cars/Jeep Sahara 4x4 20176.webp',
-      '/cars/Jeep Sahara 4x4 20177.webp',
-      '/cars/Jeep Sahara 4x4 20178.webp',
-      '/cars/Jeep Sahara 4x4 20179.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '95,000 KMS',
-      engine: 'MOTOR 3.6L',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '285 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'TRACTION 4X4'
       ]
     }
   },
