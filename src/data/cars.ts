@@ -53,6 +53,7 @@ export const cars: Car[] = [
   details: {
     condition: 'Factura de seminuevos con su consecutivo de agencia',
     keys: '2 llaves',
+        kilometers: '58,323 Kms',
     engine: 'V6 3.0 L MildHybrid',
     features: [
       'Financiamiento Disponible',
@@ -1096,12 +1097,12 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '100,575 Kms',
       engine: 'V6 de 3.5 L Turbo',
-      horsepower: '450 HP',
-      traction: '4X4',
       features: [
         'Impecables condiciones',
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "horsepower: '450 HP'", 
+        "traction: '4X4'"
       ]
     }
   },
@@ -1128,10 +1129,10 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: 'No especificado',
       engine: 'V6 de 3.5 PowerBoost HEV',
-      traction: '4x4',
       features: [
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "traction: '4x4'"
       ]
     }
   },
@@ -1158,12 +1159,12 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '15,462 Kms',
       engine: '4 cilindros 2.0 Turbo',
-      horsepower: '265 HP',
       features: [
         'Rines 21” RS Spyder Design',
         'Color: Crayón',
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "horsepower: '265 HP'"
       ]
     }
   },
@@ -1189,14 +1190,14 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '58,307 Kms',
       engine: '4 cilindros 2.7 L Turbo Plus',
-      horsepower: '310 HP',
-      transmission: 'Transmisión automática de 8 velocidades',
       features: [
         'Pantalla HD de 11.3”',
         'Garantía en agencia',
         '4 modos de manejo',
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "horsepower: '310 HP'",
+        "transmission: 'Transmisión automática de 8 velocidades'"
       ]
     }
   },
@@ -1254,12 +1255,12 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '52,424 Kms',
       engine: 'V6 de 3.0 Turbo MildHybrid',
-      traction: 'Tracción integral AMG 4matic',
       features: [
         'Sistema de iluminación ambiental',
         'Impecables condiciones',
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "traction: 'Tracción integral AMG 4matic'"
       ]
     }
   },
@@ -1286,12 +1287,12 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '49,417 kms',
       engine: '4 cilindros 2.0 turbo diesel',
-      transmission: 'Automática de 8 velocidades',
       features: [
         'Versión más equipada',
         'Asientos piel/alcantar',
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "transmission: 'Automática de 8 velocidades'"
       ]
     }
   },
@@ -1318,10 +1319,10 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '83,553 Kms',
       engine: '4 cilindros 1.6 litros',
-      transmission: 'Automático',
       features: [
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "transmission: 'Automático'"
       ]
     }
   },
@@ -1378,14 +1379,14 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '15,830 Kms',
       engine: '6 cilindros TwinPower Turbo',
-      horsepower: '460 HP',
       features: [
         'Techo en fibra de carbono',
         'Faros LED',
         'Acabados interiores M iluminados',
         'Sistema Harman Kardon con 14 altavoces',
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "horsepower: '460 HP'"
       ]
     }
   },
@@ -1441,11 +1442,11 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '107,753 Kms',
       engine: 'V8 4.4 L TwinTurbo 456 HP',
-      traction: 'AWD (xDrive)',
       features: [
         'Impecables condiciones',
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "traction: 'AWD (xDrive)'"
       ]
     }
   },
@@ -1503,11 +1504,12 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '111,986 Kms',
       engine: 'V6',
-      traction: '4x4',
+      
       features: [
         'Muy buenas condiciones generales',
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "traction: '4X4'"
       ]
     }
   },
@@ -1534,11 +1536,11 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '86,825 Kms',
       engine: '8 cilindros',
-      traction: '4X4',
       features: [
         'Muy buenas condiciones generales',
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "traction: '4X4'"
       ]
     }
   },
@@ -1595,11 +1597,11 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '95,102 Kms',
       engine: 'V8 de 5.3 L',
-      traction: '4X4',
+      
       features: [
         'Financiamiento Bancario Disponible',
-        'Precio Negociable'
-      ]
+        'Precio Negociable',
+        "traction: '4X4"      ]
     }
   },
   {
@@ -1688,7 +1690,6 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '216,083 kms',
       engine: '4 cil 2.5 L',
-      transmission: 'Automática',
       features: [
         'Lista para el trabajo',
         'Precio Negociable de contado'
