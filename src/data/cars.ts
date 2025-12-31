@@ -2,6 +2,96 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
  {
+  id: '75',
+  name: 'FORD LOBO PLATINUM',
+  year: 2022,
+  category: 'Pick Up',
+  price: 930000,
+  image: '/cars/FORD LOBO PLATINUM 20221.webp',
+  images: [
+    '/cars/FORD LOBO PLATINUM 202211.webp',
+    '/cars/FORD LOBO PLATINUM 202222.webp',
+    '/cars/FORD LOBO PLATINUM 202233.webp',
+    '/cars/FORD LOBO PLATINUM 202244.webp',
+    '/cars/FORD LOBO PLATINUM 202255.webp',
+    '/cars/FORD LOBO PLATINUM 202266.webp',
+    '/cars/FORD LOBO PLATINUM 202277.webp',
+    '/cars/FORD LOBO PLATINUM 202288.webp',
+    '/cars/FORD LOBO PLATINUM 202299.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '61,196 Kms',
+    engine: 'V6 Turbo',
+    features: [
+      'Financiamiento Disponible',
+      '4x4'
+    ]
+  }
+},
+{
+  id: '74',
+  name: 'AUDI Q5 SPORTBACK S LINE',
+  year: 2022,
+  category: 'SUV',
+  price: 800000,
+  image: '/cars/AUDI Q5 SPORTBACK S LINE 20221.webp',
+  images: [
+    '/cars/AUDI Q5 SPORTBACK S LINE 20221.webp',
+    '/cars/AUDI Q5 SPORTBACK S LINE 20222.webp',
+    '/cars/AUDI Q5 SPORTBACK S LINE 20223.webp',
+    '/cars/AUDI Q5 SPORTBACK S LINE 20224.webp',
+    '/cars/AUDI Q5 SPORTBACK S LINE 20225.webp',
+    '/cars/AUDI Q5 SPORTBACK S LINE 20226.webp',
+    '/cars/AUDI Q5 SPORTBACK S LINE 20227.webp',
+    '/cars/AUDI Q5 SPORTBACK S LINE 20228.webp',
+    '/cars/AUDI Q5 SPORTBACK S LINE 20229.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (2 dueños)',
+    keys: '2 llaves',
+    kilometers: '60,047 Kms',
+    engine: '4 cilindros 2.0 Turbo',
+    features: [
+      'Llévatela con un enganche de $160,000',
+      'Excelentes condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '73',
+  name: 'FORD RANGER RAPTOR',
+  year: 2023,
+  category: 'Pick Up',
+  price: 1030000,
+  image: '/cars/FORD RANGER RAPTOR 20231.webp',
+  images: [
+    '/cars/FORD RANGER RAPTOR 20231.webp',
+    '/cars/FORD RANGER RAPTOR 20232.webp',
+    '/cars/FORD RANGER RAPTOR 20233.webp',
+    '/cars/FORD RANGER RAPTOR 20234.webp',
+    '/cars/FORD RANGER RAPTOR 20235.webp',
+    '/cars/FORD RANGER RAPTOR 20236.webp',
+    '/cars/FORD RANGER RAPTOR 20237.webp',
+    '/cars/FORD RANGER RAPTOR 20238.webp',
+    '/cars/FORD RANGER RAPTOR 20239.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '31,135 Kms',
+    engine: 'V6 3.0 L TwinTurbo',
+    features: [
+      'Llévatela con un enganche de $206,000',
+      '4X4',
+      'Amortiguadores Fox Racing',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
   id: '72',
   name: 'BMW 330e',
   year: 2023,
@@ -33,36 +123,7 @@ export const cars: Car[] = [
     ]
   }
 },
-{
-  id: '71',
-  name: 'DODGE RAM 1500 LIMITED',
-  year: 2021,
-  category: 'Pick Up',
-  price: 800000,
-  image: '/cars/DODGE RAM 1500 LIMITED 20211.webp',
-  images: [
-    '/cars/DODGE RAM 1500 LIMITED 20211.webp',
-    '/cars/DODGE RAM 1500 LIMITED 20212.webp',
-    '/cars/DODGE RAM 1500 LIMITED 20213.webp',
-    '/cars/DODGE RAM 1500 LIMITED 20214.webp',
-    '/cars/DODGE RAM 1500 LIMITED 20215.webp',
-    '/cars/DODGE RAM 1500 LIMITED 20216.webp',
-    '/cars/DODGE RAM 1500 LIMITED 20217.webp',
-    '/cars/DODGE RAM 1500 LIMITED 20218.webp',
-    '/cars/DODGE RAM 1500 LIMITED 20219.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (único dueño)',
-    keys: '2 llaves',
-    kilometers: '81,658 Kms',
-    engine: 'V8',
-    features: [
-      'Financiamiento Disponible',
-      '4X4',
-      'Precio Negociable'
-    ]
-  }
-},
+
 {
   id: '70',
   name: 'MERCEDES BENZ GLE450',
@@ -1327,37 +1388,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '24',
-    name: 'VOLKSWAGEN VENTO',
-    year: 2022,
-    category: 'Sedan',
-    price: 230000,
-    image: '/cars/VOLKSWAGEN VENTO 20221.webp',
-    images: [
-      '/cars/VOLKSWAGEN VENTO 20221.webp',
-      '/cars/VOLKSWAGEN VENTO 20222.webp',
-      '/cars/VOLKSWAGEN VENTO 20223.webp',
-      '/cars/VOLKSWAGEN VENTO 20224.webp',
-      '/cars/VOLKSWAGEN VENTO 20225.webp',
-      '/cars/VOLKSWAGEN VENTO 20226.webp',
-      '/cars/VOLKSWAGEN VENTO 20227.webp',
-      '/cars/VOLKSWAGEN VENTO 20228.webp',
-      '/cars/VOLKSWAGEN VENTO 20229.webp'
-    ],
-    details: {
-      condition: 'Factura de seminuevos con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '83,553 Kms',
-      engine: '4 cilindros 1.6 litros',
-      features: [
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable',
-        "transmission: 'Automático'"
-      ]
-    }
-  },
-  {
+    {
     id: '23',
     name: 'MERCEDES BENZ GLE43 AMG',
     year: 2020,
@@ -1544,67 +1575,8 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '15',
-    name: 'GMC SIERRA AT4',
-    year: 2022,
-    category: 'Pick Up',
-    price: 9800000,
-    image: '/cars/GMC SIERRA AT4 20221.webp',
-    images: [
-      '/cars/GMC SIERRA AT4 20221.webp',
-      '/cars/GMC SIERRA AT4 20222.webp',
-      '/cars/GMC SIERRA AT4 20223.webp',
-      '/cars/GMC SIERRA AT4 20224.webp',
-      '/cars/GMC SIERRA AT4 20225.webp',
-      '/cars/GMC SIERRA AT4 20226.webp',
-      '/cars/GMC SIERRA AT4 20227.webp',
-      '/cars/GMC SIERRA AT4 20228.webp',
-      '/cars/GMC SIERRA AT4 20229.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '86,825 Kms',
-      engine: '8 cilindros',
-      features: [
-        'Muy buenas condiciones generales',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable',
-        "traction: '4X4'"
-      ]
-    }
-  },
-  {
-    id: '14',
-    name: 'AUDI Q2',
-    year: 2019,
-    category: 'SUV',
-    price: 330000,
-    image: '/cars/AUDI Q2 20191.webp',
-    images: [
-      '/cars/AUDI Q2 20191.webp',
-      '/cars/AUDI Q2 20192.webp',
-      '/cars/AUDI Q2 20193.webp',
-      '/cars/AUDI Q2 20194.webp',
-      '/cars/AUDI Q2 20195.webp',
-      '/cars/AUDI Q2 20196.webp',
-      '/cars/AUDI Q2 20197.webp',
-      '/cars/AUDI Q2 20198.webp',
-      '/cars/AUDI Q2 20199.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '62,916 Kms',
-      engine: '4 cilindros 1.4 litros',
-      features: [
-        'Muy buenas condiciones generales',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
+
+  
   {
     id: '13',
     name: 'CHEVROLET CHEYENNE RST',
