@@ -7,7 +7,8 @@ export const cars: Car[] = [
   year: 2022,
   category: 'Pick Up',
   price: 930000,
-  image: '/cars/FORD LOBO PLATINUM 202211.webp',
+  image:     '/cars/FORD LOBO PLATINUM 202211.webp',
+
   images: [
     '/cars/FORD LOBO PLATINUM 202211.webp',
     '/cars/FORD LOBO PLATINUM 202222.webp',
