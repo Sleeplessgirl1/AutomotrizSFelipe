@@ -1,7 +1,70 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+ 
  {
+  id: '77',
+  name: 'BMW X5 XDrive40i',
+  year: 2025,
+  category: 'SUV',
+  price: 1630000,
+  image: '/cars/BMW X5 XDrive40i 20251.webp',
+  images: [
+    '/cars/BMW X5 XDrive40i 20251.webp',
+    '/cars/BMW X5 XDrive40i 20252.webp',
+    '/cars/BMW X5 XDrive40i 20253.webp',
+    '/cars/BMW X5 XDrive40i 20254.webp',
+    '/cars/BMW X5 XDrive40i 20255.webp',
+    '/cars/BMW X5 XDrive40i 20256.webp',
+    '/cars/BMW X5 XDrive40i 20257.webp',
+    '/cars/BMW X5 XDrive40i 20258.webp',
+    '/cars/BMW X5 XDrive40i 20259.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '10,000 Kms',
+    engine: 'V6 3.0 L Turbo',
+    features: [
+      'Llévatela con un enganche de $326,000',
+      'Garantía hasta 2028',
+      'Impecables condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '76',
+  name: 'FORD MUSTANG GT',
+  year: 2024,
+  category: 'Deportivo',
+  price: 1090000,
+  image: '/cars/FORD MUSTANG GT 20241.webp',
+  images: [
+    '/cars/FORD MUSTANG GT 20241.webp',
+    '/cars/FORD MUSTANG GT 20242.webp',
+    '/cars/FORD MUSTANG GT 20243.webp',
+    '/cars/FORD MUSTANG GT 20244.webp',
+    '/cars/FORD MUSTANG GT 20245.webp',
+    '/cars/FORD MUSTANG GT 20246.webp',
+    '/cars/FORD MUSTANG GT 20247.webp',
+    '/cars/FORD MUSTANG GT 20248.webp',
+    '/cars/FORD MUSTANG GT 20249.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '6,229 Kms',
+    engine: 'V8 5.0 L',
+    features: [
+      'Llévatelo con un enganche de $218,000',
+      'Varios modos de manejo',
+      'XPEL',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
   id: '75',
   name: 'FORD LOBO PLATINUM',
   year: 2022,
