@@ -672,38 +672,6 @@ export const cars: Car[] = [
   }
 },
   {
-    id: '54',
-    name: 'JEEP GRAND CHEROKEE LIMITED',
-    year: 2023,
-    category: 'SUV',
-    price: 920000,
-    image: '/cars/JEEP GRAND CHEROKEE LIMITED 20231.webp',
-    images: [
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20231.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20232.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20233.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20234.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20235.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20236.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20237.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20238.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 20239.webp',
-      '/cars/JEEP GRAND CHEROKEE LIMITED 202310.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '42,266 Kms',
-      engine: 'V6 de 3.6 L',
-      features: [
-        'Sonido Alpine',
-        'Garantía en agencia',
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
-  {
   id: '44',
   name: 'KIA RIO L',
   year: 2021,
@@ -1329,7 +1297,7 @@ export const cars: Car[] = [
     name: 'Chevrolet Colorado ZR2',
     year: 2024,
     category: 'Pick Up',
-    price: 965000,
+    price: 980000,
     image: '/cars/Chevrolet Colorado ZR2 20241.webp',
     images: [
       '/cars/Chevrolet Colorado ZR2 20241.webp',
@@ -1481,70 +1449,7 @@ export const cars: Car[] = [
         'Precio Negociable'
       ]
     }
-  },
-  {
-    id: '22',
-    name: 'BMW M2 COUPE',
-    year: 2024,
-    category: 'Deportivo',
-    price: 1470000,
-    image: '/cars/BMW M2 COUPE 20241.webp',
-    images: [
-      '/cars/BMW M2 COUPE 20241.webp',
-      '/cars/BMW M2 COUPE 20242.webp',
-      '/cars/BMW M2 COUPE 20243.webp',
-      '/cars/BMW M2 COUPE 20244.webp',
-      '/cars/BMW M2 COUPE 20245.webp',
-      '/cars/BMW M2 COUPE 20246.webp',
-      '/cars/BMW M2 COUPE 20247.webp',
-      '/cars/BMW M2 COUPE 20248.webp',
-      '/cars/BMW M2 COUPE 20249.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '15,830 Kms',
-      engine: '6 cilindros TwinPower Turbo',
-      features: [
-        'Techo en fibra de carbono',
-        'Faros LED',
-        'Acabados interiores M iluminados',
-        'Sistema Harman Kardon con 14 altavoces',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable',
-        "horsepower: '460 HP'"
-      ]
-    }
-  },
-  {
-    id: '20',
-    name: 'GMC SIERRA SLE',
-    year: 2016,
-    category: 'Pick Up',
-    price: 440000,
-    image: '/cars/GMC SIERRA SLE 20161.webp',
-    images: [
-      '/cars/GMC SIERRA SLE 20161.webp',
-      '/cars/GMC SIERRA SLE 20162.webp',
-      '/cars/GMC SIERRA SLE 20163.webp',
-      '/cars/GMC SIERRA SLE 20164.webp',
-      '/cars/GMC SIERRA SLE 20165.webp',
-      '/cars/GMC SIERRA SLE 20166.webp',
-      '/cars/GMC SIERRA SLE 20167.webp',
-      '/cars/GMC SIERRA SLE 20168.webp',
-      '/cars/GMC SIERRA SLE 20169.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '105,689 kms',
-      engine: '5.3L V8',
-      features: [
-        'Muy buenas condiciones generales',
-        'Precio Negociable'
-      ]
-    }
-  },
+  },  
   {
     id: '19',
     name: 'BMW X5 XDrive50i M Sport',
