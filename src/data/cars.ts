@@ -1,7 +1,97 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
- 
+ {
+  id: '80',
+  name: 'BMW 430i M SPORT COUPE',
+  year: 2023,
+  category: 'Deportivo',
+  price: 960000,
+  image: '/cars/BMW 430i M SPORT COUPE 20231.webp',
+  images: [
+    '/cars/BMW 430i M SPORT COUPE 20231.webp',
+    '/cars/BMW 430i M SPORT COUPE 20232.webp',
+    '/cars/BMW 430i M SPORT COUPE 20233.webp',
+    '/cars/BMW 430i M SPORT COUPE 20234.webp',
+    '/cars/BMW 430i M SPORT COUPE 20235.webp',
+    '/cars/BMW 430i M SPORT COUPE 20236.webp',
+    '/cars/BMW 430i M SPORT COUPE 20237.webp',
+    '/cars/BMW 430i M SPORT COUPE 20238.webp',
+    '/cars/BMW 430i M SPORT COUPE 20239.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '71,000 Kms',
+    engine: '4 cilindros 2.0 Turbo',
+    features: [
+      'Llévatelo con un enganche de $192,000',
+      'Servicios de agencia',
+      'Varios extras',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '79',
+  name: 'NISSAN MARCH ADVANCE',
+  year: 2019,
+  category: 'Sedán',
+  price: 175000,
+  image: '/cars/NISSAN MARCH ADVANCE 20191.webp',
+  images: [
+    '/cars/NISSAN MARCH ADVANCE 20191.webp',
+    '/cars/NISSAN MARCH ADVANCE 20192.webp',
+    '/cars/NISSAN MARCH ADVANCE 20193.webp',
+    '/cars/NISSAN MARCH ADVANCE 20194.webp',
+    '/cars/NISSAN MARCH ADVANCE 20195.webp',
+    '/cars/NISSAN MARCH ADVANCE 20196.webp',
+    '/cars/NISSAN MARCH ADVANCE 20197.webp',
+    '/cars/NISSAN MARCH ADVANCE 20198.webp',
+    '/cars/NISSAN MARCH ADVANCE 20199.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (2 dueños)',
+    keys: '2 llaves',
+    kilometers: '127,901 Kms',
+    engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'Transmisión manual',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '78',
+  name: 'AUDI SQ5',
+  year: 2018,
+  category: 'SUV',
+  price: 580000,
+  image: '/cars/AUDI SQ5 20181.webp',
+  images: [
+    '/cars/AUDI SQ5 20181.webp',
+    '/cars/AUDI SQ5 20182.webp',
+    '/cars/AUDI SQ5 20183.webp',
+    '/cars/AUDI SQ5 20184.webp',
+    '/cars/AUDI SQ5 20185.webp',
+    '/cars/AUDI SQ5 20186.webp',
+    '/cars/AUDI SQ5 20187.webp',
+    '/cars/AUDI SQ5 20188.webp',
+    '/cars/AUDI SQ5 20189.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (2 dueños)',
+    keys: '2 llaves',
+    kilometers: '110,167 Kms',
+    engine: 'V6 3.0 Turbo',
+    features: [
+      'Llévatela con un enganche de $116,000',
+      'Varios extras',
+      'Precio Negociable'
+    ]
+  }
+},
  {
   id: '77',
   name: 'BMW X5 XDrive40i',
