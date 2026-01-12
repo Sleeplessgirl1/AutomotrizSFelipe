@@ -2,6 +2,65 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
  {
+  id: '82',
+  name: 'AUDI A1 EGO',
+  year: 2021,
+  category: 'Sedan',
+  price: 355000,
+  image: '/cars/AUDI A1 EGO 2021 1.webp',
+  images: [
+    '/cars/AUDI A1 EGO 2021 1.webp',
+    '/cars/AUDI A1 EGO 2021 2.webp',
+    '/cars/AUDI A1 EGO 2021 3.webp',
+    '/cars/AUDI A1 EGO 2021 4.webp',
+    '/cars/AUDI A1 EGO 2021 5.webp',
+    '/cars/AUDI A1 EGO 2021 6.webp',
+    '/cars/AUDI A1 EGO 2021 7.webp',
+    '/cars/AUDI A1 EGO 2021 8.webp',
+    '/cars/AUDI A1 EGO 2021 9.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '85,096 Kms',
+    engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'Excelentes condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '81',
+  name: 'AUDI A1 EGO',
+  year: 2021,
+  category: 'Sedan',
+  price: 355000,
+  image: '/cars/AUDI A1 EGO 2021 1.webp',
+  images: [
+    '/cars/AUDI A1 EGO 2021 1.webp',
+    '/cars/AUDI A1 EGO 2021 2.webp',
+    '/cars/AUDI A1 EGO 2021 3.webp',
+    '/cars/AUDI A1 EGO 2021 4.webp',
+    '/cars/AUDI A1 EGO 2021 5.webp',
+    '/cars/AUDI A1 EGO 2021 6.webp',
+    '/cars/AUDI A1 EGO 2021 7.webp',
+    '/cars/AUDI A1 EGO 2021 8.webp',
+    '/cars/AUDI A1 EGO 2021 9.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '85,096 Kms',
+    engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'Excelentes condiciones',
+      'Precio Negociable'
+    ]
+  }
+},{
   id: '80',
   name: 'BMW 430i M SPORT COUPE',
   year: 2023,
@@ -36,7 +95,7 @@ export const cars: Car[] = [
   id: '79',
   name: 'NISSAN MARCH ADVANCE',
   year: 2019,
-  category: 'Sedán',
+  category: 'Sedan',
   price: 175000,
   image: '/cars/NISSAN MARCH ADVANCE 20191.webp',
   images: [
