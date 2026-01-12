@@ -3,30 +3,30 @@ import { Car } from '@/types/car';
 export const cars: Car[] = [
  {
   id: '82',
-  name: 'AUDI A1 EGO',
-  year: 2021,
-  category: 'Sedan',
-  price: 355000,
-  image: '/cars/AUDI A1 EGO 2021 1.webp',
+  name: 'VOLKSWAGEN GOLF R',
+  year: 2018,
+  category: 'Deportivo',
+  price: 600000,
+  image: '/cars/VOLKSWAGEN GOLF R 20181.webp',
   images: [
-    '/cars/AUDI A1 EGO 2021 1.webp',
-    '/cars/AUDI A1 EGO 2021 2.webp',
-    '/cars/AUDI A1 EGO 2021 3.webp',
-    '/cars/AUDI A1 EGO 2021 4.webp',
-    '/cars/AUDI A1 EGO 2021 5.webp',
-    '/cars/AUDI A1 EGO 2021 6.webp',
-    '/cars/AUDI A1 EGO 2021 7.webp',
-    '/cars/AUDI A1 EGO 2021 8.webp',
-    '/cars/AUDI A1 EGO 2021 9.webp'
+    '/cars/VOLKSWAGEN GOLF R 20181.webp',
+    '/cars/VOLKSWAGEN GOLF R 20182.webp',
+    '/cars/VOLKSWAGEN GOLF R 20183.webp',
+    '/cars/VOLKSWAGEN GOLF R 20184.webp',
+    '/cars/VOLKSWAGEN GOLF R 20185.webp',
+    '/cars/VOLKSWAGEN GOLF R 20186.webp',
+    '/cars/VOLKSWAGEN GOLF R 20187.webp',
+    '/cars/VOLKSWAGEN GOLF R 20188.webp',
+    '/cars/VOLKSWAGEN GOLF R 20189.webp'
   ],
   details: {
-    condition: 'Factura de agencia',
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
     keys: '2 llaves',
-    kilometers: '85,096 Kms',
-    engine: '4 cilindros',
+    kilometers: '36,221 Kms',
+    engine: '4 cilindros 2.0 Turbo 292 HP',
     features: [
       'Financiamiento Disponible',
-      'Excelentes condiciones',
+      'Transmisión automática DSG 7 velocidades',
       'Precio Negociable'
     ]
   }
@@ -37,17 +37,17 @@ export const cars: Car[] = [
   year: 2021,
   category: 'Sedan',
   price: 355000,
-  image: '/cars/AUDI A1 EGO 2021 1.webp',
+  image: '/cars/AUDI A1 EGO 20211.webp',
   images: [
-    '/cars/AUDI A1 EGO 2021 1.webp',
-    '/cars/AUDI A1 EGO 2021 2.webp',
-    '/cars/AUDI A1 EGO 2021 3.webp',
-    '/cars/AUDI A1 EGO 2021 4.webp',
-    '/cars/AUDI A1 EGO 2021 5.webp',
-    '/cars/AUDI A1 EGO 2021 6.webp',
-    '/cars/AUDI A1 EGO 2021 7.webp',
-    '/cars/AUDI A1 EGO 2021 8.webp',
-    '/cars/AUDI A1 EGO 2021 9.webp'
+    '/cars/AUDI A1 EGO 20211.webp',
+    '/cars/AUDI A1 EGO 20212.webp',
+    '/cars/AUDI A1 EGO 20213.webp',
+    '/cars/AUDI A1 EGO 20214.webp',
+    '/cars/AUDI A1 EGO 20215.webp',
+    '/cars/AUDI A1 EGO 20216.webp',
+    '/cars/AUDI A1 EGO 20217.webp',
+    '/cars/AUDI A1 EGO 20218.webp',
+    '/cars/AUDI A1 EGO 20219.webp'
   ],
   details: {
     condition: 'Factura de agencia',
