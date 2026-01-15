@@ -1,28 +1,28 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
- {
-  id: '20',
-  name: 'CHEVROLET SUBURBAN',
-  year: 2020,
+{
+  id: '19',
+  name: 'CHEVROLET TAHOE RST',
+  year: 2021,
   category: 'SUV',
   price: 980000,
-  image: '/cars/CHEVROLET SUBURBAN 20201.webp',
+  image: '/cars/CHEVROLET TAHOE RST 20211.webp',
   images: [
-    '/cars/CHEVROLET SUBURBAN 20201.webp',
-    '/cars/CHEVROLET SUBURBAN 20202.webp',
-    '/cars/CHEVROLET SUBURBAN 20203.webp',
-    '/cars/CHEVROLET SUBURBAN 20204.webp',
-    '/cars/CHEVROLET SUBURBAN 20205.webp',
-    '/cars/CHEVROLET SUBURBAN 20206.webp',
-    '/cars/CHEVROLET SUBURBAN 20207.webp',
-    '/cars/CHEVROLET SUBURBAN 20208.webp',
-    '/cars/CHEVROLET SUBURBAN 20209.webp'
+    '/cars/CHEVROLET TAHOE RST 20211.webp',
+    '/cars/CHEVROLET TAHOE RST 20212.webp',
+    '/cars/CHEVROLET TAHOE RST 20213.webp',
+    '/cars/CHEVROLET TAHOE RST 20214.webp',
+    '/cars/CHEVROLET TAHOE RST 20215.webp',
+    '/cars/CHEVROLET TAHOE RST 20216.webp',
+    '/cars/CHEVROLET TAHOE RST 20217.webp',
+    '/cars/CHEVROLET TAHOE RST 20218.webp',
+    '/cars/CHEVROLET TAHOE RST 20219.webp'
   ],
   details: {
     condition: 'Factura de agencia',
     keys: '2 llaves',
-    kilometers: '87,966 Kms',
+    kilometers: '87,966 kms',
     engine: 'V8 5.3 L',
     features: [
       'Llévatela con un enganche de $196,000',
