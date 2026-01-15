@@ -2,6 +2,36 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
  {
+  id: '20',
+  name: 'CHEVROLET SUBURBAN',
+  year: 2020,
+  category: 'SUV',
+  price: 980000,
+  image: '/cars/CHEVROLET SUBURBAN 20201.webp',
+  images: [
+    '/cars/CHEVROLET SUBURBAN 20201.webp',
+    '/cars/CHEVROLET SUBURBAN 20202.webp',
+    '/cars/CHEVROLET SUBURBAN 20203.webp',
+    '/cars/CHEVROLET SUBURBAN 20204.webp',
+    '/cars/CHEVROLET SUBURBAN 20205.webp',
+    '/cars/CHEVROLET SUBURBAN 20206.webp',
+    '/cars/CHEVROLET SUBURBAN 20207.webp',
+    '/cars/CHEVROLET SUBURBAN 20208.webp',
+    '/cars/CHEVROLET SUBURBAN 20209.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia',
+    keys: '2 llaves',
+    kilometers: '87,966 Kms',
+    engine: 'V8 5.3 L',
+    features: [
+      'Llévatela con un enganche de $196,000',
+      '3 Filas',
+      'Precio Negociable'
+    ]
+  }
+},
+{
   id: '82',
   name: 'VOLKSWAGEN GOLF R',
   year: 2018,
