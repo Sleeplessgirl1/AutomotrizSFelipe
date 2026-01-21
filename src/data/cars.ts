@@ -2,7 +2,37 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
 {
-  id: '19',
+  id: '84',
+  name: 'HONDA CIVIC SPORT PLUS COUPE',
+  year: 2020,
+  category: 'Deportivo',
+  price: 330000,
+  image: '/cars/HONDA CIVIC SPORT PLUS COUPE 20201.webp',
+  images: [
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20201.webp',
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20202.webp',
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20203.webp',
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20204.webp',
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20205.webp',
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20206.webp',
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20207.webp',
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20208.webp',
+    '/cars/HONDA CIVIC SPORT PLUS COUPE 20209.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (2 dueños)',
+    keys: '2 llaves',
+    kilometers: '82,854 Kms',
+    engine: '4 cilindros 1.5 L Turbo',
+    features: [
+      'Puede ser tuyo con un enganche mínimo de $66,000',
+      'Automático',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '83',
   name: 'CHEVROLET TAHOE RST',
   year: 2021,
   category: 'SUV',
