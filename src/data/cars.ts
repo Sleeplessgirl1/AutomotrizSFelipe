@@ -2,6 +2,66 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
 {
+  id: '17',
+  name: 'BMW 118iA Sedan Sport Line',
+  year: 2019,
+  category: 'Sedan',
+  price: 295000,
+  image: '/cars/BMW 118iA Sedan Sport Line 20191.webp',
+  images: [
+    '/cars/BMW 118iA Sedan Sport Line 20191.webp',
+    '/cars/BMW 118iA Sedan Sport Line 20192.webp',
+    '/cars/BMW 118iA Sedan Sport Line 20193.webp',
+    '/cars/BMW 118iA Sedan Sport Line 20194.webp',
+    '/cars/BMW 118iA Sedan Sport Line 20195.webp',
+    '/cars/BMW 118iA Sedan Sport Line 20196.webp',
+    '/cars/BMW 118iA Sedan Sport Line 20197.webp',
+    '/cars/BMW 118iA Sedan Sport Line 20198.webp',
+    '/cars/BMW 118iA Sedan Sport Line 20199.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '47,119 Kms',
+    engine: '3 cilindros 1.5 L Turbo',
+    features: [
+      'Llevatelo con un enganche de $73,750',
+      'Impecables condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '16',
+  name: 'FORD LOBO TREMOR HIGH',
+  year: 2023,
+  category: 'Pick Up',
+  price: 1099000,
+  image: '/cars/FORD LOBO TREMOR HIGH 20231.webp',
+  images: [
+    '/cars/FORD LOBO TREMOR HIGH 20231.webp',
+    '/cars/FORD LOBO TREMOR HIGH 20232.webp',
+    '/cars/FORD LOBO TREMOR HIGH 20233.webp',
+    '/cars/FORD LOBO TREMOR HIGH 20234.webp',
+    '/cars/FORD LOBO TREMOR HIGH 20235.webp',
+    '/cars/FORD LOBO TREMOR HIGH 20236.webp',
+    '/cars/FORD LOBO TREMOR HIGH 20237.webp',
+    '/cars/FORD LOBO TREMOR HIGH 20238.webp',
+    '/cars/FORD LOBO TREMOR HIGH 20239.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '34,062 Kms',
+    engine: 'V6 3.5 L EcoBoost 400 HP',
+    features: [
+      'Llévatela con un enganche de $220,000',
+      '4X4',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
   id: '84',
   name: 'HONDA CIVIC SPORT PLUS COUPE',
   year: 2020,
