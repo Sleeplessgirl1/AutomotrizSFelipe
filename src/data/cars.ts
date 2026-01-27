@@ -518,36 +518,7 @@ export const cars: Car[] = [
     ]
   }
 },
- {
-  id: '68',
-  name: 'NISSAN SENTRA ADVANCE',
-  year: 2024,
-  category: 'Sedan',
-  price: 385000,
-  image: '/cars/NISSAN SENTRA ADVANCE 20241.webp',
-  images: [
-    '/cars/NISSAN SENTRA ADVANCE 20241.webp',
-    '/cars/NISSAN SENTRA ADVANCE 20242.webp',
-    '/cars/NISSAN SENTRA ADVANCE 20243.webp',
-    '/cars/NISSAN SENTRA ADVANCE 20244.webp',
-    '/cars/NISSAN SENTRA ADVANCE 20245.webp',
-    '/cars/NISSAN SENTRA ADVANCE 20246.webp',
-    '/cars/NISSAN SENTRA ADVANCE 20247.webp',
-    '/cars/NISSAN SENTRA ADVANCE 20248.webp',
-    '/cars/NISSAN SENTRA ADVANCE 20249.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia',
-    keys: '2 llaves',
-    kilometers: '15,929 Kms',
-    engine: '4 cilindros',
-    features: [
-      'Financiamiento Disponible',
-      'automático',
-      'Precio Negociable'
-    ]
-  }
-},
+
 {
   id: '67',
   name: 'CHEVROLET SUBURBAN PREMIER',
@@ -1474,7 +1445,7 @@ export const cars: Car[] = [
     name: 'Ford Lobo Raptor',
     year: 2018,
     category: 'Pick Up',
-    price: 810000,
+    price: 800000,
     image: '/cars/Ford Lobo Raptor 20181.webp',
     images: [
       '/cars/Ford Lobo Raptor 20181.webp',
@@ -1822,7 +1793,7 @@ export const cars: Car[] = [
     name: 'CHEVROLET CHEYENNE RST',
     year: 2019,
     category: 'Pick Up',
-    price: 730000,
+    price: 690000,
     image: '/cars/CHEVROLET CHEYENNE RST 20191.webp',
     images: [
       '/cars/CHEVROLET CHEYENNE RST 20191.webp',
@@ -1844,7 +1815,7 @@ export const cars: Car[] = [
       features: [
         'Financiamiento Bancario Disponible',
         'Precio Negociable',
-        "traction: '4X4"      ]
+        "traction: '4X4'"      ]
     }
   },
   {
@@ -1944,7 +1915,7 @@ export const cars: Car[] = [
     name: 'NISSAN X-TRAIL HIBRIDA',
     year: 2019,
     category: 'SUV',
-    price: 430000,
+    price: 375000,
     image: '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
     images: [
       '/cars/Nissan XTRAIL HÍBRIDA 20191.webp',
