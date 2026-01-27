@@ -2,7 +2,38 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
 {
-  id: '17',
+  id: '87',
+  name: 'GMC SIERRA DENALI ULTIMATE',
+  year: 2025,
+  category: 'Pick Up',
+  price: 1730000,
+  image: '/cars/GMC SIERRA DENALI ULTIMATE 2025.webp',
+  images: [
+    '/cars/GMC SIERRA DENALI ULTIMATE 2025.webp',
+    '/cars/GMC SIERRA DENALI ULTIMATE 20252.webp',
+    '/cars/GMC SIERRA DENALI ULTIMATE 20253.webp',
+    '/cars/GMC SIERRA DENALI ULTIMATE 20254.webp',
+    '/cars/GMC SIERRA DENALI ULTIMATE 20255.webp',
+    '/cars/GMC SIERRA DENALI ULTIMATE 20256.webp',
+    '/cars/GMC SIERRA DENALI ULTIMATE 20257.webp',
+    '/cars/GMC SIERRA DENALI ULTIMATE 20258.webp',
+    '/cars/GMC SIERRA DENALI ULTIMATE 20259.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '17,064 Kms',
+    engine: 'V8 6.2 L',
+    features: [
+      'Llévatela con un enganche de $346,000',
+      '4X4',
+      'Impecables condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '86',
   name: 'BMW 118iA Sedan Sport Line',
   year: 2019,
   category: 'Sedan',
@@ -32,7 +63,7 @@ export const cars: Car[] = [
   }
 },
 {
-  id: '16',
+  id: '85',
   name: 'FORD LOBO TREMOR HIGH',
   year: 2023,
   category: 'Pick Up',
@@ -639,7 +670,7 @@ export const cars: Car[] = [
   name: 'BMW X6 M50i',
   year: 2021,
   category: 'SUV',
-  price: 1230000,
+  price: 1200000,
   image: '/cars/BMW X6 M50i 20211.webp',
   images: [
     '/cars/BMW X6 M50i 20211.webp',
@@ -847,7 +878,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '55',
+    id: '50',
     name: 'MINI Cooper S Multitone Edition',
     year: 2023,
     category: 'Deportivo',
@@ -879,7 +910,7 @@ export const cars: Car[] = [
     }
   },
   {
-  id: '45',
+  id: '49',
   name: 'FORD LOBO LIMITED HEV',
   year: 2022,
   category: 'Pick Up',
@@ -910,7 +941,7 @@ export const cars: Car[] = [
   }
 },
   {
-  id: '44',
+  id: '48',
   name: 'KIA RIO L',
   year: 2021,
   category: 'Sedan',
@@ -942,7 +973,7 @@ export const cars: Car[] = [
 },
   
   {
-    id: '50',
+    id: '47',
     name: 'PORSCHE MACAN GTS',
     year: 2024,
     category: 'SUV',
@@ -975,7 +1006,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '49',
+    id: '46',
     name: 'NISSAN KICKS PLATINUM E-POWER',
     year: 2023,
     category: 'SUV',
@@ -1005,7 +1036,7 @@ export const cars: Car[] = [
     }
   },
   {
-  id: '35',
+  id: '45',
   name: 'BMW X6 XDRIVE40i',
   year: 2022,
   category: 'SUV',
@@ -1039,7 +1070,7 @@ export const cars: Car[] = [
 
 
   {
-    id: '45',
+    id: '44',
     name: 'Volkswagen Teramont Trendline',
     year: 2025,
     category: 'SUV',
@@ -1135,7 +1166,7 @@ export const cars: Car[] = [
     name: 'Cupra Formentor VZ',
     year: 2023,
     category: 'Deportivo',
-    price: 695000,
+    price: 670000,
     image: '/cars/Cupra Formentor VZ 20231.webp',
     images: [
       '/cars/Cupra Formentor VZ 20231.webp',
@@ -1197,7 +1228,7 @@ export const cars: Car[] = [
     name: 'Dodge Ram Limited 1500 Mild-Hybrid',
     year: 2022,
     category: 'Pick Up',
-    price: 1050000,
+    price: 980000,
     image: '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20221.webp',
     images: [
       '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20221.webp',
@@ -1215,11 +1246,12 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '64,418 Kms',
       engine: 'V8 de 5.7 L Mild-Hybrid',
-      transmission: 'Transmisión automática de 8 velocidades',
-      traction: '4X4',
+    
       features: [
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "Transmisión automática de 8 velocidades",
+        "traction: '4X4'"
       ]
     }
   },
@@ -1246,10 +1278,11 @@ export const cars: Car[] = [
       keys: '2 llaves',
       kilometers: '73,978 Kms',
       engine: 'V8 5.0 supercharged',
-      traction: 'AWD',
+      
       features: [
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        "traction: 'AWD'"
       ]
     }
   },
@@ -1317,7 +1350,7 @@ export const cars: Car[] = [
     name: 'Chevrolet Suburban High Country',
     year: 2021,
     category: 'SUV',
-    price: 1170000,
+    price: 1130000,
     image: '/cars/Chevrolet Suburban High Country 20211.webp',
     images: [
       '/cars/Chevrolet Suburban High Country 20211.webp',
@@ -1410,7 +1443,7 @@ export const cars: Car[] = [
     name: 'Volkswagen Jetta GLI',
     year: 2023,
     category: 'Deportivo',
-    price: 505000,
+    price: 485000,
     image: '/cars/Volkswagen Jetta GLI 20231.webp',
     images: [
       '/cars/Volkswagen Jetta GLI 20231.webp',
@@ -1441,7 +1474,7 @@ export const cars: Car[] = [
     name: 'Ford Lobo Raptor',
     year: 2018,
     category: 'Pick Up',
-    price: 800000,
+    price: 810000,
     image: '/cars/Ford Lobo Raptor 20181.webp',
     images: [
       '/cars/Ford Lobo Raptor 20181.webp',
@@ -1568,7 +1601,7 @@ export const cars: Car[] = [
     name: 'GMC Yukon Denali',
     year: 2022,
     category: 'SUV',
-    price: 1300000,
+    price: 1290000,
     image: '/cars/GMC Yukon Denali 20221.webp',
     images: [
       '/cars/GMC Yukon Denali 20221.webp',
@@ -1878,7 +1911,7 @@ export const cars: Car[] = [
   
   },
   {
-    id: '9',
+    id: '10',
     name: 'Chevrolet Colorado',
     year: 2016,
     category: 'Pick Up',
@@ -1907,7 +1940,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '8',
+    id: '9',
     name: 'NISSAN X-TRAIL HIBRIDA',
     year: 2019,
     category: 'SUV',
@@ -1936,7 +1969,7 @@ export const cars: Car[] = [
     }
   },
   {
-    id: '7',
+    id: '8',
     name: 'Polaris Slingshot',
     year: 2015,
     category: 'Deportivo',
@@ -1965,7 +1998,7 @@ export const cars: Car[] = [
   }
 ,
   {
-    id: '8',
+    id: '7',
     name: 'KIA SORENTO EX GDI',
     year: 2019,
     category: 'SUV',
