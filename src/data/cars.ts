@@ -492,7 +492,7 @@ export const cars: Car[] = [
   name: 'PORSCHE CAYENNE',
   year: 2019,
   category: 'SUV',
-  price: 1100000,
+  price: 1030000
   image: '/cars/PORSCHE CAYENNE 20191.webp',
   images: [
     '/cars/PORSCHE CAYENNE 20191.webp',
@@ -701,7 +701,7 @@ export const cars: Car[] = [
   name: 'PORSCHE CAYENNE PLATINUM',
   year: 2022,
   category: 'SUV',
-  price: 1470000,
+  price: 1415000,
   image: '/cars/PORSCHE CAYENNE PLATINUM 2022.webp',
   images: [
     '/cars/PORSCHE CAYENNE PLATINUM 2022.webp',
@@ -948,7 +948,7 @@ export const cars: Car[] = [
     name: 'PORSCHE MACAN GTS',
     year: 2024,
     category: 'SUV',
-    price: 1695000,
+    price: 1590000,
     image: '/cars/PORSCHE MACAN GTS 20241.webp',
     images: [
       '/cars/PORSCHE MACAN GTS 20241.webp',
@@ -1384,7 +1384,7 @@ export const cars: Car[] = [
     name: 'Audi S5 Coupe',
     year: 2018,
     category: 'Deportivo',
-    price: 685000,
+    price: 665000
     image: '/cars/Audi S5 Coupe 20181.webp',
     images: [
       '/cars/Audi S5 Coupe 20181.webp',
@@ -1697,7 +1697,7 @@ export const cars: Car[] = [
     name: 'BMW X5 XDrive50i M Sport',
     year: 2020,
     category: 'SUV',
-    price: 875000,
+    price: 850000,
     image: '/cars/BMW X5 XDrive50i M Sport 20201.webp',
     images: [
       '/cars/BMW X5 XDrive50i M Sport 20201.webp',
@@ -1973,7 +1973,7 @@ export const cars: Car[] = [
     name: 'KIA SORENTO EX GDI',
     year: 2019,
     category: 'SUV',
-    price: 350000,
+    price: 330000
     image: '/cars/KIA SORENTO EX GDI 20191.webp',
     images: [
       '/cars/KIA SORENTO EX GDI 20191.webp',
@@ -2045,156 +2045,4 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '5',
-    name: 'JEEP GRAND CHEROKEE',
-    year: 2015,
-    category: 'SUV',
-    price: 285000,
-    image: '/cars/JEEP GRAND CHEROKEE 20151.webp',
-    images: [
-      '/cars/JEEP GRAND CHEROKEE 20151.webp',
-      '/cars/JEEP GRAND CHEROKEE 20152.webp',
-      '/cars/JEEP GRAND CHEROKEE 20153.webp',
-      '/cars/JEEP GRAND CHEROKEE 20154.webp',
-      '/cars/JEEP GRAND CHEROKEE 20155.webp',
-      '/cars/JEEP GRAND CHEROKEE 20156.webp',
-      '/cars/JEEP GRAND CHEROKEE 20157.webp',
-      '/cars/JEEP GRAND CHEROKEE 20158.webp',
-      '/cars/JEEP GRAND CHEROKEE 20159.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '130,000 KMS',
-      engine: 'MOTOR 3.2L',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '271 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'TRACTION 4X4'
-      ]
-    }
-  },
-  {
-    id: '4',
-    name: 'JETTA TRENDLINE',
-    year: 2018,
-    category: 'Sedan',
-    price: 230000,
-    image: '/cars/JETTA TRENDLINE 20181.webp',
-    images: [
-      '/cars/JETTA TRENDLINE 20181.webp',
-      '/cars/JETTA TRENDLINE 20182.webp',
-      '/cars/JETTA TRENDLINE 20183.webp',
-      '/cars/JETTA TRENDLINE 20184.webp',
-      '/cars/JETTA TRENDLINE 20185.webp',
-      '/cars/JETTA TRENDLINE 20186.webp',
-      '/cars/JETTA TRENDLINE 20187.webp',
-      '/cars/JETTA TRENDLINE 20188.webp',
-      '/cars/JETTA TRENDLINE 20189.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '95,000 KMS',
-      engine: 'MOTOR 1.6L',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '110 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'CONTROL DE VELOCIDAD'
-      ]
-    }
-  },
-  {
-    id: '3',
-    name: 'TRAVERSE LT',
-    year: 2017,
-    category: 'SUV',
-    price: 290000,
-    image: '/cars/TRAVERSE LT 20171.webp',
-    images: [
-      '/cars/TRAVERSE LT 20171.webp',
-      '/cars/TRAVERSE LT 20172.webp',
-      '/cars/TRAVERSE LT 20173.webp',
-      '/cars/TRAVERSE LT 20174.webp',
-      '/cars/TRAVERSE LT 20175.webp',
-      '/cars/TRAVERSE LT 20176.webp',
-      '/cars/TRAVERSE LT 20177.webp',
-      '/cars/TRAVERSE LT 20178.webp',
-      '/cars/TRAVERSE LT 20179.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '110,000 KMS',
-      engine: 'MOTOR 3.6L',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '310 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        '8 ASIENTOS'
-      ]
-    }
-  },
-  {
-    id: '1',
-    name: 'Ford Escape',
-    year: 2020,
-    category: 'SUV',
-    price: 385000,
-    image: '/cars/Ford Escape 20201.webp',
-    images: [
-      '/cars/Ford Escape 20201.webp',
-      '/cars/Ford Escape 20202.webp',
-      '/cars/Ford Escape 20203.webp',
-      '/cars/Ford Escape 20204.webp',
-      '/cars/Ford Escape 20205.webp',
-      '/cars/Ford Escape 20206.webp',
-      '/cars/Ford Escape 20207.webp',
-      '/cars/Ford Escape 20208.webp',
-      '/cars/Ford Escape 20209.webp'
-    ],
-    details: {
-      condition: 'FACTURA DE AGENCIA (UNICO DUEÑO)',
-      keys: '2 LLAVES',
-      kilometers: '60,000 KMS',
-      engine: 'MOTOR 1.5L ECOBOOST',
-      features: [
-        'EXCELENTES CONDICIONES',
-        '181 HP',
-        'MANDOS AL VOLANTE',
-        'PANTALLA TACTIL',
-        'APPLE CARPLAY',
-        'ANDROID AUTO',
-        'CAMARA DE REVERSA',
-        'CLIMATIZADOR',
-        'BLUETOOTH',
-        'USB',
-        'MODO ECO'
-      ]
-    }
-  }
 ];
