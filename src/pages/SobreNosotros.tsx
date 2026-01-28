@@ -124,7 +124,6 @@ const SobreNosotros = () => {
                 <ul className="space-y-2">
                   <li>✓ Enganche del 25%</li>
                   <li>✓ Plazo máximo de 3 meses</li>
-                  <li>✓ Sin intereses</li>
                 </ul>
               </div>
             </div>

@@ -1,4 +1,4 @@
-export type CarCategory = 'Sedan' | 'Deportivo' | 'Pick Up' | 'Minivan' | 'SUV' | 'RZR';
+export type CarCategory = 'Sedan' | 'Deportivo' | 'Pick Up' | 'Minivan' | 'SUV' ;
 
 export interface Car {
   id: string;
