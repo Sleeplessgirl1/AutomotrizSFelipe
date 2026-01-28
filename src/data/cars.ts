@@ -1973,7 +1973,7 @@ export const cars: Car[] = [
     name: 'KIA SORENTO EX GDI',
     year: 2019,
     category: 'SUV',
-    price: 330000
+    price: 330000,
     image: '/cars/KIA SORENTO EX GDI 20191.webp',
     images: [
       '/cars/KIA SORENTO EX GDI 20191.webp',
