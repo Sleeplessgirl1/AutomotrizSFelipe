@@ -1413,7 +1413,7 @@ export const cars: Car[] = [
     name: 'Audi S5 Coupe',
     year: 2018,
     category: 'Deportivo',
-    price: 665000
+    price: 665000,
     image: '/cars/Audi S5 Coupe 20181.webp',
     images: [
       '/cars/Audi S5 Coupe 20181.webp',
