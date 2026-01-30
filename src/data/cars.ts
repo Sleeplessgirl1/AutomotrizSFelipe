@@ -2,6 +2,35 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
 {
+  id: '88',
+  name: 'BMW X4 XDRIVE28IA',
+  year: 2017,
+  category: 'SUV',
+  price: 380000,
+  image: '/cars/BMW X4 XDRIVE28IA 20171.webp',
+  images: [
+    '/cars/BMW X4 XDRIVE28IA 20171.webp',
+    '/cars/BMW X4 XDRIVE28IA 20172.webp',
+    '/cars/BMW X4 XDRIVE28IA 20173.webp',
+    '/cars/BMW X4 XDRIVE28IA 20174.webp',
+    '/cars/BMW X4 XDRIVE28IA 20175.webp',
+    '/cars/BMW X4 XDRIVE28IA 20176.webp',
+    '/cars/BMW X4 XDRIVE28IA 20177.webp',
+    '/cars/BMW X4 XDRIVE28IA 20178.webp',
+    '/cars/BMW X4 XDRIVE28IA 20179.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '92,995 kms',
+    engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
   id: '87',
   name: 'GMC SIERRA DENALI ULTIMATE',
   year: 2025,
