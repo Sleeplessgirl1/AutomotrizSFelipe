@@ -114,7 +114,8 @@ const Index = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">Nuestras Categorías</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div className="grid gap-4 justify-center grid-cols-[repeat(auto-fit,minmax(180px,1fr))]">
+
             {categories.map((category) => (
               <Link
                 key={category}
