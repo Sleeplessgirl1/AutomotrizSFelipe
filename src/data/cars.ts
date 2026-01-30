@@ -521,7 +521,7 @@ export const cars: Car[] = [
   name: 'PORSCHE CAYENNE',
   year: 2019,
   category: 'SUV',
-  price: 1030000
+  price: 1030000,
   image: '/cars/PORSCHE CAYENNE 20191.webp',
   images: [
     '/cars/PORSCHE CAYENNE 20191.webp',
