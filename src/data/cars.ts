@@ -2,6 +2,35 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
 {
+  id: '89',
+  name: 'CHEVROLET CAVALIER LT',
+  year: 2019,
+  category: 'Sedan',
+  price: 185000,
+  image: '/cars/CHEVROLET CAVALIER LT 20191.webp',
+  images: [
+    '/cars/CHEVROLET CAVALIER LT 20191.webp',
+    '/cars/CHEVROLET CAVALIER LT 20192.webp',
+    '/cars/CHEVROLET CAVALIER LT 20193.webp',
+    '/cars/CHEVROLET CAVALIER LT 20194.webp',
+    '/cars/CHEVROLET CAVALIER LT 20195.webp',
+    '/cars/CHEVROLET CAVALIER LT 20196.webp',
+    '/cars/CHEVROLET CAVALIER LT 20197.webp',
+    '/cars/CHEVROLET CAVALIER LT 20198.webp',
+    '/cars/CHEVROLET CAVALIER LT 20199.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '143,718 Kms',
+    engine: '4 cilindros',
+    features: [
+      'Financiamiento Disponible',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
   id: '88',
   name: 'BMW X4 XDRIVE28IA',
   year: 2017,
