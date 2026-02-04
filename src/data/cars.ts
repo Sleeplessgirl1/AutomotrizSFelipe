@@ -2,6 +2,38 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
 {
+  id: '90',
+  name: 'FORD BRONCO BADLANDS',
+  year: 2021,
+  category: 'SUV',
+  price: 960000,
+  image: '/cars/FORD BRONCO BADLANDS 20211.webp',
+  images: [
+    '/cars/FORD BRONCO BADLANDS 20211.webp',
+    '/cars/FORD BRONCO BADLANDS 20212.webp',
+    '/cars/FORD BRONCO BADLANDS 20213.webp',
+    '/cars/FORD BRONCO BADLANDS 20214.webp',
+    '/cars/FORD BRONCO BADLANDS 20215.webp',
+    '/cars/FORD BRONCO BADLANDS 20216.webp',
+    '/cars/FORD BRONCO BADLANDS 20217.webp',
+    '/cars/FORD BRONCO BADLANDS 20218.webp',
+    '/cars/FORD BRONCO BADLANDS 20219.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '86,450 Kms',
+    engine: '4 cilindros 2.0 Turbo',
+    features: [
+      'Llévatela con un enganche de $192,000',
+      'Amortiguadores Bilstein',
+      'Varios modos de manejo',
+      '4X4',
+      'Varios extras',
+      'Precio Negociable'
+    ]
+  }
+},{
   id: '89',
   name: 'CHEVROLET CAVALIER LT',
   year: 2019,
