@@ -2,6 +2,66 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
 {
+  id: '91',
+  name: 'CHEVROLET SILVERADO CUSTOM',
+  year: 2025,
+  category: 'Pick Up',
+  price: 880000,
+  image: '/cars/CHEVROLET SILVERADO CUSTOM 20251.webp',
+  images: [
+    '/cars/CHEVROLET SILVERADO CUSTOM 20251.webp',
+    '/cars/CHEVROLET SILVERADO CUSTOM 20252.webp',
+    '/cars/CHEVROLET SILVERADO CUSTOM 20253.webp',
+    '/cars/CHEVROLET SILVERADO CUSTOM 20254.webp',
+    '/cars/CHEVROLET SILVERADO CUSTOM 20255.webp',
+    '/cars/CHEVROLET SILVERADO CUSTOM 20256.webp',
+    '/cars/CHEVROLET SILVERADO CUSTOM 20257.webp',
+    '/cars/CHEVROLET SILVERADO CUSTOM 20258.webp',
+    '/cars/CHEVROLET SILVERADO CUSTOM 20259.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '8,272 kms',
+    engine: 'V8 de 5.3L',
+    features: [
+      'Financiamiento Disponible',
+      '4X4',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '92',
+  name: 'MITSUBISHI L200 DIESEL 4X4',
+  year: 2020,
+  category: 'Pick Up',
+  price: 380000,
+  image: '/cars/MITSUBISHI L200 DIESEL 4X4 20201.webp',
+  images: [
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20201.webp',
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20202.webp',
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20203.webp',
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20204.webp',
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20205.webp',
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20206.webp',
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20207.webp',
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20208.webp',
+    '/cars/MITSUBISHI L200 DIESEL 4X4 20209.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '83,718 Kms',
+    engine: '4 cilindros 2.4L TDI',
+    features: [
+      'Financiamiento Disponible',
+      'Transmisión manual de 6 velocidades',
+      '4X4',
+      'Precio Negociable'
+    ]
+  }
+},{
   id: '90',
   name: 'FORD BRONCO BADLANDS',
   year: 2021,
@@ -122,36 +182,7 @@ export const cars: Car[] = [
     ]
   }
 },
-{
-  id: '86',
-  name: 'BMW 118iA Sedan Sport Line',
-  year: 2019,
-  category: 'Sedan',
-  price: 295000,
-  image: '/cars/BMW 118iA Sedan Sport Line 20191.webp',
-  images: [
-    '/cars/BMW 118iA Sedan Sport Line 20191.webp',
-    '/cars/BMW 118iA Sedan Sport Line 20192.webp',
-    '/cars/BMW 118iA Sedan Sport Line 20193.webp',
-    '/cars/BMW 118iA Sedan Sport Line 20194.webp',
-    '/cars/BMW 118iA Sedan Sport Line 20195.webp',
-    '/cars/BMW 118iA Sedan Sport Line 20196.webp',
-    '/cars/BMW 118iA Sedan Sport Line 20197.webp',
-    '/cars/BMW 118iA Sedan Sport Line 20198.webp',
-    '/cars/BMW 118iA Sedan Sport Line 20199.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (único dueño)',
-    keys: '2 llaves',
-    kilometers: '47,119 Kms',
-    engine: '3 cilindros 1.5 L Turbo',
-    features: [
-      'Llevatelo con un enganche de $73,750',
-      'Impecables condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
+
 {
   id: '85',
   name: 'FORD LOBO TREMOR HIGH',
@@ -755,36 +786,7 @@ export const cars: Car[] = [
       'Precio Negociable'
     ]
   }
-},
-{
-  id: '62',
-  name: 'MERCEDES BENZ GLC300 OFFROAD',
-  year: 2018,
-  category: 'SUV',
-  price: 385000,
-  image: '/cars/MERCEDES BENZ GLC300 OFFROAD 20181.webp',
-  images: [
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20181.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20182.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20183.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20184.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20185.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20186.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20187.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20188.webp',
-    '/cars/MERCEDES BENZ GLC300 OFFROAD 20189.webp'
-  ],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-    kilometers: '90,446 Kms',
- engine: '4 cilindros',
-    features: [
-      'Financiamiento Disponible',
-      'Impecables condiciones',
-      'Precio Negociable'
-    ]
-  }
+
 },
   {
   id: '61',
@@ -970,69 +972,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-  id: '49',
-  name: 'FORD LOBO LIMITED HEV',
-  year: 2022,
-  category: 'Pick Up',
-  price: 1130000,
-  image: '/cars/FORD LOBO LIMITED HEV 2022.webp',
-  images: [
-    '/cars/FORD LOBO LIMITED HEV 2022.webp',
-    '/cars/FORD LOBO LIMITED HEV 20221.webp',
-    '/cars/FORD LOBO LIMITED HEV 20222.webp',
-    '/cars/FORD LOBO LIMITED HEV 20223.webp',
-    '/cars/FORD LOBO LIMITED HEV 20224.webp',
-    '/cars/FORD LOBO LIMITED HEV 20225.webp',
-    '/cars/FORD LOBO LIMITED HEV 20226.webp',
-    '/cars/FORD LOBO LIMITED HEV 20227.webp',
-    '/cars/FORD LOBO LIMITED HEV 20228.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (2 dueños)',
-    keys: '2 llaves',
-    kilometers: '48,090 Kms',
-    engine: 'V6 de 3.5L Híbrida',
-    features: [
-      'Financiamiento Disponible',
-      'Automática de 10 velocidades',
-      '4x4',
-      'Precio Negociable'
-    ]
-  }
-},
-  {
-  id: '48',
-  name: 'KIA RIO L',
-  year: 2021,
-  category: 'Sedan',
-  price: 230000,
-  image: '/cars/KIA RIO L 20211.webp',
-  images: [
-    '/cars/KIA RIO L 20211.webp',
-    '/cars/KIA RIO L 20212.webp',
-    '/cars/KIA RIO L 20213.webp',
-    '/cars/KIA RIO L 20214.webp',
-    '/cars/KIA RIO L 20215.webp',
-    '/cars/KIA RIO L 20216.webp',
-    '/cars/KIA RIO L 20217.webp',
-    '/cars/KIA RIO L 20218.webp',
-    '/cars/KIA RIO L 20219.webp'
-  ],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-    kilometers: '59,706 Kms',
-    engine: '4 cilindros',
-    features: [
-      'Financiamiento Disponible',
-      'Transmisión manual',
-      'Impecables condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
-  
+   
   {
     id: '47',
     name: 'PORSCHE MACAN GTS',
@@ -1621,39 +1561,6 @@ export const cars: Car[] = [
         'Financiamiento Bancario Disponible',
         'Precio Negociable',
         "horsepower: '265 HP'"
-      ]
-    }
-  },
-  {
-    id: '28',
-    name: 'Chevrolet Colorado ZR2',
-    year: 2024,
-    category: 'Pick Up',
-    price: 980000,
-    image: '/cars/Chevrolet Colorado ZR2 20241.webp',
-    images: [
-      '/cars/Chevrolet Colorado ZR2 20241.webp',
-      '/cars/Chevrolet Colorado ZR2 20242.webp',
-      '/cars/Chevrolet Colorado ZR2 20243.webp',
-      '/cars/Chevrolet Colorado ZR2 20244.webp',
-      '/cars/Chevrolet Colorado ZR2 20245.webp',
-      '/cars/Chevrolet Colorado ZR2 20246.webp',
-      '/cars/Chevrolet Colorado ZR2 20247.webp',
-      '/cars/Chevrolet Colorado ZR2 20248.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '58,307 Kms',
-      engine: '4 cilindros 2.7 L Turbo Plus',
-      features: [
-        'Pantalla HD de 11.3”',
-        'Garantía en agencia',
-        '4 modos de manejo',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable',
-        "horsepower: '310 HP'",
-        "transmission: 'Transmisión automática de 8 velocidades'"
       ]
     }
   },
