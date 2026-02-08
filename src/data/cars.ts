@@ -973,40 +973,7 @@ export const cars: Car[] = [
     }
   },
    
-  {
-    id: '47',
-    name: 'PORSCHE MACAN GTS',
-    year: 2024,
-    category: 'SUV',
-    price: 1590000,
-    image: '/cars/PORSCHE MACAN GTS 20241.webp',
-    images: [
-      '/cars/PORSCHE MACAN GTS 20241.webp',
-      '/cars/PORSCHE MACAN GTS 20242.webp',
-      '/cars/PORSCHE MACAN GTS 20243.webp',
-      '/cars/PORSCHE MACAN GTS 20244.webp',
-      '/cars/PORSCHE MACAN GTS 20245.webp',
-      '/cars/PORSCHE MACAN GTS 20246.webp',
-      '/cars/PORSCHE MACAN GTS 20247.webp',
-      '/cars/PORSCHE MACAN GTS 20248.webp',
-      '/cars/PORSCHE MACAN GTS 20249.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (2 dueños)',
-      keys: '2 llaves',
-      kilometers: '32,061 Kms',
-      engine: 'V6 Biturbo 2.9 L',
-      horsepower: '440HP',
-      features: [
-        'Versión GTS',
-        'Garantía',
-        'Impecables condiciones',
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
-  {
+   {
     id: '46',
     name: 'NISSAN KICKS PLATINUM E-POWER',
     year: 2023,
