@@ -29,7 +29,7 @@ images: [
       'Financiamiento Disponible',
       'Precio Negociable',
       'Impecables condiciones para su año, poco uso.',
-      'transmission: Automático'
+      'Transmisión automática'
     ]
   }
 },
@@ -1339,9 +1339,9 @@ images: [
       keys: '2 llaves',
       kilometers: '131,395 kms',
       engine: '4 cilindros 1.4 L Turbo',
-      transmission: 'Automatico',
       features: [
-        'Financiamiento Disponible'
+        'Financiamiento Disponible',
+        'Transmisión automática'
       ]
     }
   },
@@ -1368,14 +1368,14 @@ images: [
       keys: '2 llaves',
       kilometers: '93,890 Kms',
       engine: 'V8 6.2 L EcoTec',
-      horsepower: '420 HP',
-      transmission: 'Transmisión automática de 10 velocidades',
-      traction: '4X4',
       features: [
         'Sistema de sonido marca Bose',
         'Estribos laterales retráctiles',
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        'Transmisión automática de 10 velocidades',
+        'Horsepower: 420 HP',
+        'Tracción: 4X4'
       ]
     }
   },
@@ -1461,11 +1461,11 @@ images: [
       keys: '2 llaves',
       kilometers: '83,789 Kms',
       engine: '4 cilindros 2.0 Turbo',
-      transmission: 'Transmisión automática de 7 velocidades',
       features: [
         'Pantalla táctil de 10”',
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        'Transmisión automática de 7 velocidades'
       ]
     }
   },
@@ -1654,7 +1654,7 @@ images: [
         'Asientos piel/alcantar',
         'Financiamiento Bancario Disponible',
         'Precio Negociable',
-        "transmission: 'Automática de 8 velocidades'"
+        "Transmisión: 'Automática de 8 velocidades'"
       ]
     }
   },
