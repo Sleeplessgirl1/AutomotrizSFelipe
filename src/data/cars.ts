@@ -1,7 +1,40 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+
 {
+  id: '39',
+  name: 'NISSAN MARCH ADVANCE',
+  year: 2018,
+  category: 'SUV',
+  price: 180000,
+  image: '/cars/Nissan March Advance 20181.webp',
+  images: [
+    '/cars/Nissan March Advance 20181.webp',
+    '/cars/Nissan March Advance 20182.webp',
+    '/cars/Nissan March Advance 20183.webp',
+    '/cars/Nissan March Advance 20184.webp',
+    '/cars/Nissan March Advance 20185.webp',
+    '/cars/Nissan March Advance 20186.webp',
+    '/cars/Nissan March Advance 20187.webp',
+    '/cars/Nissan March Advance 20188.webp',
+    '/cars/Nissan March Advance 20189.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '73,656 Kms',
+    engine: '4 cilindros',
+  
+    features: [
+      'Financiamiento Disponible',
+      'Precio Negociable',
+      'Impecables condiciones para su año, poco uso.',
+      'transmission: Automático'
+    ]
+  }
+},
+  {
   id: '91',
   name: 'CHEVROLET SILVERADO CUSTOM',
   year: 2025,
