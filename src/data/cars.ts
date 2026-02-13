@@ -1,9 +1,39 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-
 {
-  id: '92',
+  id: '94',
+  name: 'JEEP GLADIATOR RUBICON',
+  year: 2021,
+  category: 'Pick Up',
+  price: 920000,
+  image: '/cars/JEEP GLADIATOR RUBICON 20211.webp',
+  images: [
+    '/cars/JEEP GLADIATOR RUBICON 20211.webp',
+    '/cars/JEEP GLADIATOR RUBICON 20212.webp',
+    '/cars/JEEP GLADIATOR RUBICON 20213.webp',
+    '/cars/JEEP GLADIATOR RUBICON 20214.webp',
+    '/cars/JEEP GLADIATOR RUBICON 20215.webp',
+    '/cars/JEEP GLADIATOR RUBICON 20216.webp',
+    '/cars/JEEP GLADIATOR RUBICON 20217.webp',
+    '/cars/JEEP GLADIATOR RUBICON 20218.webp',
+    '/cars/JEEP GLADIATOR RUBICON 20219.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '54,329 Kms',
+    engine: 'V6 3.6 L',
+    features: [
+      'Financiamiento Disponible',
+      'Excelentes condiciones generales',
+      'Precio Negociable',
+      'Tracción: 4X4'
+    ]
+  }
+},
+{
+  id: '93',
   name: 'NISSAN MARCH ADVANCE',
   year: 2018,
   category: 'SUV',
@@ -34,7 +64,7 @@ images: [
   }
 },
   {
-  id: '91',
+  id: '92',
   name: 'CHEVROLET SILVERADO CUSTOM',
   year: 2025,
   category: 'Pick Up',
@@ -64,7 +94,7 @@ images: [
   }
 },
 {
-  id: '92',
+  id: '91',
   name: 'MITSUBISHI L200 DIESEL 4X4',
   year: 2020,
   category: 'Pick Up',
