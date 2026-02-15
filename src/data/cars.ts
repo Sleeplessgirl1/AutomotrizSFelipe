@@ -213,38 +213,6 @@ images: [
     ]
   }
 },
-  {
-  id: '87',
-  name: 'GMC SIERRA DENALI ULTIMATE',
-  year: 2025,
-  category: 'Pick Up',
-  price: 1730000,
-  image: '/cars/GMC SIERRA DENALI ULTIMATE 2025.webp',
-  images: [
-    '/cars/GMC SIERRA DENALI ULTIMATE 2025.webp',
-    '/cars/GMC SIERRA DENALI ULTIMATE 20252.webp',
-    '/cars/GMC SIERRA DENALI ULTIMATE 20253.webp',
-    '/cars/GMC SIERRA DENALI ULTIMATE 20254.webp',
-    '/cars/GMC SIERRA DENALI ULTIMATE 20255.webp',
-    '/cars/GMC SIERRA DENALI ULTIMATE 20256.webp',
-    '/cars/GMC SIERRA DENALI ULTIMATE 20257.webp',
-    '/cars/GMC SIERRA DENALI ULTIMATE 20258.webp',
-    '/cars/GMC SIERRA DENALI ULTIMATE 20259.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (único dueño)',
-    keys: '2 llaves',
-    kilometers: '17,064 Kms',
-    engine: 'V8 6.2 L',
-    features: [
-      'Llévatela con un enganche de $346,000',
-      '4X4',
-      'Impecables condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
-
 {
   id: '85',
   name: 'FORD LOBO TREMOR HIGH',
@@ -455,36 +423,6 @@ images: [
     ]
   }
 },
-{
-  id: '78',
-  name: 'AUDI SQ5',
-  year: 2018,
-  category: 'SUV',
-  price: 580000,
-  image: '/cars/AUDI SQ5 20181.webp',
-  images: [
-    '/cars/AUDI SQ5 20181.webp',
-    '/cars/AUDI SQ5 20182.webp',
-    '/cars/AUDI SQ5 20183.webp',
-    '/cars/AUDI SQ5 20184.webp',
-    '/cars/AUDI SQ5 20185.webp',
-    '/cars/AUDI SQ5 20186.webp',
-    '/cars/AUDI SQ5 20187.webp',
-    '/cars/AUDI SQ5 20188.webp',
-    '/cars/AUDI SQ5 20189.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (2 dueños)',
-    keys: '2 llaves',
-    kilometers: '110,167 Kms',
-    engine: 'V6 3.0 Turbo',
-    features: [
-      'Llévatela con un enganche de $116,000',
-      'Varios extras',
-      'Precio Negociable'
-    ]
-  }
-},
  {
   id: '77',
   name: 'BMW X5 XDrive40i',
@@ -546,67 +484,7 @@ images: [
     ]
   }
 },
-{
-  id: '74',
-  name: 'AUDI Q5 SPORTBACK S LINE',
-  year: 2022,
-  category: 'SUV',
-  price: 800000,
-  image: '/cars/AUDI Q5 SPORTBACK S LINE 20221.webp',
-  images: [
-    '/cars/AUDI Q5 SPORTBACK S LINE 20221.webp',
-    '/cars/AUDI Q5 SPORTBACK S LINE 20222.webp',
-    '/cars/AUDI Q5 SPORTBACK S LINE 20223.webp',
-    '/cars/AUDI Q5 SPORTBACK S LINE 20224.webp',
-    '/cars/AUDI Q5 SPORTBACK S LINE 20225.webp',
-    '/cars/AUDI Q5 SPORTBACK S LINE 20226.webp',
-    '/cars/AUDI Q5 SPORTBACK S LINE 20227.webp',
-    '/cars/AUDI Q5 SPORTBACK S LINE 20228.webp',
-    '/cars/AUDI Q5 SPORTBACK S LINE 20229.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (2 dueños)',
-    keys: '2 llaves',
-    kilometers: '60,047 Kms',
-    engine: '4 cilindros 2.0 Turbo',
-    features: [
-      'Llévatela con un enganche de $160,000',
-      'Excelentes condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
-{
-  id: '73',
-  name: 'FORD RANGER RAPTOR',
-  year: 2023,
-  category: 'Pick Up',
-  price: 1030000,
-  image: '/cars/FORD RANGER RAPTOR 20231.webp',
-  images: [
-    '/cars/FORD RANGER RAPTOR 20231.webp',
-    '/cars/FORD RANGER RAPTOR 20232.webp',
-    '/cars/FORD RANGER RAPTOR 20233.webp',
-    '/cars/FORD RANGER RAPTOR 20234.webp',
-    '/cars/FORD RANGER RAPTOR 20235.webp',
-    '/cars/FORD RANGER RAPTOR 20236.webp',
-    '/cars/FORD RANGER RAPTOR 20237.webp',
-    '/cars/FORD RANGER RAPTOR 20238.webp',
-    '/cars/FORD RANGER RAPTOR 20239.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia',
-    keys: '2 llaves',
-    kilometers: '31,135 Kms',
-    engine: 'V6 3.0 L TwinTurbo',
-    features: [
-      'Llévatela con un enganche de $206,000',
-      '4X4',
-      'Amortiguadores Fox Racing',
-      'Precio Negociable'
-    ]
-  }
-},
+
   {
   id: '72',
   name: 'BMW 330e',
@@ -910,37 +788,7 @@ images: [
     ]
   }
 },
-  {
-  id: '59',
-  name: 'AUDI Q7 ELITE MHEV',
-  year: 2022,
-  category: 'SUV',
-  price: 970000,
-  image: '/cars/AUDI Q7 ELITE MHEV 2022.webp',
-  images: [
-    '/cars/AUDI Q7 ELITE MHEV 2022.webp',
-    '/cars/AUDI Q7 ELITE MHEV 20221.webp',
-    '/cars/AUDI Q7 ELITE MHEV 20222.webp',
-    '/cars/AUDI Q7 ELITE MHEV 20223.webp',
-    '/cars/AUDI Q7 ELITE MHEV 20224.webp',
-    '/cars/AUDI Q7 ELITE MHEV 20225.webp',
-    '/cars/AUDI Q7 ELITE MHEV 20226.webp',
-    '/cars/AUDI Q7 ELITE MHEV 20227.webp',
-    '/cars/AUDI Q7 ELITE MHEV 20228.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (único dueño)',
-    keys: '2 llaves',
-    kilometers: '51,629 Kms',
-    engine: 'V6 3.0 L Mild Hybrid',
-    features: [
-      'Financiamiento Disponible',
-      '3 filas de asientos',
-      'Precio Negociable'
-    ]
-  }
 
-},
   {
     id: '58',
     name: 'MERCEDES BENZ G500',
