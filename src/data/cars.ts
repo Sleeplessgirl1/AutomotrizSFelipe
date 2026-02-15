@@ -1316,37 +1316,7 @@ images: [
       ]
     }
   },
-  {
-    id: '32',
-    name: 'Volkswagen Jetta GLI',
-    year: 2023,
-    category: 'Deportivo',
-    price: 485000,
-    image: '/cars/Volkswagen Jetta GLI 20231.webp',
-    images: [
-      '/cars/Volkswagen Jetta GLI 20231.webp',
-      '/cars/Volkswagen Jetta GLI 20232.webp',
-      '/cars/Volkswagen Jetta GLI 20233.webp',
-      '/cars/Volkswagen Jetta GLI 20234.webp',
-      '/cars/Volkswagen Jetta GLI 20235.webp',
-      '/cars/Volkswagen Jetta GLI 20236.webp',
-      '/cars/Volkswagen Jetta GLI 20237.webp',
-      '/cars/Volkswagen Jetta GLI 20238.webp',
-      '/cars/Volkswagen Jetta GLI 20239.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '83,789 Kms',
-      engine: '4 cilindros 2.0 Turbo',
-      features: [
-        'Pantalla táctil de 10”',
-        'Financiamiento Disponible',
-        'Precio Negociable',
-        'Transmisión automática de 7 velocidades'
-      ]
-    }
-  },
+  
   {
     id: '31',
     name: 'Ford Lobo Raptor',
