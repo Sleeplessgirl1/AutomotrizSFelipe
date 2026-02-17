@@ -1048,7 +1048,7 @@ images: [
     name: 'Land Rover Sport SVR',
     year: 2017,
     category: 'SUV',
-    price: 1100000,
+    price: 990000,
     image: '/cars/Land Rover Sport SVR 20171.webp',
     images: [
       '/cars/Land Rover Sport SVR 20171.webp',
