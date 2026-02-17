@@ -303,36 +303,7 @@ images: [
     ]
   }
 },
-{
-  id: '82',
-  name: 'VOLKSWAGEN GOLF R',
-  year: 2018,
-  category: 'Deportivo',
-  price: 600000,
-  image: '/cars/VOLKSWAGEN GOLF R 20181.webp',
-  images: [
-    '/cars/VOLKSWAGEN GOLF R 20181.webp',
-    '/cars/VOLKSWAGEN GOLF R 20182.webp',
-    '/cars/VOLKSWAGEN GOLF R 20183.webp',
-    '/cars/VOLKSWAGEN GOLF R 20184.webp',
-    '/cars/VOLKSWAGEN GOLF R 20185.webp',
-    '/cars/VOLKSWAGEN GOLF R 20186.webp',
-    '/cars/VOLKSWAGEN GOLF R 20187.webp',
-    '/cars/VOLKSWAGEN GOLF R 20188.webp',
-    '/cars/VOLKSWAGEN GOLF R 20189.webp'
-  ],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-    kilometers: '36,221 Kms',
-    engine: '4 cilindros 2.0 Turbo 292 HP',
-    features: [
-      'Financiamiento Disponible',
-      'Transmisión automática DSG 7 velocidades',
-      'Precio Negociable'
-    ]
-  }
-},
+
 {
   id: '81',
   name: 'AUDI A1 EGO',
@@ -454,37 +425,7 @@ images: [
     ]
   }
 },
-  {
-  id: '75',
-  name: 'FORD LOBO PLATINUM',
-  year: 2022,
-  category: 'Pick Up',
-  price: 930000,
-  image:     '/cars/FORD LOBO PLATINUM 202211.webp',
-
-  images: [
-    '/cars/FORD LOBO PLATINUM 202211.webp',
-    '/cars/FORD LOBO PLATINUM 202222.webp',
-    '/cars/FORD LOBO PLATINUM 202233.webp',
-    '/cars/FORD LOBO PLATINUM 202244.webp',
-    '/cars/FORD LOBO PLATINUM 202255.webp',
-    '/cars/FORD LOBO PLATINUM 202266.webp',
-    '/cars/FORD LOBO PLATINUM 202277.webp',
-    '/cars/FORD LOBO PLATINUM 202288.webp',
-    '/cars/FORD LOBO PLATINUM 202299.webp'
-  ],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-    kilometers: '61,196 Kms',
-    engine: 'V6 Turbo',
-    features: [
-      'Financiamiento Disponible',
-      '4x4'
-    ]
-  }
-},
-
+  
   {
   id: '72',
   name: 'BMW 330e',
@@ -666,38 +607,7 @@ images: [
     ]
   }
 },
- 
- {
-  id: '64',
-  name: 'MERCEDES BENZ GLE53 AMG',
-  year: 2022,
-  category: 'SUV',
-  price: 1290000,
-  image: '/cars/MERCEDES BENZ GLE53 AMG 20221.webp',
-  images: [
-    '/cars/MERCEDES BENZ GLE53 AMG 20221.webp',
-    '/cars/MERCEDES BENZ GLE53 AMG 20222.webp',
-    '/cars/MERCEDES BENZ GLE53 AMG 20223.webp',
-    '/cars/MERCEDES BENZ GLE53 AMG 20224.webp',
-    '/cars/MERCEDES BENZ GLE53 AMG 20225.webp',
-    '/cars/MERCEDES BENZ GLE53 AMG 20226.webp',
-    '/cars/MERCEDES BENZ GLE53 AMG 20227.webp',
-    '/cars/MERCEDES BENZ GLE53 AMG 20228.webp',
-    '/cars/MERCEDES BENZ GLE53 AMG 20229.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (único dueño)',
-    keys: '2 llaves',
-    kilometers: '49,324 Kms',
-    engine: 'V6 3.0 Turbo con sistema Mild-Hybrid',
-    features: [
-      'Financiamiento Disponible',
-      'Impecables condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
-  {
+   {
   id: '63',
   name: 'BMW X6 M50i',
   year: 2021,
@@ -1474,38 +1384,7 @@ images: [
       ]
     }
   },
-  {
-    id: '25',
-    name: 'PEUGEOT 3008 GT HDI',
-    year: 2023,
-    category: 'SUV',
-    price: 480000,
-    image: '/cars/PEUGEOT 3008 GT HDI 20231.webp',
-    images: [
-      '/cars/PEUGEOT 3008 GT HDI 20231.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20232.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20233.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20234.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20235.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20236.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20237.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20238.webp',
-      '/cars/PEUGEOT 3008 GT HDI 20239.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '49,417 kms',
-      engine: '4 cilindros 2.0 turbo diesel',
-      features: [
-        'Versión más equipada',
-        'Asientos piel/alcantar',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable',
-        "Transmisión: 'Automática de 8 velocidades'"
-      ]
-    }
-  },
+  
     {
     id: '23',
     name: 'MERCEDES BENZ GLE43 AMG',
@@ -1632,36 +1511,6 @@ images: [
   },
 
   
-  {
-    id: '13',
-    name: 'CHEVROLET CHEYENNE RST',
-    year: 2019,
-    category: 'Pick Up',
-    price: 690000,
-    image: '/cars/CHEVROLET CHEYENNE RST 20191.webp',
-    images: [
-      '/cars/CHEVROLET CHEYENNE RST 20191.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20192.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20193.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20194.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20195.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20196.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20197.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20198.webp',
-      '/cars/CHEVROLET CHEYENNE RST 20199.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '95,102 Kms',
-      engine: 'V8 de 5.3 L',
-      
-      features: [
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable',
-        "traction: '4X4'"      ]
-    }
-  },
   {
     id: '12',
     name: 'FORD BRONCO SPORT OUTERBANKS',
