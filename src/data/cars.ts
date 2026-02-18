@@ -1,7 +1,39 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+
 {
+  id: '41',
+  name: 'BMW X5 XDrive45e',
+  year: 2022,
+  category: 'SUV',
+  price: 950000,
+  image: '/cars/BMW X5 XDrive45e 20221.webp',
+  images: [
+    '/cars/BMW X5 XDrive45e 20221.webp',
+    '/cars/BMW X5 XDrive45e 20222.webp',
+    '/cars/BMW X5 XDrive45e 20223.webp',
+    '/cars/BMW X5 XDrive45e 20224.webp',
+    '/cars/BMW X5 XDrive45e 20225.webp',
+    '/cars/BMW X5 XDrive45e 20226.webp',
+    '/cars/BMW X5 XDrive45e 20227.webp',
+    '/cars/BMW X5 XDrive45e 20228.webp',
+    '/cars/BMW X5 XDrive45e 20229.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '130,176 Kms',
+    engine: 'V6 3.0 L',
+    features: [
+      'Híbrida Enchufable',
+      'Servicios realizados en agencia',
+      'Financiamiento Disponible',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
   id: '94',
   name: 'JEEP GLADIATOR RUBICON',
   year: 2021,
