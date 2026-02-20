@@ -1,9 +1,40 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-
 {
-  id: '41',
+  id: '96',
+  name: 'GMC SIERRA DENALI',
+  year: 2024,
+  category: 'Pick Up',
+  price: 1390000,
+  image: '/cars/GMC SIERRA DENALI 20241.webp',
+  images: [
+    '/cars/GMC SIERRA DENALI20241.webp',
+    '/cars/GMC SIERRA DENALI20242.webp',
+    '/cars/GMC SIERRA DENALI20243.webp',
+    '/cars/GMC SIERRA DENALI20244.webp',
+    '/cars/GMC SIERRA DENALI20245.webp',
+    '/cars/GMC SIERRA DENALI20246.webp',
+    '/cars/GMC SIERRA DENALI20247.webp',
+    '/cars/GMC SIERRA DENALI20248.webp',
+    '/cars/GMC SIERRA DENALI20249.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '22,100 Kms',
+    engine: 'V8 6.2 L',
+    traction: '4X4',
+    horsepower: '425 HP',
+    features: [
+      'Impecables condiciones',
+      'Financiamiento Disponible',
+      'Precio Negociable'
+    ]
+  }
+},
+{
+  id: '95',
   name: 'BMW X5 XDrive45e',
   year: 2022,
   category: 'SUV',
