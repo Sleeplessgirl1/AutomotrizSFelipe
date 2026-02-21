@@ -1,7 +1,37 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-{
+  {
+  id: '97',
+  name: 'CHEVROLET COLORADO ZR2',
+  year: 2024,
+  category: 'Pick Up',
+  price: 940000,
+  image: '/cars/CHEVROLET COLORADO ZR2 20241.webp',
+  images: [
+    '/cars/CHEVROLET COLORADO ZR2 20241.webp',
+    '/cars/CHEVROLET COLORADO ZR2 20242.webp',
+    '/cars/CHEVROLET COLORADO ZR2 20243.webp',
+    '/cars/CHEVROLET COLORADO ZR2 20244.webp',
+    '/cars/CHEVROLET COLORADO ZR2 20245.webp',
+    '/cars/CHEVROLET COLORADO ZR2 20246.webp',
+    '/cars/CHEVROLET COLORADO ZR2 20247.webp',
+    '/cars/CHEVROLET COLORADO ZR2 20248.webp',
+    '/cars/CHEVROLET COLORADO ZR2 20249.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '27,389 Kms',
+    engine: '4 cilindros 2.7 L Turbo',
+    features: [
+      'Financiamiento Disponible',
+      'Precio Negociable',
+      'Tracción: 4X4'
+    ]
+  }
+},
+  {
   id: '96',
   name: 'GMC SIERRA DENALI',
   year: 2024,
