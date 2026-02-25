@@ -518,39 +518,6 @@ images: [
     ]
   }
 },
-  
-  {
-  id: '72',
-  name: 'BMW 330e',
-  year: 2023,
-  category: 'Sedan',
-  price: 800000,
-  image: '/cars/BMW 330e 20231.webp',
-  images: [
-    '/cars/BMW 330e 20231.webp',
-    '/cars/BMW 330e 20232.webp',
-    '/cars/BMW 330e 20233.webp',
-    '/cars/BMW 330e 20234.webp',
-    '/cars/BMW 330e 20235.webp',
-    '/cars/BMW 330e 20236.webp',
-    '/cars/BMW 330e 20237.webp',
-    '/cars/BMW 330e 20238.webp',
-    '/cars/BMW 330e 20239.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (2 dueños)',
-    keys: '2 llaves',
-    kilometers: '48,119 Kms',
-    engine: '4 cilindros Híbrido',
-    features: [
-      'Financiamiento Disponible',
-      'Rango eléctrico de hasta 50 Km',
-      'Rendimiento en ciudad de 15.3 Km/L',
-      'Impecables condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
 
 {
   id: '70',
