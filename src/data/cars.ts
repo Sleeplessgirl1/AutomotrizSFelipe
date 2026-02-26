@@ -2,6 +2,36 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
   {
+  id: '98',
+  name: 'AUDI A7 S LINE',
+  year: 2019,
+  category: 'Sedan',
+  price: 595000,
+  image: '/cars/AUDI A7 S LINE 20191.webp',
+  images: [
+    '/cars/AUDI A7 S LINE 20191.webp',
+    '/cars/AUDI A7 S LINE 20192.webp',
+    '/cars/AUDI A7 S LINE 20193.webp',
+    '/cars/AUDI A7 S LINE 20194.webp',
+    '/cars/AUDI A7 S LINE 20195.webp',
+    '/cars/AUDI A7 S LINE 20196.webp',
+    '/cars/AUDI A7 S LINE 20197.webp',
+    '/cars/AUDI A7 S LINE 20198.webp',
+    '/cars/AUDI A7 S LINE 20199.webp'
+  ],
+  details: {
+    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    keys: '2 llaves',
+    kilometers: '107,162 Kms',
+    engine: 'V6 3.0 Mild Hybrid',
+    features: [
+      'Financiamiento Disponible',
+      'Excelentes condiciones',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
   id: '97',
   name: 'CHEVROLET COLORADO ZR2',
   year: 2024,
