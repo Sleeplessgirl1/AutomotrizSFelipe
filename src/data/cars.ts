@@ -2,6 +2,36 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
   {
+  id: '99',
+  name: 'LAND ROVER RANGE ROVER SPORT DYNAMIC SE',
+  year: 2023,
+  category: 'SUV',
+  price: 1680000,
+  image: '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20231.webp',
+  images: [
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20231.webp',
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20232.webp',
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20233.webp',
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20234.webp',
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20235.webp',
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20236.webp',
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20237.webp',
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20238.webp',
+    '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20239.webp'
+  ],
+  details: {
+    condition: 'Factura de agencia (único dueño)',
+    keys: '2 llaves',
+    kilometers: '62,544 Kms',
+    engine: 'V6 3.0 L Híbrida',
+    features: [
+      'Garantía en agencia',
+      'Financiamiento Disponible',
+      'Precio Negociable'
+    ]
+  }
+},
+  {
   id: '98',
   name: 'AUDI A7 S LINE',
   year: 2019,
@@ -84,12 +114,12 @@ export const cars: Car[] = [
     keys: '2 llaves',
     kilometers: '22,100 Kms',
     engine: 'V8 6.2 L',
-    traction: '4X4',
-    horsepower: '425 HP',
     features: [
       'Impecables condiciones',
       'Financiamiento Disponible',
-      'Precio Negociable'
+      'Precio Negociable',
+      'Tracción: 4X4',
+      'Horsepower: 425 HP'
     ]
   }
 },
@@ -842,11 +872,11 @@ images: [
       keys: '2 llaves',
       kilometers: '161,181 kms',
       engine: 'V6 de 3.6 Litros',
-      transmission: 'Automático de 8 velocidades',
       features: [
         'Financiamiento Disponible',
         'Servicios de agencia',
-        'Precio Negociable'
+        'Precio Negociable',
+        'Transmisión automática de 8 velocidades'
       ]
     }
   },
@@ -1001,11 +1031,11 @@ images: [
       keys: '2 llaves',
       kilometers: '9,088 Kms',
       engine: 'V8 de 5.3 L',
-      horsepower: '355 HP',
       features: [
         'Como nueva, impecables condiciones',
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        'Horsepower: 355 HP'
       ]
     }
   },
@@ -1032,10 +1062,10 @@ images: [
       keys: '2 llaves',
       kilometers: '149,110 Kms',
       engine: '4 cilindros 2.0 TDI',
-      traction: '4x4',
       features: [
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        'Tracción: 4x4'
       ]
     }
   },
@@ -1187,10 +1217,10 @@ images: [
       keys: '2 llaves',
       kilometers: '45,093 Kms',
       engine: 'Motor V6 pentastar',
-      traction: '4x4',
       features: [
         'Financiamiento Disponible',
-        'Precio Negociable'
+        'Precio Negociable',
+        'Tracción: 4x4'
       ]
     }
   },
