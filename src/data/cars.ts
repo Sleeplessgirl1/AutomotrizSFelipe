@@ -7,7 +7,7 @@ export const cars: Car[] = [
   year: 2023,
   category: 'SUV',
   price: 1680000,
-  image: '/cars/LAND ROVER RANGE ROVER SPORT DYNAMIC SE 20231.webp',
+  image: '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20231.webp',
 images: [
   '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20231.webp',
   '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20232.webp',
