@@ -36,16 +36,16 @@ export const cars: Car[] = [
     category: 'Deportivo',
     price: 850000,
     image: '/cars/FORD MUSTANG GT 5.0 20151.webp',
-    images: [
-      '/cars/FORD MUSTANG GT 5.0 20151.webp',
-      '/cars/FORD MUSTANG GT 5.0 20152.webp',
-      '/cars/FORD MUSTANG GT 5.0 20153.webp',
-      '/cars/FORD MUSTANG GT 5.0 20154.webp',
-      '/cars/FORD MUSTANG GT 5.0 20155.webp',
-      '/cars/FORD MUSTANG GT 5.0 20156.webp',
-      '/cars/FORD MUSTANG GT 5.0 20157.webp',
-      '/cars/FORD MUSTANG GT 5.0 20158.webp',
-      '/cars/FORD MUSTANG GT 5.0 20159.webp'
+     images: [
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN1.webp',
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN2.webp',
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN3.webp',
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN4.webp',
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN5.webp',
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN6.webp',
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN7.webp',
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN8.webp',
+      '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN9.webp'
     ],
     details: {
       condition: 'Factura de agencia (único dueño)',
