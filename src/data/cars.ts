@@ -1,6 +1,65 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+  
+    {
+    id: '101',
+    name: 'CHEVROLET SILVERADO 1500',
+    year: 2020,
+    category: 'Pick Up',
+    price: 395000,
+    image: '/cars/CHEVROLET SILVERADO 1500 20201.webp',
+    images: [
+      '/cars/CHEVROLET SILVERADO 1500 20201.webp',
+      '/cars/CHEVROLET SILVERADO 1500 20202.webp',
+      '/cars/CHEVROLET SILVERADO 1500 20203.webp',
+      '/cars/CHEVROLET SILVERADO 1500 20204.webp',
+      '/cars/CHEVROLET SILVERADO 1500 20205.webp',
+      '/cars/CHEVROLET SILVERADO 1500 20206.webp',
+      '/cars/CHEVROLET SILVERADO 1500 20207.webp',
+      '/cars/CHEVROLET SILVERADO 1500 20208.webp',    ],
+    details: {
+      condition: 'Factura de agencia',
+      keys: '2 llaves',
+      kilometers: '240,837 Kms',
+      engine: 'V6 4.3L',
+      features: [
+        'Financiamiento Disponible',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '100',
+    name: 'FORD MUSTANG GT 5.0 EDICIÓN FREDDY VAN BEUREN',
+    year: 2015,
+    category: 'Deportivo',
+    price: 850000,
+    image: '/cars/FORD MUSTANG GT 5.0 20151.webp',
+    images: [
+      '/cars/FORD MUSTANG GT 5.0 20151.webp',
+      '/cars/FORD MUSTANG GT 5.0 20152.webp',
+      '/cars/FORD MUSTANG GT 5.0 20153.webp',
+      '/cars/FORD MUSTANG GT 5.0 20154.webp',
+      '/cars/FORD MUSTANG GT 5.0 20155.webp',
+      '/cars/FORD MUSTANG GT 5.0 20156.webp',
+      '/cars/FORD MUSTANG GT 5.0 20157.webp',
+      '/cars/FORD MUSTANG GT 5.0 20158.webp',
+      '/cars/FORD MUSTANG GT 5.0 20159.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '54,847 Kms',
+      engine: 'V8 5.0 L',
+      features: [
+        'Edición Limitada (No. 80 de 100)',
+        '435 HP',
+        'Automático',
+        'Precio Negociable'
+      ]
+    }
+  },
   {
   id: '99',
   name: 'LAND ROVER RANGE ROVER SPORT DYNAMIC SE',
