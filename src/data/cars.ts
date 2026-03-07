@@ -759,34 +759,7 @@ images: [
     ]
   }
 },
-{
-  id: '65',
-  name: 'MINI COOPER SALT',
-  year: 2020,
-  category: 'Deportivo',
-  price: 310000,
-  image: '/cars/MINI COOPER SALT 20201.webp',
-  images: [
-    '/cars/MINI COOPER SALT 20201.webp',
-    '/cars/MINI COOPER SALT 20202.webp',
-    '/cars/MINI COOPER SALT 20203.webp',
-    '/cars/MINI COOPER SALT 20204.webp',
-    '/cars/MINI COOPER SALT 20205.webp',
-    '/cars/MINI COOPER SALT 20206.webp',
-    '/cars/MINI COOPER SALT 20207.webp',
-   
-  ],
-  details: {
-    condition: 'Factura de agencia',
-    keys: '2 llaves',
-    kilometers: '58,366 Kms',
-    engine: '3 cilindros 1.5 L',
-    features: [
-      'Financiamiento Disponible',
-      'Precio Negociable'
-    ]
-  }
-},
+
    {
   id: '63',
   name: 'BMW X6 M50i',
