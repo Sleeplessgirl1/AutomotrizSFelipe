@@ -31,11 +31,12 @@ export const cars: Car[] = [
   },
   {
     id: '100',
-    name: 'FORD MUSTANG GT 5.0 EDICIÓN FREDDY VAN BEUREN1',
+    name: 'FORD MUSTANG GT 5.0 EDICIÓN FREDDY VAN BEUREN',
     year: 2015,
     category: 'Deportivo',
     price: 850000,
-    image: '/cars/FORD MUSTANG GT 5.0 20151.webp',
+    image:       '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN1.webp',
+
      images: [
       '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN1.webp',
       '/cars/FORD MUSTANG GT 5.0 2015 EDICIÓN FREDDY VAN BEUREN2.webp',
