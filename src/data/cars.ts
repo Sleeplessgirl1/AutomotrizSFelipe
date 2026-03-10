@@ -1,7 +1,66 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-  
+    {
+    id: '103',
+    name: 'KIA SPORTAGE EX',
+    year: 2021,
+    category: 'SUV',
+    price: 320000,
+    image: '/cars/KIA SPORTAGE EX 20211.webp',
+    images: [
+      '/cars/KIA SPORTAGE EX 20211.webp',
+      '/cars/KIA SPORTAGE EX 20212.webp',
+      '/cars/KIA SPORTAGE EX 20213.webp',
+      '/cars/KIA SPORTAGE EX 20214.webp',
+      '/cars/KIA SPORTAGE EX 20215.webp',
+      '/cars/KIA SPORTAGE EX 20216.webp',
+      '/cars/KIA SPORTAGE EX 20217.webp',
+      '/cars/KIA SPORTAGE EX 20218.webp',
+      '/cars/KIA SPORTAGE EX 20219.webp'
+    ],
+    details: {
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '98,210 Kms',
+      engine: '4 cilindros',
+      features: [
+        'Financiamiento Disponible',
+        'Cámara de reversa',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '102',
+    name: 'FORD F-250 SUPER DUTY',
+    year: 2021,
+    category: 'Pick Up',
+    price: 815000,
+    image: '/cars/FORD F-250 SUPER DUTY 20211.webp',
+    images: [
+      '/cars/FORD F-250 SUPER DUTY 20211.webp',
+      '/cars/FORD F-250 SUPER DUTY 20212.webp',
+      '/cars/FORD F-250 SUPER DUTY 20213.webp',
+      '/cars/FORD F-250 SUPER DUTY 20214.webp',
+      '/cars/FORD F-250 SUPER DUTY 20215.webp',
+      '/cars/FORD F-250 SUPER DUTY 20216.webp',
+      '/cars/FORD F-250 SUPER DUTY 20217.webp',
+      '/cars/FORD F-250 SUPER DUTY 20218.webp',
+      '/cars/FORD F-250 SUPER DUTY 20219.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia',
+      keys: '2 llaves',
+      kilometers: '105,413 Kms',
+      engine: 'V8 6.7L Diésel',
+      features: [
+        'Financiamiento Disponible',
+        '4X4',
+        'Precio Negociable'
+      ]
+    }
+  },
     {
     id: '101',
     name: 'CHEVROLET SILVERADO 1500',
