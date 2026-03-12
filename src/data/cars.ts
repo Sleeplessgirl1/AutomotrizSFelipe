@@ -937,38 +937,6 @@ images: [
     ]
   }
 },
-
-  {
-    id: '58',
-    name: 'MERCEDES BENZ G500',
-    year: 2016,
-    category: 'SUV',
-    price: 1420000,
-    image: '/cars/MERCEDES BENZ G500 20161.webp',
-    images: [
-      '/cars/MERCEDES BENZ G500 20161.webp',
-      '/cars/MERCEDES BENZ G500 20162.webp',
-      '/cars/MERCEDES BENZ G500 20163.webp',
-      '/cars/MERCEDES BENZ G500 20164.webp',
-      '/cars/MERCEDES BENZ G500 20165.webp',
-      '/cars/MERCEDES BENZ G500 20166.webp',
-      '/cars/MERCEDES BENZ G500 20167.webp',
-      '/cars/MERCEDES BENZ G500 20168.webp',
-      '/cars/MERCEDES BENZ G500 20169.webp',
-    ],
-    details: {
-      condition: 'Factura de seminuevos con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '52,035 Kms',
-      engine: 'V8 5.5 L Biturbo 422 HP',
-      features: [
-        'Impecables condiciones',
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
- 
   {
     id: '56',
     name: 'Dodge Challenger Blackline',
