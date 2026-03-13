@@ -1,7 +1,39 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
+    
     {
+    id: '104',
+    name: 'MERCEDES BENZ CLA35 AMG',
+    year: 2023,
+    category: 'Sedan',
+    price: 895000,
+    image: '/cars/MERCEDES BENZ CLA35 AMG 20231.webp',
+    images: [
+      '/cars/MERCEDES BENZ CLA35 AMG 20231.webp',
+      '/cars/MERCEDES BENZ CLA35 AMG 20232.webp',
+      '/cars/MERCEDES BENZ CLA35 AMG 20233.webp',
+      '/cars/MERCEDES BENZ CLA35 AMG 20234.webp',
+      '/cars/MERCEDES BENZ CLA35 AMG 20235.webp',
+      '/cars/MERCEDES BENZ CLA35 AMG 20236.webp',
+      '/cars/MERCEDES BENZ CLA35 AMG 20237.webp',
+      '/cars/MERCEDES BENZ CLA35 AMG 20238.webp',
+      '/cars/MERCEDES BENZ CLA35 AMG 20239.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '46,210 Kms',
+      engine: '4 cilindros 2.0 Turbo',
+      features: [
+        'Financiamiento Disponible',
+        'Iluminación ambiental',
+        'Potencia 306 HP',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
     id: '103',
     name: 'KIA SPORTAGE EX',
     year: 2021,
