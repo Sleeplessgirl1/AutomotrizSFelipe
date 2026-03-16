@@ -397,37 +397,8 @@ images: [
     ]
   }
 },
+
 {
-  id: '91',
-  name: 'MITSUBISHI L200 DIESEL 4X4',
-  year: 2020,
-  category: 'Pick Up',
-  price: 380000,
-  image: '/cars/MITSUBISHI L200 DIESEL 4X4 20201.webp',
-  images: [
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20201.webp',
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20202.webp',
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20203.webp',
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20204.webp',
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20205.webp',
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20206.webp',
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20207.webp',
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20208.webp',
-    '/cars/MITSUBISHI L200 DIESEL 4X4 20209.webp'
-  ],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-    kilometers: '83,718 Kms',
-    engine: '4 cilindros 2.4L TDI',
-    features: [
-      'Financiamiento Disponible',
-      'Transmisión manual de 6 velocidades',
-      '4X4',
-      'Precio Negociable'
-    ]
-  }
-},{
   id: '90',
   name: 'FORD BRONCO BADLANDS',
   year: 2021,
