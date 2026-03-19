@@ -1,7 +1,66 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-    
+      {
+    id: '106',
+    name: 'MERCEDES BENZ G63 AMG',
+    year: 2021,
+    category: 'SUV',
+    price: 3250000,
+    image: '/cars/MERCEDES BENZ G63 AMG 20211.webp',
+    images: [
+      '/cars/MERCEDES BENZ G63 AMG 20211.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20212.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20213.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20214.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20215.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20216.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20217.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20218.webp',
+      '/cars/MERCEDES BENZ G63 AMG 20219.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia',
+      keys: '2 llaves',
+      kilometers: '19,553 Kms',
+      engine: 'V8 Biturbo',
+      features: [
+        'Financiamiento Disponible',
+        'Impecables condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '105',
+    name: 'VOLKSWAGEN TERAMONT CROSSPORT',
+    year: 2021,
+    category: 'SUV',
+    price: 680000,
+    image: '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20211.webp',
+    images: [
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20211.webp',
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20212.webp',
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20213.webp',
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20214.webp',
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20215.webp',
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20216.webp',
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20217.webp',
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20218.webp',
+      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20219.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia',
+      keys: '2 llaves',
+      kilometers: '72,100 Kms',
+      engine: 'V6',
+      features: [
+        'Financiamiento Disponible',
+        'Impecables condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
     {
     id: '104',
     name: 'MERCEDES BENZ CLA35 AMG',
