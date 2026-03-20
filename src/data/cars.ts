@@ -1254,7 +1254,7 @@ images: [
     name: 'Dodge Ram Limited 1500 Mild-Hybrid',
     year: 2022,
     category: 'Pick Up',
-    price: 980000,
+    price: 970000,
     image: '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20221.webp',
     images: [
       '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20221.webp',
@@ -1564,7 +1564,7 @@ images: [
     name: 'GMC Yukon Denali',
     year: 2022,
     category: 'SUV',
-    price: 1290000,
+    price: 1300000,
     image: '/cars/GMC Yukon Denali 20221.webp',
     images: [
       '/cars/GMC Yukon Denali 20221.webp',
