@@ -8,9 +8,9 @@ export const cars: Car[] = [
     year: 2021,
     category: 'SUV',
     price: 1180000,
-    image: '/cars/BMW X6 M50i 202111.webp',
+    image: '/cars/BMW X6 M50i 2021.webp',
     images: [
-      '/cars/BMW X6 M50i 202111.webp',
+      '/cars/BMW X6 M50i 2021.webp',
       '/cars/BMW X6 M50i 202122.webp',
       '/cars/BMW X6 M50i 202133.webp',
       '/cars/BMW X6 M50i 202144.webp',
