@@ -1,7 +1,39 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-      {
+      
+    {
+    id: '107',
+    name: 'BMW X6 M50i',
+    year: 2021,
+    category: 'SUV',
+    price: 1180000,
+    image: '/cars/BMW X6 M50i 202111.webp',
+    images: [
+      '/cars/BMW X6 M50i 202111.webp',
+      '/cars/BMW X6 M50i 202122.webp',
+      '/cars/BMW X6 M50i 202133.webp',
+      '/cars/BMW X6 M50i 202144.webp',
+      '/cars/BMW X6 M50i 202155.webp',
+      '/cars/BMW X6 M50i 202166.webp',
+      '/cars/BMW X6 M50i 202177.webp',
+      '/cars/BMW X6 M50i 202188.webp',
+      '/cars/BMW X6 M50i 202199.webp'
+    ],
+    details: {
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '56,610 Kms',
+      engine: 'V8 Biturbo 4.4 L',
+      features: [
+        'Financiamiento Disponible',
+        'Cristalería Swarovski',
+        'Excelentes condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
     id: '106',
     name: 'MERCEDES BENZ G63 AMG',
     year: 2021,
