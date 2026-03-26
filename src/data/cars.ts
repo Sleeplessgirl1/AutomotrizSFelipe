@@ -93,37 +93,7 @@ export const cars: Car[] = [
       ]
     }
   },
-    {
-    id: '104',
-    name: 'MERCEDES BENZ CLA35 AMG',
-    year: 2023,
-    category: 'Sedan',
-    price: 895000,
-    image: '/cars/MERCEDES BENZ CLA35 AMG 20231.webp',
-    images: [
-      '/cars/MERCEDES BENZ CLA35 AMG 20231.webp',
-      '/cars/MERCEDES BENZ CLA35 AMG 20232.webp',
-      '/cars/MERCEDES BENZ CLA35 AMG 20233.webp',
-      '/cars/MERCEDES BENZ CLA35 AMG 20234.webp',
-      '/cars/MERCEDES BENZ CLA35 AMG 20235.webp',
-      '/cars/MERCEDES BENZ CLA35 AMG 20236.webp',
-      '/cars/MERCEDES BENZ CLA35 AMG 20237.webp',
-      '/cars/MERCEDES BENZ CLA35 AMG 20238.webp',
-      '/cars/MERCEDES BENZ CLA35 AMG 20239.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '46,210 Kms',
-      engine: '4 cilindros 2.0 Turbo',
-      features: [
-        'Financiamiento Disponible',
-        'Iluminación ambiental',
-        'Potencia 306 HP',
-        'Precio Negociable'
-      ]
-    }
-  },
+  
   {
     id: '103',
     name: 'KIA SPORTAGE EX',
@@ -150,36 +120,6 @@ export const cars: Car[] = [
       features: [
         'Financiamiento Disponible',
         'Cámara de reversa',
-        'Precio Negociable'
-      ]
-    }
-  },
-  {
-    id: '102',
-    name: 'FORD F-250 SUPER DUTY',
-    year: 2021,
-    category: 'Pick Up',
-    price: 815000,
-    image: '/cars/FORD F-250 SUPER DUTY 20211.webp',
-    images: [
-      '/cars/FORD F-250 SUPER DUTY 20211.webp',
-      '/cars/FORD F-250 SUPER DUTY 20212.webp',
-      '/cars/FORD F-250 SUPER DUTY 20213.webp',
-      '/cars/FORD F-250 SUPER DUTY 20214.webp',
-      '/cars/FORD F-250 SUPER DUTY 20215.webp',
-      '/cars/FORD F-250 SUPER DUTY 20216.webp',
-      '/cars/FORD F-250 SUPER DUTY 20217.webp',
-      '/cars/FORD F-250 SUPER DUTY 20218.webp',
-      '/cars/FORD F-250 SUPER DUTY 20219.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia',
-      keys: '2 llaves',
-      kilometers: '105,413 Kms',
-      engine: 'V8 6.7L Diésel',
-      features: [
-        'Financiamiento Disponible',
-        '4X4',
         'Precio Negociable'
       ]
     }
@@ -761,37 +701,6 @@ images: [
     ]
   }
 },
-
-{
-  id: '70',
-  name: 'MERCEDES BENZ GLE450',
-  year: 2021,
-  category: 'SUV',
-  price: 1080000,
-  image: '/cars/MERCEDES BENZ GLE450 20211.webp',
-  images: [
-    '/cars/MERCEDES BENZ GLE450 20211.webp',
-    '/cars/MERCEDES BENZ GLE450 20212.webp',
-    '/cars/MERCEDES BENZ GLE450 20213.webp',
-    '/cars/MERCEDES BENZ GLE450 20214.webp',
-    '/cars/MERCEDES BENZ GLE450 20215.webp',
-    '/cars/MERCEDES BENZ GLE450 20216.webp',
-    '/cars/MERCEDES BENZ GLE450 20217.webp',
-    '/cars/MERCEDES BENZ GLE450 20218.webp',
-    '/cars/MERCEDES BENZ GLE450 20219.webp'
-  ],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-        kilometers: '58,323 Kms',
-    engine: 'V6 3.0 L MildHybrid',
-    features: [
-      'Financiamiento Disponible',
-      'Excelentes condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
   {
   id: '69',
   name: 'PORSCHE CAYENNE',
@@ -1063,40 +972,6 @@ images: [
       ]
     }
   },
-  {
-  id: '45',
-  name: 'BMW X6 XDRIVE40i',
-  year: 2022,
-  category: 'SUV',
-  price: 1250000,
-  image: '/cars/BMW X6 XDRIVE40i 20221.webp',
-  images: [
-    '/cars/BMW X6 XDRIVE40i 20221.webp',
-    '/cars/BMW X6 XDRIVE40i 20222.webp',
-    '/cars/BMW X6 XDRIVE40i 20223.webp',
-    '/cars/BMW X6 XDRIVE40i 20224.webp',
-    '/cars/BMW X6 XDRIVE40i 20225.webp',
-    '/cars/BMW X6 XDRIVE40i 20226.webp',
-    '/cars/BMW X6 XDRIVE40i 20227.webp',
-    '/cars/BMW X6 XDRIVE40i 20228.webp',
-    '/cars/BMW X6 XDRIVE40i 20229.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (2 dueños)',
-    keys: '2 llaves',
-    kilometers: '84,790 Kms',
-    engine: '6 cilindros TwinPower Turbo',
-    features: [
-      'Financiamiento Disponible',
-      'Paquete M Sport',
-      'Impecables condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
-,
-
-
   {
     id: '44',
     name: 'Volkswagen Teramont Trendline',
