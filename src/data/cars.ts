@@ -1,7 +1,36 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-      
+      {
+    id: '108',
+    name: 'AUDI A5 S LINE',
+    year: 2021,
+    category: 'Sedan',
+    price: 580000,
+    image: '/cars/AUDI A5 S LINE 20211.webp',
+    images: [
+      '/cars/AUDI A5 S LINE 20211.webp',
+      '/cars/AUDI A5 S LINE 20212.webp',
+      '/cars/AUDI A5 S LINE 20213.webp',
+      '/cars/AUDI A5 S LINE 20214.webp',
+      '/cars/AUDI A5 S LINE 20215.webp',
+      '/cars/AUDI A5 S LINE 20216.webp',
+      '/cars/AUDI A5 S LINE 20217.webp',
+      '/cars/AUDI A5 S LINE 20218.webp',
+      '/cars/AUDI A5 S LINE 20219.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia',
+      keys: '2 llaves',
+      kilometers: '45,266 Kms',
+      engine: '4 cilindros 2.0 T',
+      features: [
+        'Financiamiento Disponible',
+        'Servicios de agencia',
+        'Precio Negociable'
+      ]
+    }
+  },  
     {
     id: '107',
     name: 'BMW X6 M50i',
