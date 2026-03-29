@@ -1,7 +1,37 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-      {
+       {
+    id: '109',
+    name: 'AUDI RS5',
+    year: 2019,
+    category: 'Deportivo',
+    price: 899000,
+    image: '/cars/AUDI RS5 20191.webp',
+    images: [
+      '/cars/AUDI RS5 20191.webp',
+      '/cars/AUDI RS5 20192.webp',
+      '/cars/AUDI RS5 20193.webp',
+      '/cars/AUDI RS5 20194.webp',
+      '/cars/AUDI RS5 20195.webp',
+      '/cars/AUDI RS5 20196.webp',
+      '/cars/AUDI RS5 20197.webp',
+      '/cars/AUDI RS5 20198.webp',
+      '/cars/AUDI RS5 20199.webp'
+    ],
+    details: {
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '46,488 Kms',
+      engine: 'V6 2.9 L Biturbo',
+      features: [
+        'Financiamiento Disponible',
+        '444 HP',
+        'Tracción Quattro',
+        'Precio Negociable'
+      ]
+    }
+  }, {
     id: '108',
     name: 'AUDI A5 S LINE',
     year: 2021,
