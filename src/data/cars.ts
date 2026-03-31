@@ -1,7 +1,67 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-       {
+        {
+    id: '111',
+    name: 'JEEP WRANGLER SAHARA',
+    year: 2019,
+    category: 'SUV',
+    price: 630000,
+    image: '/cars/JEEP WRANGLER SAHARA 20191.webp',
+    images: [
+      '/cars/JEEP WRANGLER SAHARA 20191.webp',
+      '/cars/JEEP WRANGLER SAHARA 20192.webp',
+      '/cars/JEEP WRANGLER SAHARA 20193.webp',
+      '/cars/JEEP WRANGLER SAHARA 20194.webp',
+      '/cars/JEEP WRANGLER SAHARA 20195.webp',
+      '/cars/JEEP WRANGLER SAHARA 20196.webp',
+      '/cars/JEEP WRANGLER SAHARA 20197.webp',
+      '/cars/JEEP WRANGLER SAHARA 20198.webp',
+      '/cars/JEEP WRANGLER SAHARA 20199.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '108,214 Kms',
+      engine: 'V6',
+      features: [
+        'Financiamiento Disponible',
+        '4X4',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '110',
+    name: 'MERCEDES BENZ GLC300 COUPE',
+    year: 2023,
+    category: 'SUV',
+    price: 915000,
+    image: '/cars/MERCEDES BENZ GLC300 COUPE 20231.webp',
+    images: [
+      '/cars/MERCEDES BENZ GLC300 COUPE 20231.webp',
+      '/cars/MERCEDES BENZ GLC300 COUPE 20232.webp',
+      '/cars/MERCEDES BENZ GLC300 COUPE 20233.webp',
+      '/cars/MERCEDES BENZ GLC300 COUPE 20234.webp',
+      '/cars/MERCEDES BENZ GLC300 COUPE 20235.webp',
+      '/cars/MERCEDES BENZ GLC300 COUPE 20236.webp',
+      '/cars/MERCEDES BENZ GLC300 COUPE 20237.webp',
+      '/cars/MERCEDES BENZ GLC300 COUPE 20238.webp',
+      '/cars/MERCEDES BENZ GLC300 COUPE 20239.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '64,649 Kms',
+      engine: '4 cilindros 2.0 Turbo',
+      features: [
+        'Financiamiento Disponible',
+        'Precio Negociable'
+      ]
+    }
+  }
+,
+{
     id: '109',
     name: 'AUDI RS5',
     year: 2019,
@@ -31,7 +91,8 @@ export const cars: Car[] = [
         'Precio Negociable'
       ]
     }
-  }, {
+  },
+   {
     id: '108',
     name: 'AUDI A5 S LINE',
     year: 2021,
