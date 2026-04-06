@@ -1,7 +1,35 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-        {
+   {    id: '112',
+    name: 'CUPRA ATECA',
+    year: 2021,
+    category: 'SUV',
+    price: 475000,
+    image: '/cars/CUPRA ATECA 20211.webp',
+    images: [
+      '/cars/CUPRA ATECA 20211.webp',
+      '/cars/CUPRA ATECA 20212.webp',
+      '/cars/CUPRA ATECA 20213.webp',
+      '/cars/CUPRA ATECA 20214.webp',
+      '/cars/CUPRA ATECA 20215.webp',
+      '/cars/CUPRA ATECA 20216.webp',
+      '/cars/CUPRA ATECA 20217.webp',
+      '/cars/CUPRA ATECA 20218.webp',
+      '/cars/CUPRA ATECA 20219.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia',
+      keys: '2 llaves',
+      kilometers: '119,348 Kms',
+      engine: '4 cilindros Turbo',
+      features: [
+        'Financiamiento Disponible',
+        'Precio Negociable'
+      ]
+    }
+  }  ,
+  {
     id: '111',
     name: 'JEEP WRANGLER SAHARA',
     year: 2019,
