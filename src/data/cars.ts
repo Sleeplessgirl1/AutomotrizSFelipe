@@ -1,7 +1,103 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-   {    id: '112',
+      {
+    id: '115',
+    name: 'GMC SIERRA DENALI',
+    year: 2025,
+    category: 'Pick Up',
+    price: 1485000,
+    image: '/cars/GMC SIERRA DENALI 20251.webp',
+    images: [
+      '/cars/GMC SIERRA DENALI 20251.webp',
+      '/cars/GMC SIERRA DENALI 20252.webp',
+      '/cars/GMC SIERRA DENALI 20253.webp',
+      '/cars/GMC SIERRA DENALI 20254.webp',
+      '/cars/GMC SIERRA DENALI 20255.webp',
+      '/cars/GMC SIERRA DENALI 20256.webp',
+      '/cars/GMC SIERRA DENALI 20257.webp',
+      '/cars/GMC SIERRA DENALI 20258.webp',
+      '/cars/GMC SIERRA DENALI 20259.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia',
+      keys: '2 llaves',
+      kilometers: '26,358 Kms',
+      engine: 'V8 6.2 L',
+      features: [
+        'Financiamiento Disponible',
+        '4X4',
+        'Excelentes condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '114',
+    name: 'INFINITI QX60 SENSORY',
+    year: 2023,
+    category: 'SUV',
+    price: 850000,
+    image: '/cars/INFINITI QX60 SENSORY 20231.webp',
+    images: [
+      '/cars/INFINITI QX60 SENSORY 20231.webp',
+      '/cars/INFINITI QX60 SENSORY 20232.webp',
+      '/cars/INFINITI QX60 SENSORY 20233.webp',
+      '/cars/INFINITI QX60 SENSORY 20234.webp',
+      '/cars/INFINITI QX60 SENSORY 20235.webp',
+      '/cars/INFINITI QX60 SENSORY 20236.webp',
+      '/cars/INFINITI QX60 SENSORY 20237.webp',
+      '/cars/INFINITI QX60 SENSORY 20238.webp',
+      '/cars/INFINITI QX60 SENSORY 20239.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '37,378 Kms',
+      engine: 'V6 de 3.5L 295 HP',
+      features: [
+        'Financiamiento Disponible',
+        '3 filas',
+        'Tracción AWD inteligente',
+        'Sistema de sonido Bose',
+        'Cajuela eléctrica manos libres',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '113',
+    name: 'GMC YUKON DENALI',
+    year: 2017,
+    category: 'SUV',
+    price: 420000,
+    image: '/cars/GMC YUKON DENALI 20171.webp',
+    images: [
+      '/cars/GMC YUKON DENALI 20171.webp',
+      '/cars/GMC YUKON DENALI 20172.webp',
+      '/cars/GMC YUKON DENALI 20173.webp',
+      '/cars/GMC YUKON DENALI 20174.webp',
+      '/cars/GMC YUKON DENALI 20175.webp',
+      '/cars/GMC YUKON DENALI 20176.webp',
+      '/cars/GMC YUKON DENALI 20177.webp',
+      '/cars/GMC YUKON DENALI 20178.webp',
+      '/cars/GMC YUKON DENALI 20179.webp'
+    ],
+    details: {
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '179,602 Kms',
+      engine: 'V8 6.2L',
+      features: [
+        'Financiamiento Disponible',
+        '3 filas',
+        'Automática de 8 velocidades',
+        'Precio Negociable'
+      ]
+    }
+  }, 
+  
+  {    id: '112',
     name: 'CUPRA ATECA',
     year: 2021,
     category: 'SUV',
@@ -440,7 +536,7 @@ images: [
     '/cars/GMC SIERRA DENALI20249.webp'
   ],
   details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
+    condition: 'Factura d e seminuevos con su consecutivo de agencia',
     keys: '2 llaves',
     kilometers: '22,100 Kms',
     engine: 'V8 6.2 L',
@@ -606,34 +702,6 @@ images: [
       'Varios modos de manejo',
       '4X4',
       'Varios extras',
-      'Precio Negociable'
-    ]
-  }
-},{
-  id: '89',
-  name: 'CHEVROLET CAVALIER LT',
-  year: 2019,
-  category: 'Sedan',
-  price: 185000,
-  image: '/cars/CHEVROLET CAVALIER LT 20191.webp',
-  images: [
-    '/cars/CHEVROLET CAVALIER LT 20191.webp',
-    '/cars/CHEVROLET CAVALIER LT 20192.webp',
-    '/cars/CHEVROLET CAVALIER LT 20193.webp',
-    '/cars/CHEVROLET CAVALIER LT 20194.webp',
-    '/cars/CHEVROLET CAVALIER LT 20195.webp',
-    '/cars/CHEVROLET CAVALIER LT 20196.webp',
-    '/cars/CHEVROLET CAVALIER LT 20197.webp',
-    '/cars/CHEVROLET CAVALIER LT 20198.webp',
-    '/cars/CHEVROLET CAVALIER LT 20199.webp'
-  ],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-    kilometers: '143,718 Kms',
-    engine: '4 cilindros',
-    features: [
-      'Financiamiento Disponible',
       'Precio Negociable'
     ]
   }
