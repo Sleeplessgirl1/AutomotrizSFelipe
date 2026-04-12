@@ -457,36 +457,7 @@ images: [
     ]
   }
 },
-  {
-  id: '98',
-  name: 'AUDI A7 S LINE',
-  year: 2019,
-  category: 'Sedan',
-  price: 595000,
-  image: '/cars/AUDI A7 S LINE 20191.webp',
-  images: [
-    '/cars/AUDI A7 S LINE 20191.webp',
-    '/cars/AUDI A7 S LINE 20192.webp',
-    '/cars/AUDI A7 S LINE 20193.webp',
-    '/cars/AUDI A7 S LINE 20194.webp',
-    '/cars/AUDI A7 S LINE 20195.webp',
-    '/cars/AUDI A7 S LINE 20196.webp',
-    '/cars/AUDI A7 S LINE 20197.webp',
-    '/cars/AUDI A7 S LINE 20198.webp',
-    '/cars/AUDI A7 S LINE 20199.webp'
-  ],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-    kilometers: '107,162 Kms',
-    engine: 'V6 3.0 Mild Hybrid',
-    features: [
-      'Financiamiento Disponible',
-      'Excelentes condiciones',
-      'Precio Negociable'
-    ]
-  }
-},
+ 
   {
   id: '97',
   name: 'CHEVROLET COLORADO ZR2',
@@ -1007,34 +978,7 @@ images: [
     ]
   }
 },
-{
-  id: '65',
-  name: 'MINI COOPER SALT',
-  year: 2020,
-  category: 'Deportivo',
-  price: 310000,
-  image: '/cars/MINI COOPER SALT 20201.webp',
-  images: [
-    '/cars/MINI COOPER SALT 20201.webp',
-    '/cars/MINI COOPER SALT 20202.webp',
-    '/cars/MINI COOPER SALT 20203.webp',
-    '/cars/MINI COOPER SALT 20204.webp',
-    '/cars/MINI COOPER SALT 20205.webp',
-    '/cars/MINI COOPER SALT 20206.webp',
-    '/cars/MINI COOPER SALT 20207.webp',
-   
-  ],
-  details: {
-    condition: 'Factura de agencia',
-    keys: '2 llaves',
-    kilometers: '58,366 Kms',
-    engine: '3 cilindros 1.5 L',
-    features: [
-      'Financiamiento Disponible',
-      'Precio Negociable'
-    ]
-  }
-},
+
    {
   id: '63',
   name: 'BMW X6 M50i',
@@ -1683,100 +1627,8 @@ images: [
       ]
     }
   },
-  {
-    id: '26',
-    name: 'Mercedes Benz GLE53 AMG',
-    year: 2021,
-    category: 'SUV',
-    price: 1320000,
-    image: '/cars/Mercedes Benz GLE 53 AMG 20211.webp',
-    images: [
-      '/cars/Mercedes Benz GLE 53 AMG 20211.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20212.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20213.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20214.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20215.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20216.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20217.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20218.webp',
-      '/cars/Mercedes Benz GLE 53 AMG 20219.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '52,424 Kms',
-      engine: 'V6 de 3.0 Turbo MildHybrid',
-      features: [
-        'Sistema de iluminación ambiental',
-        'Impecables condiciones',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable',
-        "traction: 'Tracción integral AMG 4matic'"
-      ]
-    }
-  },
+ 
   
-    {
-    id: '23',
-    name: 'MERCEDES BENZ GLE43 AMG',
-    year: 2020,
-    category: 'SUV',
-    price: 850000,
-    image: '/cars/MERCEDES BENZ GLE43 AMG 20201.webp',
-    images: [
-      '/cars/MERCEDES BENZ GLE43 AMG 20201.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20202.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20203.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20204.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20205.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20206.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20207.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20208.webp',
-      '/cars/MERCEDES BENZ GLE43 AMG 20209.webp'
-    ],
-    details: {
-      condition: 'Factura de seminuevos con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '94,011 Kms',
-      engine: 'V6 Biturbo de 3.0 Litros',
-      features: [
-        'Garantía mecánica por 2 años o 40,000 kms',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },  
-  {
-    id: '19',
-    name: 'BMW X5 XDrive50i M Sport',
-    year: 2020,
-    category: 'SUV',
-    price: 850000,
-    image: '/cars/BMW X5 XDrive50i M Sport 20201.webp',
-    images: [
-      '/cars/BMW X5 XDrive50i M Sport 20201.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20202.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20203.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20204.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20205.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20206.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20207.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20208.webp',
-      '/cars/BMW X5 XDrive50i M Sport 20209.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (2 dueños)',
-      keys: '2 llaves',
-      kilometers: '107,753 Kms',
-      engine: 'V8 4.4 L TwinTurbo 456 HP',
-      features: [
-        'Impecables condiciones',
-        'Financiamiento Disponible',
-        'Precio Negociable',
-        "traction: 'AWD (xDrive)'"
-      ]
-    }
-  },
   {
     id: '18',
     name: 'FORD EDGE ST',
