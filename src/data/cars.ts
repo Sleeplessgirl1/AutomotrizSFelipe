@@ -1,7 +1,37 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-      {
+       {
+    id: '116',
+    name: 'HONDA CRV TURBO',
+    year: 2023,
+    category: 'SUV',
+    price: 530000,
+    image: '/cars/HONDA CRV TURBO 20231.webp',
+    images: [
+      '/cars/HONDA CRV TURBO 20231.webp',
+      '/cars/HONDA CRV TURBO 20232.webp',
+      '/cars/HONDA CRV TURBO 20233.webp',
+      '/cars/HONDA CRV TURBO 20234.webp',
+      '/cars/HONDA CRV TURBO 20235.webp',
+      '/cars/HONDA CRV TURBO 20236.webp',
+      '/cars/HONDA CRV TURBO 20237.webp',
+      '/cars/HONDA CRV TURBO 20238.webp',
+      '/cars/HONDA CRV TURBO 20239.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '30,557 Kms',
+      engine: '4 cilindros 1.5 L Turbo',
+      features: [
+        'Financiamiento Disponible',
+        'Automática',
+        'Precio Negociable'
+      ]
+    }
+  },
+   {
     id: '115',
     name: 'GMC SIERRA DENALI',
     year: 2025,
