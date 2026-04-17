@@ -1,7 +1,38 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-       {
+      
+    {
+    id: '117',
+    name: 'BMW X5 XDrive40i',
+    year: 2020,
+    category: 'SUV',
+    price: 750000,
+    image: '/cars/BMW X5 XDrive40i 20201.webp',
+    images: [
+      '/cars/BMW X5 XDrive40i 20201.webp',
+      '/cars/BMW X5 XDrive40i 20202.webp',
+      '/cars/BMW X5 XDrive40i 20203.webp',
+      '/cars/BMW X5 XDrive40i 20204.webp',
+      '/cars/BMW X5 XDrive40i 20205.webp',
+      '/cars/BMW X5 XDrive40i 20206.webp',
+      '/cars/BMW X5 XDrive40i 20207.webp',
+      '/cars/BMW X5 XDrive40i 20208.webp',
+      '/cars/BMW X5 XDrive40i 20209.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '56,134 Kms',
+      engine: 'V6 3.0 T',
+      features: [
+        'Financiamiento Disponible',
+        'Excelentes condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
     id: '116',
     name: 'HONDA CRV TURBO',
     year: 2023,
