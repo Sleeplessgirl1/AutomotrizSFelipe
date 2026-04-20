@@ -1,7 +1,36 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-      
+        {
+    id: '118',
+    name: 'HONDA PILOT TOURING',
+    year: 2018,
+    category: 'SUV',
+    price: 415000,
+    image: '/cars/HONDA PILOT TOURING 20181.webp',
+    images: [
+      '/cars/HONDA PILOT TOURING 20181.webp',
+      '/cars/HONDA PILOT TOURING 20182.webp',
+      '/cars/HONDA PILOT TOURING 20183.webp',
+      '/cars/HONDA PILOT TOURING 20184.webp',
+      '/cars/HONDA PILOT TOURING 20185.webp',
+      '/cars/HONDA PILOT TOURING 20186.webp',
+      '/cars/HONDA PILOT TOURING 20187.webp',
+      '/cars/HONDA PILOT TOURING 20188.webp',
+      '/cars/HONDA PILOT TOURING 20189.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '115,000 Kms',
+      engine: 'V6 3.5L',
+      features: [
+        'Financiamiento Disponible',
+        'Excelentes condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
     {
     id: '117',
     name: 'BMW X5 XDrive40i',
