@@ -2,6 +2,36 @@ import { Car } from '@/types/car';
 
 export const cars: Car[] = [
         {
+    id: '119',
+    name: 'MAZDA CX-50 SIGNATURE',
+    year: 2024,
+    category: 'SUV',
+    price: 630000,
+    image: '/cars/MAZDA CX-50 SIGNATURE 20241.webp',
+    images: [
+      '/cars/MAZDA CX-50 SIGNATURE 20241.webp',
+      '/cars/MAZDA CX-50 SIGNATURE 20242.webp',
+      '/cars/MAZDA CX-50 SIGNATURE 20243.webp',
+      '/cars/MAZDA CX-50 SIGNATURE 20244.webp',
+      '/cars/MAZDA CX-50 SIGNATURE 20245.webp',
+      '/cars/MAZDA CX-50 SIGNATURE 20246.webp',
+      '/cars/MAZDA CX-50 SIGNATURE 20247.webp',
+      '/cars/MAZDA CX-50 SIGNATURE 20248.webp',
+      '/cars/MAZDA CX-50 SIGNATURE 20249.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '59,121 Kms',
+      engine: '4 cilindros 2.5 L',
+      features: [
+        'Financiamiento Disponible',
+        'Impecables condiciones',
+        'Precio Negociable'
+      ]
+    }
+  }  ,
+  {
     id: '118',
     name: 'HONDA PILOT TOURING',
     year: 2018,
@@ -187,34 +217,7 @@ export const cars: Car[] = [
     }
   }, 
   
-  {    id: '112',
-    name: 'CUPRA ATECA',
-    year: 2021,
-    category: 'SUV',
-    price: 475000,
-    image: '/cars/CUPRA ATECA 20211.webp',
-    images: [
-      '/cars/CUPRA ATECA 20211.webp',
-      '/cars/CUPRA ATECA 20212.webp',
-      '/cars/CUPRA ATECA 20213.webp',
-      '/cars/CUPRA ATECA 20214.webp',
-      '/cars/CUPRA ATECA 20215.webp',
-      '/cars/CUPRA ATECA 20216.webp',
-      '/cars/CUPRA ATECA 20217.webp',
-      '/cars/CUPRA ATECA 20218.webp',
-      '/cars/CUPRA ATECA 20219.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia',
-      keys: '2 llaves',
-      kilometers: '119,348 Kms',
-      engine: '4 cilindros Turbo',
-      features: [
-        'Financiamiento Disponible',
-        'Precio Negociable'
-      ]
-    }
-  }  ,
+    ,
   {
     id: '111',
     name: 'JEEP WRANGLER SAHARA',
@@ -397,36 +400,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '105',
-    name: 'VOLKSWAGEN TERAMONT CROSSPORT',
-    year: 2021,
-    category: 'SUV',
-    price: 680000,
-    image: '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20211.webp',
-    images: [
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20211.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20212.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20213.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20214.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20215.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20216.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20217.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20218.webp',
-      '/cars/VOLKSWAGEN TERAMONT CROSSPORT 20219.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia',
-      keys: '2 llaves',
-      kilometers: '72,100 Kms',
-      engine: 'V6',
-      features: [
-        'Financiamiento Disponible',
-        'Impecables condiciones',
-        'Precio Negociable'
-      ]
-    }
-  },
+ 
   
   {
     id: '103',
@@ -672,37 +646,7 @@ images: [
     ]
   }
 },
-{
-  id: '93',
-  name: 'NISSAN MARCH ADVANCE',
-  year: 2018,
-  category: 'SUV',
-  price: 180000,
-  image: '/cars/NISSAN MARCH ADVANCE 20181.webp',
-images: [
-  '/cars/NISSAN MARCH ADVANCE 20181.webp',
-  '/cars/NISSAN MARCH ADVANCE 20182.webp',
-  '/cars/NISSAN MARCH ADVANCE 20183.webp',
-  '/cars/NISSAN MARCH ADVANCE 20184.webp',
-  '/cars/NISSAN MARCH ADVANCE 20185.webp',
-  '/cars/NISSAN MARCH ADVANCE 20186.webp',
-  '/cars/NISSAN MARCH ADVANCE 20187.webp',
-  '/cars/NISSAN MARCH ADVANCE 20188.webp',
-],
-  details: {
-    condition: 'Factura de seminuevos con su consecutivo de agencia',
-    keys: '2 llaves',
-    kilometers: '73,656 Kms',
-    engine: '4 cilindros',
-  
-    features: [
-      'Financiamiento Disponible',
-      'Precio Negociable',
-      'Impecables condiciones para su año, poco uso.',
-      'Transmisión automática'
-    ]
-  }
-},
+
   {
   id: '92',
   name: 'CHEVROLET SILVERADO CUSTOM',
@@ -1100,36 +1044,7 @@ images: [
   }
 
 },
-  {
-  id: '61',
-  name: 'PORSCHE CAYENNE PLATINUM',
-  year: 2022,
-  category: 'SUV',
-  price: 1415000,
-  image: '/cars/PORSCHE CAYENNE PLATINUM 2022.webp',
-  images: [
-    '/cars/PORSCHE CAYENNE PLATINUM 2022.webp',
-    '/cars/PORSCHE CAYENNE PLATINUM 20221.webp',
-    '/cars/PORSCHE CAYENNE PLATINUM 20222.webp',
-    '/cars/PORSCHE CAYENNE PLATINUM 20223.webp',
-    '/cars/PORSCHE CAYENNE PLATINUM 20224.webp',
-    '/cars/PORSCHE CAYENNE PLATINUM 20225.webp',
-    '/cars/PORSCHE CAYENNE PLATINUM 20226.webp',
-    '/cars/PORSCHE CAYENNE PLATINUM 20227.webp',
-    '/cars/PORSCHE CAYENNE PLATINUM 20228.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (único dueño)',
-    keys: '2 llaves',
-    kilometers: '55,824 Kms',
-    engine: 'V6 de 3.0 L',
-    features: [
-      'Financiamiento Disponible',
-      'Servicios de agencia',
-      'Precio Negociable'
-    ]
-  }
-}, 
+  
 {
   id: '60',
   name: 'MERCEDES BENZ GLC300',
@@ -1160,37 +1075,7 @@ images: [
     ]
   }
 },
-  {
-    id: '56',
-    name: 'Dodge Challenger Blackline',
-    year: 2015,
-    category: 'Deportivo',
-    price: 300000,
-    image: '/cars/Dodge Challenger Blackline 20151.webp',
-    images: [
-      '/cars/Dodge Challenger Blackline 20151.webp',
-      '/cars/Dodge Challenger Blackline 20152.webp',
-      '/cars/Dodge Challenger Blackline 20153.webp',
-      '/cars/Dodge Challenger Blackline 20154.webp',
-      '/cars/Dodge Challenger Blackline 20155.webp',
-      '/cars/Dodge Challenger Blackline 20156.webp',
-      '/cars/Dodge Challenger Blackline 20157.webp',
-      '/cars/Dodge Challenger Blackline 20158.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (2 dueños)',
-      keys: '2 llaves',
-      kilometers: '161,181 kms',
-      engine: 'V6 de 3.6 Litros',
-      features: [
-        'Financiamiento Disponible',
-        'Servicios de agencia',
-        'Precio Negociable',
-        'Transmisión automática de 8 velocidades'
-      ]
-    }
-  },
- 
+  
    
    {
     id: '46',
@@ -1469,35 +1354,7 @@ images: [
       ]
     }
   },
-  {
-    id: '36',
-    name: 'Volkswagen Jetta R Line',
-    year: 2019,
-    category: 'Sedan',
-    price: 295000,
-    image: '/cars/Volkswagen Jetta R Line 20191.webp',
-    images: [
-      '/cars/Volkswagen Jetta R Line 20191.webp',
-      '/cars/Volkswagen Jetta R Line 20192.webp',
-      '/cars/Volkswagen Jetta R Line 20193.webp',
-      '/cars/Volkswagen Jetta R Line 20194.webp',
-      '/cars/Volkswagen Jetta R Line 20195.webp',
-      '/cars/Volkswagen Jetta R Line 20196.webp',
-      '/cars/Volkswagen Jetta R Line 20197.webp',
-      '/cars/Volkswagen Jetta R Line 20198.webp',
-      '/cars/Volkswagen Jetta R Line 20199.webp'
-    ],
-    details: {
-      condition: 'Factura de seminuevos con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '131,395 kms',
-      engine: '4 cilindros 1.4 L Turbo',
-      features: [
-        'Financiamiento Disponible',
-        'Transmisión automática'
-      ]
-    }
-  },
+  
   {
     id: '35',
     name: 'Chevrolet Suburban High Country',
@@ -1783,38 +1640,6 @@ images: [
     }
   },
 
-  
-  {
-    id: '12',
-    name: 'FORD BRONCO SPORT OUTERBANKS',
-    year: 2021,
-    category: 'SUV',
-    price: 495000,
-    image: '/cars/FORD BRONCO SPORT OUTERBANKS 20211.webp',
-    images: [
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20211.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20212.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20213.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20214.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20215.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20216.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20217.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20218.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20219.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '66,239 Kms',
-      engine: '3 cilindros 1.5 L Turbo',
-      features: [
-        'Rendimiento en ciudad de 14.94 Km/L',
-        'CarPlay y AndroidAuto incluidos',
-        'Financiamiento Disponible',
-        'Precio Negociable de contado'
-      ]
-    }
-  },
   {
     id: '11',
     name: 'FORD EXPEDITION PLATINUM',
@@ -1846,35 +1671,6 @@ images: [
       ]
     }
   
-  },
-  {
-    id: '10',
-    name: 'Chevrolet Colorado',
-    year: 2016,
-    category: 'Pick Up',
-    price: 280000,
-    image: '/cars/Chevrolet Colorado 20161.webp',
-    images: [
-      '/cars/Chevrolet Colorado 20161.webp',
-      '/cars/Chevrolet Colorado 20162.webp',
-      '/cars/Chevrolet Colorado 20163.webp',
-      '/cars/Chevrolet Colorado 20164.webp',
-      '/cars/Chevrolet Colorado 20165.webp',
-      '/cars/Chevrolet Colorado 20166.webp',
-      '/cars/Chevrolet Colorado 20167.webp',
-      '/cars/Chevrolet Colorado 20168.webp',
-      '/cars/Chevrolet Colorado 20169.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia 100% mexicana',
-      keys: '2 llaves',
-      kilometers: '216,083 kms',
-      engine: '4 cil 2.5 L',
-      features: [
-        'Lista para el trabajo',
-        'Precio Negociable de contado'
-      ]
-    }
   },
   {
     id: '9',
