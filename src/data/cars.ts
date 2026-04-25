@@ -1,7 +1,68 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-        {
+    {
+    id: '121',
+    name: 'FORD BRONCO SPORT OUTERBANKS',
+    year: 2022,
+    category: 'SUV',
+    price: 485000,
+    image: '/cars/FORD BRONCO SPORT OUTERBANKS 20221.webp',
+    images: [
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20221.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20222.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20223.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20224.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20225.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20226.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20227.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20228.webp',
+      '/cars/FORD BRONCO SPORT OUTERBANKS 20229.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '72,893 Kms',
+      engine: '3 cilindros 1.5 L Turbo',
+      features: [
+        'Financiamiento Disponible',
+        '4x4',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
+    id: '120',
+    name: 'FORD LOBO PLATINUM PLUS HEV',
+    year: 2024,
+    category: 'Pick Up',
+    price: 1350000,
+    image: '/cars/FORD LOBO PLATINUM PLUS HEV 20241.webp',
+    images: [
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20241.webp',
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20242.webp',
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20243.webp',
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20244.webp',
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20245.webp',
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20246.webp',
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20247.webp',
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20248.webp',
+      '/cars/FORD LOBO PLATINUM PLUS HEV 20249.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '35,589 Kms',
+      engine: 'V6 3.5 L PowerBoost Híbrido',
+      features: [
+        'Financiamiento Disponible',
+        '4X4',
+        'Impecables condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },  
+  {
     id: '119',
     name: 'MAZDA CX-50 SIGNATURE',
     year: 2024,
