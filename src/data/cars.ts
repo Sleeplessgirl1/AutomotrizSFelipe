@@ -1,7 +1,37 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-    {
+      {
+    id: '122',
+    name: 'CADILLAC XT4',
+    year: 2019,
+    category: 'SUV',
+    price: 280000,
+    image: '/cars/CADILLAC XT4 20191.webp',
+    images: [
+      '/cars/CADILLAC XT4 20191.webp',
+      '/cars/CADILLAC XT4 20192.webp',
+      '/cars/CADILLAC XT4 20193.webp',
+      '/cars/CADILLAC XT4 20194.webp',
+      '/cars/CADILLAC XT4 20195.webp',
+      '/cars/CADILLAC XT4 20196.webp',
+      '/cars/CADILLAC XT4 20197.webp',
+      '/cars/CADILLAC XT4 20198.webp',
+      '/cars/CADILLAC XT4 20199.webp'
+    ],
+    details: {
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '99,784 Kms',
+      engine: '4 cilindros 2.0 Turbo',
+      features: [
+        'Financiamiento Disponible',
+        'Excelentes condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
     id: '121',
     name: 'FORD BRONCO SPORT OUTERBANKS',
     year: 2022,
