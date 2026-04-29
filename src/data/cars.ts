@@ -92,36 +92,7 @@ export const cars: Car[] = [
       ]
     }
   },  
-  {
-    id: '119',
-    name: 'MAZDA CX-50 SIGNATURE',
-    year: 2024,
-    category: 'SUV',
-    price: 630000,
-    image: '/cars/MAZDA CX-50 SIGNATURE 20241.webp',
-    images: [
-      '/cars/MAZDA CX-50 SIGNATURE 20241.webp',
-      '/cars/MAZDA CX-50 SIGNATURE 20242.webp',
-      '/cars/MAZDA CX-50 SIGNATURE 20243.webp',
-      '/cars/MAZDA CX-50 SIGNATURE 20244.webp',
-      '/cars/MAZDA CX-50 SIGNATURE 20245.webp',
-      '/cars/MAZDA CX-50 SIGNATURE 20246.webp',
-      '/cars/MAZDA CX-50 SIGNATURE 20247.webp',
-      '/cars/MAZDA CX-50 SIGNATURE 20248.webp',
-      '/cars/MAZDA CX-50 SIGNATURE 20249.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '59,121 Kms',
-      engine: '4 cilindros 2.5 L',
-      features: [
-        'Financiamiento Disponible',
-        'Impecables condiciones',
-        'Precio Negociable'
-      ]
-    }
-  }  ,
+ 
   {
     id: '118',
     name: 'HONDA PILOT TOURING',
