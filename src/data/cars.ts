@@ -1,7 +1,40 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-      {
+        {
+    id: '123',
+    name: 'NISSAN 370Z NISMO',
+    year: 2018,
+    category: 'Deportivo',
+    price: 630000,
+    image: '/cars/NISSAN 370Z NISMO 20181.webp',
+    images: [
+      '/cars/NISSAN 370Z NISMO 20181.webp',
+      '/cars/NISSAN 370Z NISMO 20182.webp',
+      '/cars/NISSAN 370Z NISMO 20183.webp',
+      '/cars/NISSAN 370Z NISMO 20184.webp',
+      '/cars/NISSAN 370Z NISMO 20185.webp',
+      '/cars/NISSAN 370Z NISMO 20186.webp',
+      '/cars/NISSAN 370Z NISMO 20187.webp',
+      '/cars/NISSAN 370Z NISMO 20188.webp',
+      '/cars/NISSAN 370Z NISMO 20189.webp'
+    ],
+    details: {
+      condition: 'Factura de seminuevos con su consecutivo de agencia',
+      keys: '2 llaves',
+      kilometers: '32,104 Kms',
+      engine: 'V6 3.7 L',
+      features: [
+        'Financiamiento Disponible',
+        '350 HP',
+        'Automático 7 velocidades',
+        'Sistema de escape deportivo doble',
+        'Tracción trasera',
+        'Precio Negociable'
+      ]
+    }
+  }
+  ,{
     id: '122',
     name: 'CADILLAC XT4',
     year: 2019,
