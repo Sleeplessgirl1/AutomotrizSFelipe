@@ -64,36 +64,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '121',
-    name: 'FORD BRONCO SPORT OUTERBANKS',
-    year: 2022,
-    category: 'SUV',
-    price: 485000,
-    image: '/cars/FORD BRONCO SPORT OUTERBANKS 20221.webp',
-    images: [
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20221.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20222.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20223.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20224.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20225.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20226.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20227.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20228.webp',
-      '/cars/FORD BRONCO SPORT OUTERBANKS 20229.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '72,893 Kms',
-      engine: '3 cilindros 1.5 L Turbo',
-      features: [
-        'Financiamiento Disponible',
-        '4x4',
-        'Precio Negociable'
-      ]
-    }
-  },
+  
   {
     id: '120',
     name: 'FORD LOBO PLATINUM PLUS HEV',
@@ -186,36 +157,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '116',
-    name: 'HONDA CRV TURBO',
-    year: 2023,
-    category: 'SUV',
-    price: 530000,
-    image: '/cars/HONDA CRV TURBO 20231.webp',
-    images: [
-      '/cars/HONDA CRV TURBO 20231.webp',
-      '/cars/HONDA CRV TURBO 20232.webp',
-      '/cars/HONDA CRV TURBO 20233.webp',
-      '/cars/HONDA CRV TURBO 20234.webp',
-      '/cars/HONDA CRV TURBO 20235.webp',
-      '/cars/HONDA CRV TURBO 20236.webp',
-      '/cars/HONDA CRV TURBO 20237.webp',
-      '/cars/HONDA CRV TURBO 20238.webp',
-      '/cars/HONDA CRV TURBO 20239.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '30,557 Kms',
-      engine: '4 cilindros 1.5 L Turbo',
-      features: [
-        'Financiamiento Disponible',
-        'Automática',
-        'Precio Negociable'
-      ]
-    }
-  },
+  
    {
     id: '115',
     name: 'GMC SIERRA DENALI',
