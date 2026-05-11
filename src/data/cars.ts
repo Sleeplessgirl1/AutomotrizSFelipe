@@ -1,7 +1,38 @@
 import { Car } from '@/types/car';
 
 export const cars: Car[] = [
-        {
+          {
+    id: '124',
+    year: 2023,
+    category: 'SUV',
+    price: 970000,
+    image: '/cars/JEEP GRAND CHEROKEE 4XE 20231.webp',
+    images: [
+      '/cars/JEEP GRAND CHEROKEE 4XE 20231.webp',
+      '/cars/JEEP GRAND CHEROKEE 4XE 20232.webp',
+      '/cars/JEEP GRAND CHEROKEE 4XE 20233.webp',
+      '/cars/JEEP GRAND CHEROKEE 4XE 20234.webp',
+      '/cars/JEEP GRAND CHEROKEE 4XE 20235.webp',
+      '/cars/JEEP GRAND CHEROKEE 4XE 20236.webp',
+      '/cars/JEEP GRAND CHEROKEE 4XE 20237.webp',
+      '/cars/JEEP GRAND CHEROKEE 4XE 20238.webp',
+      '/cars/JEEP GRAND CHEROKEE 4XE 20239.webp'
+    ],
+    details: {
+      condition: 'Factura de agencia (único dueño)',
+      keys: '2 llaves',
+      kilometers: '70,991 Kms',
+      engine: '4 cilindros 2.0 Turbo',
+      features: [
+        'Financiamiento Disponible',
+        'Híbrida enchufable',
+        '4X4',
+        'Impecables condiciones',
+        'Precio Negociable'
+      ]
+    }
+  },
+  {
     id: '123',
     name: 'NISSAN 370Z NISMO',
     year: 2018,
