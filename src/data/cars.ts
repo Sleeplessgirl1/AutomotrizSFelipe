@@ -3,6 +3,7 @@ import { Car } from '@/types/car';
 export const cars: Car[] = [
           {
     id: '124',
+    name: 'JEEP GRAND CHEROKEE 4XE',
     year: 2023,
     category: 'SUV',
     price: 970000,
