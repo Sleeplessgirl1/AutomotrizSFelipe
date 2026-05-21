@@ -9,15 +9,17 @@ export async function fetchCars(): Promise<Car[]> {
       year,
       category,
       price,
-      "imageRaw": images[0]._sanityAsset,
-      "imagesRaw": images[]._sanityAsset,
+      "image": coalesce(images[0].asset->url, images[0]._sanityAsset),
+      "images": images[]{
+        "url": coalesce(asset->url, _sanityAsset)
+      },
       details
     }
   `)
 
   return data.map((car: any) => ({
     ...car,
-    image: car.imageRaw?.replace('image@', '') || '',
-    images: (car.imagesRaw || []).map((i: string) => i?.replace('image@', '') || ''),
+    image: car.image?.replace('image@', '') || '',
+    images: (car.images || []).map((i: any) => i?.url?.replace('image@', '') || ''),
   }))
 }
