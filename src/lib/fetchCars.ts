@@ -3,7 +3,7 @@ import { Car } from '@/types/car'
 
 export async function fetchCars(): Promise<Car[]> {
   const data = await client.fetch(`
-    *[_type == "auto"] | order(_createdAt desc) {
+*[_type == "auto"] | order(year desc, _createdAt desc) {
       "id": _id,
       name,
       year,
