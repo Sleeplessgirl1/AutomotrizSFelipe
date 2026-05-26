@@ -16,7 +16,7 @@ const Index = () => {
   const [featuredCars, setFeaturedCars] = useState<CarType[]>([]);
 
   useEffect(() => {
-    fetchCars().then(data => setFeaturedCars(data.slice(0, 6)));
+fetchCars().then(data => setFeaturedCars(data.slice(0, 6))); // updated
   }, []);
 
   const handleViewDetails = (car: CarType) => {
