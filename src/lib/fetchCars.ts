@@ -3,8 +3,9 @@ import { Car } from '@/types/car'
 
 export async function fetchCars(): Promise<Car[]> {
   const data = await client.fetch(`
-    *[_type == "auto"] {
+    *[_type == "auto"] | order(_createdAt desc) {
       "id": _id,
+      _createdAt,
       name,
       year,
       category,
@@ -17,15 +18,9 @@ export async function fetchCars(): Promise<Car[]> {
     }
   `)
 
-  return data
-    .map((car: any) => ({
-      ...car,
-      image: car.image?.replace('image@', '') || '',
-      images: (car.images || []).map((i: any) => i?.url?.replace('image@', '') || ''),
-    }))
-    .sort((a: any, b: any) => {
-      const idA = parseInt(a.id.replace('auto-', ''))
-      const idB = parseInt(b.id.replace('auto-', ''))
-      return idB - idA
-    })
+  return data.map((car: any) => ({
+    ...car,
+    image: car.image?.replace('image@', '') || '',
+    images: (car.images || []).map((i: any) => i?.url?.replace('image@', '') || ''),
+  }))
 }
