@@ -2,8 +2,8 @@ import { client } from './sanityClient'
 import { Car } from '@/types/car'
 
 export async function fetchCars(): Promise<Car[]> {
-  const data = await client.fetch(`
-    *[_type == "auto"] | order(_createdAt desc) {
+  const data = await client.fetch(
+    `*[_type == "auto"] | order(_createdAt desc) {
       "id": _id,
       _createdAt,
       name,
@@ -15,8 +15,10 @@ export async function fetchCars(): Promise<Car[]> {
         "url": coalesce(asset->url, _sanityAsset)
       },
       details
-    }
-  `)
+    }`,
+    {},
+    { cache: 'no-store' }
+  )
 
   return data.map((car: any) => ({
     ...car,
