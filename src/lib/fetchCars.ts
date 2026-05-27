@@ -15,9 +15,7 @@ export async function fetchCars(): Promise<Car[]> {
         "url": coalesce(asset->url, _sanityAsset)
       },
       details
-    }`,
-    {},
-    { cache: 'no-store' }
+    }`
   )
 
   return data.map((car: any) => ({
