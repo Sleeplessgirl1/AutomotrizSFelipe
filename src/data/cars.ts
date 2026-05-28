@@ -33,39 +33,7 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-    id: '123',
-    name: 'NISSAN 370Z NISMO',
-    year: 2018,
-    category: 'Deportivo',
-    price: 630000,
-    image: '/cars/NISSAN 370Z NISMO 20181.webp',
-    images: [
-      '/cars/NISSAN 370Z NISMO 20181.webp',
-      '/cars/NISSAN 370Z NISMO 20182.webp',
-      '/cars/NISSAN 370Z NISMO 20183.webp',
-      '/cars/NISSAN 370Z NISMO 20184.webp',
-      '/cars/NISSAN 370Z NISMO 20185.webp',
-      '/cars/NISSAN 370Z NISMO 20186.webp',
-      '/cars/NISSAN 370Z NISMO 20187.webp',
-      '/cars/NISSAN 370Z NISMO 20188.webp',
-      '/cars/NISSAN 370Z NISMO 20189.webp'
-    ],
-    details: {
-      condition: 'Factura de seminuevos con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '32,104 Kms',
-      engine: 'V6 3.7 L',
-      features: [
-        'Financiamiento Disponible',
-        '350 HP',
-        'Automático 7 velocidades',
-        'Sistema de escape deportivo doble',
-        'Tracción trasera',
-        'Precio Negociable'
-      ]
-    }
-  }
+ 
   ,{
     id: '122',
     name: 'CADILLAC XT4',
@@ -287,36 +255,7 @@ export const cars: Car[] = [
   }, 
   
     ,
-  {
-    id: '111',
-    name: 'JEEP WRANGLER SAHARA',
-    year: 2019,
-    category: 'SUV',
-    price: 630000,
-    image: '/cars/JEEP WRANGLER SAHARA 20191.webp',
-    images: [
-      '/cars/JEEP WRANGLER SAHARA 20191.webp',
-      '/cars/JEEP WRANGLER SAHARA 20192.webp',
-      '/cars/JEEP WRANGLER SAHARA 20193.webp',
-      '/cars/JEEP WRANGLER SAHARA 20194.webp',
-      '/cars/JEEP WRANGLER SAHARA 20195.webp',
-      '/cars/JEEP WRANGLER SAHARA 20196.webp',
-      '/cars/JEEP WRANGLER SAHARA 20197.webp',
-      '/cars/JEEP WRANGLER SAHARA 20198.webp',
-      '/cars/JEEP WRANGLER SAHARA 20199.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '108,214 Kms',
-      engine: 'V6',
-      features: [
-        'Financiamiento Disponible',
-        '4X4',
-        'Precio Negociable'
-      ]
-    }
-  },
+  
   {
     id: '110',
     name: 'MERCEDES BENZ GLC300 COUPE',
@@ -560,36 +499,6 @@ export const cars: Car[] = [
       ]
     }
   },
-  {
-  id: '99',
-  name: 'LAND ROVER RANGE ROVER SPORT DYNAMIC SE',
-  year: 2023,
-  category: 'SUV',
-  price: 1680000,
-  image: '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20231.webp',
-images: [
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20231.webp',
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20232.webp',
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20233.webp',
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20234.webp',
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20235.webp',
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20236.webp',
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20237.webp',
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20238.webp',
-  '/cars/LAND ROVER RANGER ROVER SPORT DYNAMIC SE 20239.webp'
-],
-  details: {
-    condition: 'Factura de agencia (único dueño)',
-    keys: '2 llaves',
-    kilometers: '62,544 Kms',
-    engine: 'V6 3.0 L Híbrida',
-    features: [
-      'Garantía en agencia',
-      'Financiamiento Disponible',
-      'Precio Negociable'
-    ]
-  }
-},
  
   {
   id: '97',
@@ -839,36 +748,6 @@ images: [
     ]
   }
 },
- ,{
-  id: '83',
-  name: 'CHEVROLET TAHOE RST',
-  year: 2021,
-  category: 'SUV',
-  price: 980000,
-  image: '/cars/CHEVROLET TAHOE RST 20211.webp',
-  images: [
-    '/cars/CHEVROLET TAHOE RST 20211.webp',
-    '/cars/CHEVROLET TAHOE RST 20212.webp',
-    '/cars/CHEVROLET TAHOE RST 20213.webp',
-    '/cars/CHEVROLET TAHOE RST 20214.webp',
-    '/cars/CHEVROLET TAHOE RST 20215.webp',
-    '/cars/CHEVROLET TAHOE RST 20216.webp',
-    '/cars/CHEVROLET TAHOE RST 20217.webp',
-    '/cars/CHEVROLET TAHOE RST 20218.webp',
-    '/cars/CHEVROLET TAHOE RST 20219.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia',
-    keys: '2 llaves',
-    kilometers: '87,966 kms',
-    engine: 'V8 5.3 L',
-    features: [
-      'Llévatela con un enganche de $196,000',
-      '3 Filas',
-      'Precio Negociable'
-    ]
-  }
-},
 
 {
   id: '81',
@@ -926,36 +805,6 @@ images: [
       'Llévatelo con un enganche de $192,000',
       'Servicios de agencia',
       'Varios extras',
-      'Precio Negociable'
-    ]
-  }
-},
-{
-  id: '79',
-  name: 'NISSAN MARCH ADVANCE',
-  year: 2019,
-  category: 'Sedan',
-  price: 175000,
-  image: '/cars/NISSAN MARCH ADVANCE 20191.webp',
-  images: [
-    '/cars/NISSAN MARCH ADVANCE 20191.webp',
-    '/cars/NISSAN MARCH ADVANCE 20192.webp',
-    '/cars/NISSAN MARCH ADVANCE 20193.webp',
-    '/cars/NISSAN MARCH ADVANCE 20194.webp',
-    '/cars/NISSAN MARCH ADVANCE 20195.webp',
-    '/cars/NISSAN MARCH ADVANCE 20196.webp',
-    '/cars/NISSAN MARCH ADVANCE 20197.webp',
-    '/cars/NISSAN MARCH ADVANCE 20198.webp',
-    '/cars/NISSAN MARCH ADVANCE 20199.webp'
-  ],
-  details: {
-    condition: 'Factura de agencia (2 dueños)',
-    keys: '2 llaves',
-    kilometers: '127,901 Kms',
-    engine: '4 cilindros',
-    features: [
-      'Financiamiento Disponible',
-      'Transmisión manual',
       'Precio Negociable'
     ]
   }
@@ -1330,39 +1179,7 @@ images: [
       ]
     }
   },
-  {
-    id: '39',
-    name: 'Dodge Ram Limited 1500 Mild-Hybrid',
-    year: 2022,
-    category: 'Pick Up',
-    price: 970000,
-    image: '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20221.webp',
-    images: [
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20221.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20222.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20223.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20224.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20225.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20226.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20227.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20228.webp',
-      '/cars/Dodge Ram Limited 1500 Mild-Hybrid 20229.webp'
-    ],
-    details: {
-      condition: 'Factura de agencia (único dueño)',
-      keys: '2 llaves',
-      kilometers: '64,418 Kms',
-      engine: 'V8 de 5.7 L Mild-Hybrid',
-    
-      features: [
-        'Financiamiento Disponible',
-        'Precio Negociable',
-        "Transmisión automática de 8 velocidades",
-        "traction: '4X4'"
-      ]
-    }
-  },
-  {
+    {
     id: '38',
     name: 'Land Rover Sport SVR',
     year: 2017,
@@ -1487,37 +1304,7 @@ images: [
       ]
     }
   },
-  {
-    id: '33',
-    name: 'Audi S5 Coupe',
-    year: 2018,
-    category: 'Deportivo',
-    price: 665000,
-    image: '/cars/Audi S5 Coupe 20181.webp',
-    images: [
-      '/cars/Audi S5 Coupe 20181.webp',
-      '/cars/Audi S5 Coupe 20182.webp',
-      '/cars/Audi S5 Coupe 20183.webp',
-      '/cars/Audi S5 Coupe 20184.webp',
-      '/cars/Audi S5 Coupe 20185.webp',
-      '/cars/Audi S5 Coupe 20186.webp',
-      '/cars/Audi S5 Coupe 20187.webp',
-      '/cars/Audi S5 Coupe 20188.webp',
-      '/cars/Audi S5 Coupe 20189.webp'
-    ],
-    details: {
-      condition: 'Factura de empresa con su consecutivo de agencia',
-      keys: '2 llaves',
-      kilometers: '91,049 Kms',
-      engine: 'V6 3.0 Turbo',
-      features: [
-        'Asientos deportivos S',
-        'Financiamiento Bancario Disponible',
-        'Precio Negociable'
-      ]
-    }
-  },
-  
+   
   {
     id: '31',
     name: 'Ford Lobo Raptor',
