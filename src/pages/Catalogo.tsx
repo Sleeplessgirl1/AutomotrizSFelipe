@@ -5,15 +5,24 @@ import Footer from '@/components/Footer';
 import CarCard from '@/components/CarCard';
 import CarDetailModal from '@/components/CarDetailModal';
 import { Car as CarType, CarCategory } from '@/types/car';
-import { cars } from '@/data/cars';
+import { fetchCars } from '@/lib/fetchCars';
 
 const Catalogo = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [selectedCategory, setSelectedCategory] = useState<CarCategory | 'Todos'>('Todos');
   const [selectedCar, setSelectedCar] = useState<CarType | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const [cars, setCars] = useState<CarType[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const categories: (CarCategory | 'Todos')[] = ['Todos', 'Sedan', 'Deportivo', 'Pick Up', 'SUV', ];
+  const categories: (CarCategory | 'Todos')[] = ['Todos', 'Sedan', 'Deportivo', 'Pick Up', 'SUV'];
+
+  useEffect(() => {
+    fetchCars().then(data => {
+      setCars(data);
+      setLoading(false);
+    });
+  }, []);
 
   useEffect(() => {
     const categoria = searchParams.get('categoria');
@@ -32,8 +41,8 @@ const Catalogo = () => {
     setSearchParams(searchParams);
   };
 
-  const filteredCars = selectedCategory === 'Todos' 
-    ? cars 
+  const filteredCars = selectedCategory === 'Todos'
+    ? cars
     : cars.filter(car => car.category === selectedCategory);
 
   const handleViewDetails = (car: CarType) => {
@@ -44,7 +53,7 @@ const Catalogo = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       <section className="py-12 bg-gradient-to-br from-primary to-[hsl(var(--brand-blue-light))] text-primary-foreground">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold mb-4">Nuestro Catálogo</h1>
@@ -76,34 +85,42 @@ const Catalogo = () => {
 
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="mb-6">
-            <p className="text-lg text-muted-foreground">
-              Mostrando <span className="font-bold text-foreground">{filteredCars.length}</span> vehículos
-              {selectedCategory !== 'Todos' && ` en la categoría ${selectedCategory}`}
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredCars.map((car) => (
-              <CarCard 
-                key={car.id} 
-                car={car} 
-                onViewDetails={() => handleViewDetails(car)}
-              />
-            ))}
-          </div>
-
-          {filteredCars.length === 0 && (
+          {loading ? (
             <div className="text-center py-20">
-              <p className="text-2xl text-muted-foreground">
-                No se encontraron vehículos en esta categoría
-              </p>
+              <p className="text-2xl text-muted-foreground">Cargando vehículos...</p>
             </div>
+          ) : (
+            <>
+              <div className="mb-6">
+                <p className="text-lg text-muted-foreground">
+                  Mostrando <span className="font-bold text-foreground">{filteredCars.length}</span> vehículos
+                  {selectedCategory !== 'Todos' && ` en la categoría ${selectedCategory}`}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {filteredCars.map((car) => (
+                  <CarCard
+                    key={car.id}
+                    car={car}
+                    onViewDetails={() => handleViewDetails(car)}
+                  />
+                ))}
+              </div>
+
+              {filteredCars.length === 0 && (
+                <div className="text-center py-20">
+                  <p className="text-2xl text-muted-foreground">
+                    No se encontraron vehículos en esta categoría
+                  </p>
+                </div>
+              )}
+            </>
           )}
         </div>
       </section>
 
-      <CarDetailModal 
+      <CarDetailModal
         car={selectedCar}
         open={modalOpen}
         onOpenChange={setModalOpen}
